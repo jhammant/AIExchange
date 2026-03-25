@@ -1,0 +1,15 @@
+youtube:
+  channel_url: "https://www.youtube.com/@yourchannel"
+  download_dir: "./data/videos"
+  max_videos: 10
+
+transcription:
+  model_size: "medium"
+  device: "cpu" # or "cuda" if you have a GPU
+
+image_analysis:
+  detection_model: "yolov8n.pt" # or another model from ultralytics
+  frame_sampling_rate: 30 # frames per second
+
+output:
+  results_dir: "./data/results"

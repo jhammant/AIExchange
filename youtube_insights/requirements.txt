@@ -1,0 +1,10 @@
+yt-dlp
+openai-whisper
+torch
+torchvision
+torchaudio
+opencv-python
+transformers
+Pillow
+numpy
+python-dotenv
