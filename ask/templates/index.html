@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Exchange RAG Chatbot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #6366f1;
+            --primary-hover: #4f46e5;
+            --dark-bg: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-color: #10b981;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--dark-bg);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #6366f1, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .main-content {
+            display: grid;
+            gap: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr 250px;
+            }
+        }
+
+        /* Chat Interface */
+        .chat-container {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+            height: calc(100vh - 120px);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-header {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--text-primary);
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding-right: 10px;
+            margin-bottom: 20px;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            padding: 12px 16px;
+            border-radius: 12px;
+        }
+
+        .message.user {
+            background: var(--primary-color);
+            align-self: flex-end;
+            margin-left: auto;
+            max-width: 85%;
+        }
+
+        .message.ai {
+            background: #374151;
+            align-self: flex-start;
+        }
+
+        .message-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-bottom: 5px;
+        }
+
+        .chat-input-container {
+            display: flex;
+            gap: 10px;
+            border-top: 1px solid #374151;
+            padding-top: 20px;
+        }
+
+        textarea {
+            flex: 1;
+            background: #1e293b;
+            border: 1px solid #475569;
+            color: var(--text-primary);
+            padding: 12px 16px;
+            border-radius: 8px;
+            resize: none;
+            min-height: 44px;
+            max-height: 150px;
+            font-family: inherit;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        button.send-btn {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        button.send-btn:hover {
+            background: var(--primary-hover);
+        }
+
+        button.send-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Sources Sidebar */
+        .sources-sidebar {
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .sources-sidebar {
+                display: block;
+            }
+        }
+
+        .sidebar-content {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+            position: sticky;
+            top: 20px;
+        }
+
+        .sidebar-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--text-primary);
+        }
+
+        .source-item {
+            background: #374151;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+
+        .source-title {
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 5px;
+        }
+
+        .source-meta {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-bottom: 5px;
+        }
+
+        .source-link {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+
+        .source-text {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 5px;
+            overflow-wrap: break-word;
+        }
+
+        .source-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Expandable section */
+        .sources-section {
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .sources-section {
+                display: block;
+            }
+        }
+
+        /* Loading indicator */
+        .typing-indicator {
+            animation: blink 1.4s infinite both;
+        }
+
+        @keyframes blink {
+            0% { opacity: 0.2; }
+            20% { opacity: 1; }
+            50% { opacity: 1; }
+            70% { opacity: 0.2; }
+        }
+
+        /* Example questions */
+        .example-questions {
+            margin-bottom: 20px;
+        }
+
+        .example-question {
+            display: inline-block;
+            background: #374151;
+            color: var(--text-primary);
+            padding: 8px 16px;
+            border-radius: 20px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .example-question:hover {
+            background: var(--primary-color);
+        }
+
+        /* Status banner */
+        .status-banner {
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .status-banner.error {
+            background: #ef44441a;
+            border: 1px solid #ef4444;
+        }
+
+        .status-banner.success {
+            background: var(--accent-color)1a;
+            border: 1px solid var(--accent-color);
+        }
+
+        .status-banner.warning {
+            background: #f59e0b1a;
+            border: 1px solid #f59e0b;
+        }
+
+        /* Model status badge */
+        .model-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            margin-left: 8px;
+        }
+
+        .model-badge.success {
+            background: var(--accent-color);
+        }
+
+        .model-badge.warning {
+            background: #f59e0b;
+        }
+
+        .model-badge.error {
+            background: #ef4444;
+        }
+
+        /* Code block styling */
+        pre {
+            background: #1e293b;
+            padding: 10px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 10px 0;
+        }
+
+        code {
+            font-family: 'Fira Code', 'Consolas', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                <i class="fa-solid fa-comments"></i> 
+                AI Exchange Q&A
+            </h1>
+            <p>Ask questions about AI conference talks and get answers with citations</p>
+            {% if engine_available %}
+                <div class="status-banner success">
+                    <i class="fa-solid fa-check-circle"></i>
+                    Database ready | 
+                    <span id="chunkCount">Loading...</span> chunks indexed
+                </div>
+            {% else %}
+                <div class="status-banner warning">
+                    <i class="fa-solid fa-exclamation-triangle"></i> 
+                    Database not built yet. Run: python build_index.py
+                </div>
+            {% endif %}
+            
+            <div id="modelStatus" class="status-banner">
+                <i class="fa-solid fa-question-circle"></i> 
+                Checking model status...
+            </div>
+        </header>
+
+        <div class="main-content">
+            <!-- Chat Area -->
+            <div class="chat-container">
+                <div class="chat-header">
+                    Ask about AI Conference Talks
+                </div>
+
+                {% if example_questions %}
+                    <div class="example-questions">
+                        <span style="color: var(--text-secondary); margin-bottom: 8px; display: block;">Try asking:</span>
+                        {% for question in example_questions %}
+                            <button class="example-question" onclick="askExample('{{ question }}')">
+                                {{ question }}
+                            </button>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message ai">
+                        <div class="message-label">AI Assistant</div>
+                        Hello! I'm your AI assistant for the AI Exchange video library. 
+                        Ask me anything about the conference talks and I'll provide answers 
+                        with citations and YouTube timestamps.
+                    </div>
+                </div>
+
+                <div class="chat-input-container">
+                    <textarea id="questionInput" placeholder="Ask a question..."></textarea>
+                    <button class="send-btn" id="sendBtn">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Sources Sidebar (desktop only) -->
+            <div class="sources-sidebar">
+                <div class="sidebar-content">
+                    <div class="sidebar-title">Sources</div>
+                    <div id="sourcesList">
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">
+                            Sources will appear here after you get an answer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const chatMessages = document.getElementById('chatMessages');
+        const questionInput = document.getElementById('questionInput');
+        const sendBtn = document.getElementById('sendBtn');
+
+        let isProcessing = false;
+
+        // Auto-resize textarea
+        questionInput.addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = (this.scrollHeight) + 'px';
+        });
+
+        // Handle Enter key
+        questionInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                handleQuestion();
+            }
+        });
+
+        sendBtn.addEventListener('click', handleQuestion);
+
+        async function handleQuestion() {
+            const question = questionInput.value.trim();
+            if (!question || isProcessing) return;
+
+            // Add user message
+            addMessage(question, 'user');
+            questionInput.value = '';
+            questionInput.style.height = 'auto';
+            
+            isProcessing = true;
+            sendBtn.disabled = true;
+
+            // Show loading
+            const loadingId = addMessage('Thinking...', 'ai');
+            document.querySelector('#message-' + loadingId + ' .loading-text').classList.add('typing-indicator');
+
+            try {
+                const response = await fetch('/api/query', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question })
+                });
+
+                const data = await response.json();
+
+                document.querySelector('#message-' + loadingId).remove();
+
+                if (data.error) {
+                    addMessage('Error: ' + data.error, 'ai');
+                } else {
+                    // Add AI answer
+                    addMessage(data.answer, 'ai');
+
+                    // Update sources sidebar
+                    const sourcesList = document.getElementById('sourcesList');
+                    if (data.sources && data.sources.length > 0) {
+                        sourcesList.innerHTML = '';
+                        data.sources.forEach((source, index) => {
+                            const sourceEl = document.createElement('div');
+                            sourceEl.className = 'source-item';
+                            
+                            const timestampText = source.timestamp 
+                                ? `Timestamp: ${source.timestamp}` 
+                                : '';
+                            const topicsText = source.topics 
+                                ? `Topics: ${source.topics.substring(0, 100)}...` 
+                                : '';
+
+                            let linkUrl = source.youtube_url;
+                            if (!linkUrl && source.video_id) {
+                                // Extract video ID from URL
+                                let vidId = source.video_id;
+                                linkUrl = `https://youtu.be/${vidId}`;
+                            }
+
+                            sourceEl.innerHTML = `
+                                <div class="source-title">
+                                    ${escapeHtml(source.title)}
+                                </div>
+                                <div class="source-meta">${escapeHtml(source.channel)}</div>
+                                ${timestampText ? '<div class="source-meta">' + timestampText + '</div>' : ''}
+                                ${topicsText ? '<div class="source-meta" style="color: #f59e0b;">' + topicsText + '</div>' : ''}
+                                <a class="source-link" href="${linkUrl}" target="_blank">
+                                    <i class="fa-solid fa-youtube"></i> Watch on YouTube
+                                </a>
+                                ${source.text_preview ? `
+                                    <div class="source-text">"${escapeHtml(source.text_preview.substring(0, 200))}..."</div>
+                                ` : ''}
+                            `;
+                            
+                            sourcesList.appendChild(sourceEl);
+                        });
+                    } else {
+                        sourcesList.innerHTML = '<p style="color: var(--text-secondary); font-size: 0.9rem;">No sources found for this answer.</p>';
+                    }
+                }
+
+            } catch (error) {
+                document.querySelector('#message-' + loadingId).remove();
+                addMessage('Error: ' + error.message, 'ai');
+            } finally {
+                isProcessing = false;
+                sendBtn.disabled = false;
+                questionInput.focus();
+            }
+        }
+
+        function askExample(question) {
+            questionInput.value = question;
+            handleQuestion();
+        }
+
+        function addMessage(text, type) {
+            const message = document.createElement('div');
+            const id = Date.now();
+            
+            message.className = 'message ' + type;
+            message.id = 'message-' + id;
+            
+            const label = type === 'user' ? 'You' : 'AI Assistant';
+            
+            let content = text;
+            if (type === 'ai' && message.id) {
+                content += '<span class="typing-indicator" id="loading-' + id + '"></span>';
+            }
+
+            message.innerHTML = `
+                <div class="message-label">${label}</div>
+                <div>${formatMessage(content)}</div>
+            `;
+
+            chatMessages.appendChild(message);
+            scrollToBottom();
+
+            return id;
+        }
+
+        function scrollToBottom() {
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function formatMessage(text) {
+            // Basic formatting for code blocks
+            let formatted = escapeHtml(text);
+            
+            // Convert ```code``` to <pre><code>code</code></pre>
+            formatted = formatted.replace(/```([\s\S]*?)```/g, '<pre><code>$1</code></pre>');
+            
+            // Convert *italic* to <em>italic</em>
+            formatted = formatted.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+            
+            // Convert **bold** to <strong>bold</strong>
+            formatted = formatted.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+            
+            return formatted;
+        }
+
+        function escapeHtml(unsafe) {
+            if (!unsafe) return '';
+            return unsafe
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
+        // Check model status on load
+        fetch('/api/model-status')
+            .then(r => r.json())
+            .then(data => {
+                const banner = document.getElementById('modelStatus');
+                if (data.available) {
+                    banner.className = 'status-banner success';
+                    const sourceIcon = data.source === 'LM Studio' ? 
+                        '<i class="fa-solid fa-microchip"></i>' : 
+                        '<i class="fa-solid fa-cloud"></i>';
+                    banner.innerHTML = `${sourceIcon} ${data.source} API available`;
+                } else {
+                    banner.className = 'status-banner warning';
+                    banner.innerHTML = '<i class="fa-solid fa-circle-exclamation"></i> No LLM API configured. Set LM_STUDIO_URL or OPENROUTER_API_KEY';
+                }
+            })
+            .catch(() => {
+                document.getElementById('modelStatus').className = 'status-banner error';
+            });
+
+        // Check index status
+        fetch('/api/index-status')
+            .then(r => r.json())
+            .then(data => {
+                const countElem = document.getElementById('chunkCount');
+                if (data.built) {
+                    countElem.textContent = `${data.chunk_count} chunks indexed`;
+                } else {
+                    countElem.innerHTML = '<i class="fa-solid fa-exclamation-triangle"></i> Not built yet';
+                }
+            })
+            .catch(() => {
+                document.getElementById('chunkCount').innerHTML = '<i class="fa-solid fa-exclamation-triangle"></i> Error';
+            });
+    </script>
+</body>
+</html>

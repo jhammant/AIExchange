@@ -1,0 +1,23 @@
+{
+  "name": "ai-exchange-rag-chatbot",
+  "version": "1.0.0",
+  "description": "RAG Chatbot for AI Exchange video library with citations and YouTube links",
+  "main": "app.py",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.9",
+    "vitest": "^2.1.9"
+  },
+  "keywords": [
+    "rag",
+    "chatbot",
+    "ai",
+    "embeddings"
+  ],
+  "license": "MIT"
+}
