@@ -3,290 +3,580 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Exchange - Video Analytics Platform</title>
+    <title>AI Exchange - Advanced Video Analytics Platform</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #f8f9fa; color: #333; line-height: 1.6;
-        }
-        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
-        .hero { text-align: center; margin-bottom: 40px; }
-        .hero h1 { 
-            font-size: 2.5rem; color: #2d3748; margin-bottom: 1rem;
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333; line-height: 1.6; min-height: 100vh;
+        }
+        
+        .container { max-width: 1400px; margin: 0 auto; padding: 0 20px; }
+        
+        header {
+            background: rgba(255,255,255,0.95); backdrop-filter: blur(20px);
+            padding: 20px 0; box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+            position: sticky; top: 0; z-index: 100;
+        }
+        
+        .header-content {
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        
+        .logo {
+            display: flex; align-items: center; gap: 15px;
+            font-size: 2rem; font-weight: 700; color: #667eea;
+        }
+        
+        .nav {
+            display: flex; gap: 30px;
+        }
+        
+        .nav-link {
+            color: #666; text-decoration: none; font-weight: 500;
+            padding: 10px 20px; border-radius: 25px; transition: all 0.3s ease;
+        }
+        
+        .nav-link.active, .nav-link:hover {
+            background: #667eea; color: white; transform: translateY(-2px);
+        }
+        
+        .hero {
+            text-align: center; padding: 80px 0; color: white;
+        }
+        
+        .hero h1 {
+            font-size: 4rem; font-weight: 800; margin-bottom: 20px;
+            background: linear-gradient(45deg, #fff, #e0e7ff);
             -webkit-background-clip: text; -webkit-text-fill-color: transparent;
         }
-        .hero p { font-size: 1.1rem; color: #718096; max-width: 600px; margin: 0 auto; }
         
-        .stats-bar {
-            display: flex; justify-content: space-around; background: #2d3748;
-            color: white; padding: 25px; border-radius: 12px; margin-bottom: 30px;
-            flex-wrap: wrap;
+        .hero p {
+            font-size: 1.3rem; opacity: 0.9; max-width: 800px; margin: 0 auto 40px;
         }
-        .stat { text-align: center; margin: 10px; }
-        .stat-number { font-size: 2rem; font-weight: bold; color: #90cdf4; }
-        .stat-label { font-size: 0.9rem; opacity: 0.8; margin-top: 5px; }
         
-        .nav-tabs { 
-            display: flex; background: white; border-radius: 8px; padding: 5px;
-            margin-bottom: 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            overflow-x: auto;
+        .hero-stats {
+            display: flex; justify-content: center; gap: 60px; margin-top: 40px;
         }
-        .nav-tab { 
-            flex: 1; padding: 15px 20px; text-align: center; border-radius: 6px;
-            cursor: pointer; transition: all 0.3s ease; min-width: 140px;
-            font-weight: 500;
+        
+        .hero-stat {
+            text-align: center;
         }
-        .nav-tab.active { background: #667eea; color: white; }
-        .nav-tab:not(.active) { background: transparent; color: #718096; }
-        .nav-tab:not(.active):hover { background: #f7fafc; color: #2d3748; }
+        
+        .hero-stat-number {
+            font-size: 3rem; font-weight: 700; display: block;
+        }
+        
+        .hero-stat-label {
+            font-size: 1rem; opacity: 0.8; margin-top: 5px;
+        }
+        
+        .main-content {
+            background: #f8fafc; padding: 80px 0;
+        }
+        
+        .section {
+            margin-bottom: 80px;
+        }
+        
+        .section-header {
+            text-align: center; margin-bottom: 50px;
+        }
+        
+        .section-title {
+            font-size: 2.5rem; color: #2d3748; margin-bottom: 15px;
+            position: relative; display: inline-block;
+        }
+        
+        .section-title::after {
+            content: ''; position: absolute; bottom: -10px; left: 50%;
+            transform: translateX(-50%); width: 80px; height: 4px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            border-radius: 2px;
+        }
+        
+        .cards-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        
+        .card {
+            background: white; padding: 30px; border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: all 0.3s ease;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .card:hover {
+            transform: translateY(-10px); box-shadow: 0 20px 50px rgba(102,126,234,0.25);
+        }
+        
+        .card-icon {
+            font-size: 3rem; color: #667eea; margin-bottom: 20px;
+        }
+        
+        .card-title {
+            font-size: 1.4rem; font-weight: 600; color: #2d3748; margin-bottom: 15px;
+        }
+        
+        .card-description {
+            color: #718096; line-height: 1.6;
+        }
+        
+        .dashboard-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px; margin-bottom: 40px;
+        }
+        
+        .metric-card {
+            background: white; padding: 25px; border-radius: 15px;
+            text-align: center; box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            border-left: 5px solid #667eea; transition: all 0.3s ease;
+        }
+        
+        .metric-card:hover { transform: translateY(-5px); }
+        
+        .metric-value {
+            font-size: 2.5rem; font-weight: 700; color: #667eea;
+            margin-bottom: 10px; display: block;
+        }
+        
+        .metric-label {
+            color: #718096; font-size: 1rem;
+        }
+        
+        .metric-change {
+            font-size: 0.9rem; margin-top: 10px; font-weight: 500;
+        }
+        
+        .metric-change.positive { color: #48bb78; }
+        .metric-change.negative { color: #f56565; }
+        
+        .chart-container {
+            background: white; padding: 30px; border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08); margin-bottom: 30px;
+        }
+        
+        .chart-title {
+            font-size: 1.3rem; font-weight: 600; color: #2d3748;
+            margin-bottom: 20px; text-align: center;
+        }
+        
+        .video-grid {
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 25px;
+        }
+        
+        .video-card {
+            background: white; border-radius: 15px; overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08); transition: all 0.3s ease;
+        }
+        
+        .video-card:hover { transform: translateY(-5px); }
+        
+        .video-thumbnail {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            height: 200px; position: relative; display: flex;
+            align-items: center; justify-content: center;
+        }
+        
+        .video-play-btn {
+            font-size: 3rem; color: white; opacity: 0.9;
+        }
+        
+        .video-content {
+            padding: 20px;
+        }
+        
+        .video-title {
+            font-size: 1.2rem; font-weight: 600; color: #2d3748;
+            margin-bottom: 10px; line-height: 1.4;
+        }
+        
+        .video-meta {
+            color: #718096; font-size: 0.9rem; margin-bottom: 15px;
+            display: flex; gap: 15px; align-items: center;
+        }
+        
+        .video-tags {
+            display: flex; flex-wrap: wrap; gap: 8px;
+        }
+        
+        .video-tag {
+            background: #e2e8f0; color: #4a5568; padding: 4px 12px;
+            border-radius: 15px; font-size: 0.8rem; font-weight: 500;
+        }
         
         .view { display: none; }
         .view.active { display: block; }
         
-        .dashboard-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
-        .metric-card {
-            background: white; padding: 25px; border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center;
-        }
-        .metric-value { font-size: 2.5rem; font-weight: bold; color: #667eea; margin-bottom: 10px; }
-        .metric-label { color: #718096; font-size: 1rem; }
-        
-        .video-list { display: grid; gap: 15px; }
-        .video-item {
-            background: white; padding: 20px; border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 4px solid #667eea;
-        }
-        .video-title { font-weight: 600; color: #2d3748; margin-bottom: 8px; font-size: 1.1rem; }
-        .video-meta { color: #718096; margin-bottom: 12px; font-size: 0.9rem; }
-        .topics { display: flex; flex-wrap: wrap; gap: 8px; }
-        .topic-tag {
-            background: #e2e8f0; color: #2d3748; padding: 4px 12px;
-            border-radius: 20px; font-size: 0.8rem;
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
         }
         
-        .speaker-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
-        .speaker-card {
-            background: white; padding: 20px; border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        .speaker-name { font-weight: 600; color: #2d3748; margin-bottom: 8px; font-size: 1.1rem; }
-        .speaker-expertise { color: #667eea; margin-bottom: 8px; font-size: 0.9rem; }
-        .speaker-stats { color: #718096; font-size: 0.9rem; }
+        .animate-in { animation: fadeInUp 0.6s ease-out; }
         
-        .topic-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; }
-        .topic-card {
-            background: white; padding: 20px; border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        .search-container {
+            max-width: 600px; margin: 0 auto 40px; position: relative;
         }
-        .topic-name { font-weight: 600; color: #2d3748; margin-bottom: 8px; font-size: 1.1rem; }
-        .topic-stats { color: #718096; font-size: 0.9rem; }
-        .topic-bar {
-            height: 6px; background: #e2e8f0; border-radius: 3px; margin: 8px 0;
-            overflow: hidden;
-        }
-        .topic-fill { height: 100%; background: #667eea; }
         
-        .search-box {
-            width: 100%; padding: 12px 16px; border: 1px solid #e2e8f0;
-            border-radius: 8px; font-size: 1rem; margin-bottom: 20px;
+        .search-input {
+            width: 100%; padding: 15px 20px 15px 50px; border: 2px solid #e2e8f0;
+            border-radius: 50px; font-size: 1rem; transition: all 0.3s ease;
+            background: white;
         }
-        .search-box:focus { outline: none; border-color: #667eea; }
+        
+        .search-input:focus {
+            outline: none; border-color: #667eea; box-shadow: 0 0 0 3px rgba(102,126,234,0.1);
+        }
+        
+        .search-icon {
+            position: absolute; left: 18px; top: 50%;
+            transform: translateY(-50%); color: #718096;
+        }
+        
+        @media (max-width: 768px) {
+            .nav { display: none; }
+            .hero h1 { font-size: 2.5rem; }
+            .hero-stats { flex-direction: column; gap: 30px; }
+            .cards-grid { grid-template-columns: 1fr; }
+            .video-grid { grid-template-columns: 1fr; }
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="hero">
-            <h1>🎯 AI Exchange</h1>
-            <p>Comprehensive analytics platform for video content analysis and insights</p>
-        </div>
-
-        <div class="stats-bar">
-            <div class="stat">
-                <div class="stat-number" id="videosCount">249</div>
-                <div class="stat-label">Videos Analyzed</div>
-            </div>
-            <div class="stat">
-                <div class="stat-number" id="speakersCount">92</div>
-                <div class="stat-label">Unique Speakers</div>
-            </div>
-            <div class="stat">
-                <div class="stat-number" id="topicsCount">157</div>
-                <div class="stat-label">Topics Identified</div>
-            </div>
-            <div class="stat">
-                <div class="stat-number" id="insightsCount">1,204</div>
-                <div class="stat-label">Insights Generated</div>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-chart-line"></i>
+                    <span>AI Exchange</span>
+                </div>
+                <nav class="nav">
+                    <a href="#" class="nav-link active" data-view="dashboard">Dashboard</a>
+                    <a href="#" class="nav-link" data-view="videos">Videos</a>
+                    <a href="#" class="nav-link" data-view="speakers">Speakers</a>
+                    <a href="#" class="nav-link" data-view="topics">Topics</a>
+                    <a href="#" class="nav-link" data-view="insights">Insights</a>
+                </nav>
             </div>
         </div>
+    </header>
 
-        <div class="nav-tabs">
-            <div class="nav-tab active" onclick="showView('dashboard')">📊 Dashboard</div>
-            <div class="nav-tab" onclick="showView('videos')">🎥 Videos</div>
-            <div class="nav-tab" onclick="showView('speakers')">👥 Speakers</div>
-            <div class="nav-tab" onclick="showView('topics')">🏷️ Topics</div>
-        </div>
-
-        <div id="dashboard" class="view active">
-            <h2 style="margin-bottom: 20px; color: #2d3748;">Analytics Dashboard</h2>
-            <div class="dashboard-grid">
-                <div class="metric-card">
-                    <div class="metric-value">87%</div>
-                    <div class="metric-label">Positive Sentiment</div>
+    <section class="hero">
+        <div class="container">
+            <h1>AI Exchange</h1>
+            <p>The world's most advanced video analytics platform. Unlock insights from every conversation, presentation, and interview with cutting-edge AI analysis.</p>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-number" id="totalVideos">2,847</span>
+                    <div class="hero-stat-label">Videos Analyzed</div>
                 </div>
-                <div class="metric-card">
-                    <div class="metric-value">2.3M</div>
-                    <div class="metric-label">Total Views</div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" id="totalSpeakers">1,293</span>
+                    <div class="hero-stat-label">Speakers Tracked</div>
                 </div>
-                <div class="metric-card">
-                    <div class="metric-value">45min</div>
-                    <div class="metric-label">Avg Duration</div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" id="totalInsights">45.2K</span>
+                    <div class="hero-stat-label">Insights Generated</div>
                 </div>
-                <div class="metric-card">
-                    <div class="metric-value">12.4K</div>
-                    <div class="metric-label">Total Comments</div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" id="accuracy">96.8%</span>
+                    <div class="hero-stat-label">Accuracy Rate</div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div id="videos" class="view">
-            <h2 style="margin-bottom: 20px; color: #2d3748;">Video Library</h2>
-            <input type="text" class="search-box" placeholder="Search videos..." onkeyup="filterContent(this.value, 'video')">
-            <div class="video-list" id="videoList">
-                <div class="video-item" data-title="AI Safety & Ethics Discussion">
-                    <div class="video-title">AI Safety & Ethics Discussion</div>
-                    <div class="video-meta">1h 45m • 234K views • Positive sentiment</div>
-                    <div class="topics">
-                        <span class="topic-tag">AI Safety</span>
-                        <span class="topic-tag">Ethics</span>
-                        <span class="topic-tag">Future Tech</span>
+    <main class="main-content">
+        <div class="container">
+            <div id="dashboard" class="view active">
+                <section class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Analytics Dashboard</h2>
+                        <p>Real-time insights and performance metrics</p>
                     </div>
-                </div>
-                <div class="video-item" data-title="Technical Architecture Deep Dive">
-                    <div class="video-title">Technical Architecture Deep Dive</div>
-                    <div class="video-meta">52m • 187K views • Neutral sentiment</div>
-                    <div class="topics">
-                        <span class="topic-tag">Engineering</span>
-                        <span class="topic-tag">Architecture</span>
-                        <span class="topic-tag">Performance</span>
+                    
+                    <div class="dashboard-grid animate-in">
+                        <div class="metric-card">
+                            <span class="metric-value" id="activeUsers">12.4K</span>
+                            <div class="metric-label">Active Users</div>
+                            <div class="metric-change positive">↗ 23% this week</div>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-value" id="processingTime">2.3s</span>
+                            <div class="metric-label">Avg Processing Time</div>
+                            <div class="metric-change positive">↗ 15% faster</div>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-value" id="sentiment">87.2%</span>
+                            <div class="metric-label">Positive Sentiment</div>
+                            <div class="metric-change positive">↗ 5.3% increase</div>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-value" id="dataProcessed">1.2TB</span>
+                            <div class="metric-label">Data Processed</div>
+                            <div class="metric-change positive">↗ 34% this month</div>
+                        </div>
                     </div>
-                </div>
-                <div class="video-item" data-title="Industry Trends 2026">
-                    <div class="video-title">Industry Trends 2026</div>
-                    <div class="video-meta">1h 15m • 312K views • Positive sentiment</div>
-                    <div class="topics">
-                        <span class="topic-tag">Business</span>
-                        <span class="topic-tag">Trends</span>
-                        <span class="topic-tag">Strategy</span>
+
+                    <div class="cards-grid animate-in">
+                        <div class="card">
+                            <div class="card-icon"><i class="fas fa-brain"></i></div>
+                            <h3 class="card-title">AI-Powered Analysis</h3>
+                            <p class="card-description">Advanced machine learning models analyze speech patterns, sentiment, key topics, and speaker dynamics in real-time.</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon"><i class="fas fa-chart-bar"></i></div>
+                            <h3 class="card-title">Interactive Visualizations</h3>
+                            <p class="card-description">Beautiful, interactive charts and graphs that make complex data insights immediately understandable and actionable.</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon"><i class="fas fa-users"></i></div>
+                            <h3 class="card-title">Speaker Intelligence</h3>
+                            <p class="card-description">Track speaker patterns, expertise areas, influence metrics, and collaboration networks across your entire video library.</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon"><i class="fas fa-search"></i></div>
+                            <h3 class="card-title">Smart Search</h3>
+                            <p class="card-description">Find exactly what you're looking for with AI-powered semantic search across transcripts, topics, and speaker insights.</p>
+                        </div>
                     </div>
-                </div>
+                </section>
             </div>
-        </div>
 
-        <div id="speakers" class="view">
-            <h2 style="margin-bottom: 20px; color: #2d3748;">Speaker Analytics</h2>
-            <input type="text" class="search-box" placeholder="Search speakers..." onkeyup="filterContent(this.value, 'speaker')">
-            <div class="speaker-grid" id="speakerGrid">
-                <div class="speaker-card" data-name="Dr. Sarah Chen">
-                    <div class="speaker-name">Dr. Sarah Chen</div>
-                    <div class="speaker-expertise">AI Safety, Ethics, Policy</div>
-                    <div class="speaker-stats">8 appearances • 87% positive sentiment</div>
-                </div>
-                <div class="speaker-card" data-name="Alex Rodriguez">
-                    <div class="speaker-name">Alex Rodriguez</div>
-                    <div class="speaker-expertise">Engineering, Systems, Architecture</div>
-                    <div class="speaker-stats">12 appearances • 92% positive sentiment</div>
-                </div>
-                <div class="speaker-card" data-name="Prof. Michael Kim">
-                    <div class="speaker-name">Prof. Michael Kim</div>
-                    <div class="speaker-expertise">Research, Machine Learning, Theory</div>
-                    <div class="speaker-stats">6 appearances • 78% positive sentiment</div>
-                </div>
-            </div>
-        </div>
+            <div id="videos" class="view">
+                <section class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Video Library</h2>
+                        <p>Explore our analyzed video collection</p>
+                    </div>
+                    
+                    <div class="search-container">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" class="search-input" placeholder="Search videos, topics, speakers...">
+                    </div>
 
-        <div id="topics" class="view">
-            <h2 style="margin-bottom: 20px; color: #2d3748;">Topic Explorer</h2>
-            <input type="text" class="search-box" placeholder="Search topics..." onkeyup="filterContent(this.value, 'topic')">
-            <div class="topic-grid" id="topicGrid">
-                <div class="topic-card" data-topic="AI Safety">
-                    <div class="topic-name">AI Safety</div>
-                    <div class="topic-bar"><div class="topic-fill" style="width: 85%"></div></div>
-                    <div class="topic-stats">23 mentions • 15% growth</div>
-                </div>
-                <div class="topic-card" data-topic="Machine Learning">
-                    <div class="topic-name">Machine Learning</div>
-                    <div class="topic-bar"><div class="topic-fill" style="width: 92%"></div></div>
-                    <div class="topic-stats">34 mentions • 22% growth</div>
-                </div>
-                <div class="topic-card" data-topic="Ethics">
-                    <div class="topic-name">Ethics</div>
-                    <div class="topic-bar"><div class="topic-fill" style="width: 76%"></div></div>
-                    <div class="topic-stats">18 mentions • 31% growth</div>
-                </div>
-                <div class="topic-card" data-topic="Business Strategy">
-                    <div class="topic-name">Business Strategy</div>
-                    <div class="topic-bar"><div class="topic-fill" style="width: 68%"></div></div>
-                    <div class="topic-stats">28 mentions • 8% growth</div>
-                </div>
+                    <div class="video-grid" id="videoGrid">
+                        <!-- Videos populated by JavaScript -->
+                    </div>
+                </section>
+            </div>
+
+            <div id="speakers" class="view">
+                <section class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Speaker Analytics</h2>
+                        <p>Comprehensive speaker insights and patterns</p>
+                    </div>
+                    
+                    <div class="cards-grid" id="speakerGrid">
+                        <!-- Speakers populated by JavaScript -->
+                    </div>
+                </section>
+            </div>
+
+            <div id="topics" class="view">
+                <section class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Trending Topics</h2>
+                        <p>Discover what's driving conversations</p>
+                    </div>
+                    
+                    <div class="cards-grid" id="topicGrid">
+                        <!-- Topics populated by JavaScript -->
+                    </div>
+                </section>
+            </div>
+
+            <div id="insights" class="view">
+                <section class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Key Insights</h2>
+                        <p>AI-generated insights and recommendations</p>
+                    </div>
+                    
+                    <div class="cards-grid" id="insightGrid">
+                        <!-- Insights populated by JavaScript -->
+                    </div>
+                </section>
             </div>
         </div>
-    </div>
+    </main>
 
     <script>
-        function showView(viewName) {
-            // Hide all views
+        // Sample data
+        const videos = [
+            {
+                title: "AI Safety & Future of Technology",
+                duration: "1h 45m",
+                views: "234K",
+                sentiment: "positive",
+                topics: ["AI Safety", "Ethics", "Future Tech", "Policy"],
+                speaker: "Dr. Sarah Chen"
+            },
+            {
+                title: "Technical Deep Dive: Neural Networks",
+                duration: "52m",
+                views: "187K", 
+                sentiment: "neutral",
+                topics: ["Neural Networks", "Deep Learning", "Architecture"],
+                speaker: "Prof. Alex Rodriguez"
+            },
+            {
+                title: "Industry Trends & Market Analysis",
+                duration: "1h 15m",
+                views: "312K",
+                sentiment: "positive",
+                topics: ["Business", "Trends", "Market Analysis", "Strategy"],
+                speaker: "Maria Johnson"
+            }
+        ];
+
+        const speakers = [
+            {
+                name: "Dr. Sarah Chen",
+                expertise: "AI Safety, Ethics, Policy",
+                appearances: 12,
+                avgSentiment: 92,
+                influence: "High"
+            },
+            {
+                name: "Prof. Alex Rodriguez", 
+                expertise: "Neural Networks, Deep Learning",
+                appearances: 18,
+                avgSentiment: 88,
+                influence: "Very High"
+            },
+            {
+                name: "Maria Johnson",
+                expertise: "Business Strategy, Market Analysis", 
+                appearances: 9,
+                avgSentiment: 94,
+                influence: "Medium"
+            }
+        ];
+
+        // Navigation functionality
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const viewId = link.getAttribute('data-view');
+                showView(viewId);
+                
+                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+            });
+        });
+
+        function showView(viewId) {
             document.querySelectorAll('.view').forEach(view => {
                 view.classList.remove('active');
             });
+            document.getElementById(viewId).classList.add('active');
             
-            // Remove active from all tabs
-            document.querySelectorAll('.nav-tab').forEach(tab => {
-                tab.classList.remove('active');
-            });
-            
-            // Show selected view
-            document.getElementById(viewName).classList.add('active');
-            
-            // Mark tab as active
-            event.target.classList.add('active');
+            // Animate content
+            setTimeout(() => {
+                document.querySelectorAll(`#${viewId} .animate-in, #${viewId} .card, #${viewId} .video-card`).forEach(el => {
+                    el.style.animation = 'fadeInUp 0.6s ease-out';
+                });
+            }, 100);
         }
 
-        function filterContent(query, type) {
-            const searchQuery = query.toLowerCase();
-            let items;
+        // Populate video grid
+        function populateVideos() {
+            const videoGrid = document.getElementById('videoGrid');
+            videoGrid.innerHTML = videos.map(video => `
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <i class="fas fa-play video-play-btn"></i>
+                    </div>
+                    <div class="video-content">
+                        <h3 class="video-title">${video.title}</h3>
+                        <div class="video-meta">
+                            <span><i class="fas fa-clock"></i> ${video.duration}</span>
+                            <span><i class="fas fa-eye"></i> ${video.views}</span>
+                            <span><i class="fas fa-user"></i> ${video.speaker}</span>
+                        </div>
+                        <div class="video-tags">
+                            ${video.topics.map(topic => `<span class="video-tag">${topic}</span>`).join('')}
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Populate speaker grid
+        function populateSpeakers() {
+            const speakerGrid = document.getElementById('speakerGrid');
+            speakerGrid.innerHTML = speakers.map(speaker => `
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-user-tie"></i></div>
+                    <h3 class="card-title">${speaker.name}</h3>
+                    <p class="card-description">
+                        <strong>Expertise:</strong> ${speaker.expertise}<br>
+                        <strong>Appearances:</strong> ${speaker.appearances}<br>
+                        <strong>Avg Sentiment:</strong> ${speaker.avgSentiment}%<br>
+                        <strong>Influence:</strong> ${speaker.influence}
+                    </p>
+                </div>
+            `).join('');
+        }
+
+        // Real-time stats animation
+        function animateStats() {
+            const stats = [
+                { id: 'totalVideos', target: 2847, current: 0 },
+                { id: 'totalSpeakers', target: 1293, current: 0 },
+                { id: 'activeUsers', target: 12400, current: 0 }
+            ];
+
+            stats.forEach(stat => {
+                const element = document.getElementById(stat.id);
+                const increment = stat.target / 100;
+                
+                const timer = setInterval(() => {
+                    stat.current += increment;
+                    if (stat.current >= stat.target) {
+                        stat.current = stat.target;
+                        clearInterval(timer);
+                    }
+                    
+                    if (stat.id === 'totalInsights') {
+                        element.textContent = (stat.current / 1000).toFixed(1) + 'K';
+                    } else if (stat.id === 'activeUsers') {
+                        element.textContent = (stat.current / 1000).toFixed(1) + 'K';
+                    } else {
+                        element.textContent = Math.floor(stat.current).toLocaleString();
+                    }
+                }, 20);
+            });
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            populateVideos();
+            populateSpeakers();
+            animateStats();
+        });
+
+        // Live updates simulation
+        setInterval(() => {
+            const metrics = ['activeUsers', 'processingTime', 'sentiment', 'dataProcessed'];
+            const randomMetric = metrics[Math.floor(Math.random() * metrics.length)];
+            const element = document.getElementById(randomMetric);
             
-            switch(type) {
-                case 'video':
-                    items = document.querySelectorAll('#videoList .video-item');
-                    break;
-                case 'speaker':
-                    items = document.querySelectorAll('#speakerGrid .speaker-card');
-                    break;
-                case 'topic':
-                    items = document.querySelectorAll('#topicGrid .topic-card');
-                    break;
+            if (element) {
+                element.style.transform = 'scale(1.1)';
+                element.style.transition = 'transform 0.3s ease';
+                setTimeout(() => {
+                    element.style.transform = 'scale(1)';
+                }, 300);
             }
-            
-            items.forEach(item => {
-                const text = item.textContent.toLowerCase();
-                item.style.display = text.includes(searchQuery) ? 'block' : 'none';
-            });
-        }
-
-        function updateStats() {
-            const elements = ['videosCount', 'speakersCount', 'topicsCount', 'insightsCount'];
-            elements.forEach(id => {
-                const el = document.getElementById(id);
-                const current = parseInt(el.textContent.replace(/[^0-9]/g, ''));
-                const increment = Math.floor(Math.random() * 2) + 1;
-                el.textContent = (current + increment).toLocaleString();
-            });
-        }
-
-        // Update stats every 15 seconds
-        setInterval(updateStats, 15000);
+        }, 5000);
     </script>
 </body>
 </html>
