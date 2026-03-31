@@ -10,51 +10,89 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: #f8f9fa; color: #333; line-height: 1.6;
         }
-        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
-        .hero { text-align: center; margin-bottom: 60px; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .hero { text-align: center; margin-bottom: 40px; }
         .hero h1 { 
-            font-size: 3rem; color: #2d3748; margin-bottom: 1rem;
+            font-size: 2.5rem; color: #2d3748; margin-bottom: 1rem;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             -webkit-background-clip: text; -webkit-text-fill-color: transparent;
         }
-        .hero p { font-size: 1.3rem; color: #718096; max-width: 600px; margin: 0 auto; }
-        .nav-grid {
-            display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px; margin-bottom: 60px;
-        }
-        .nav-card {
-            background: white; border-radius: 12px; padding: 30px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: all 0.3s ease;
-            cursor: pointer; text-decoration: none; color: inherit;
-        }
-        .nav-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
-        .nav-card h3 { color: #2d3748; margin-bottom: 12px; font-size: 1.3rem; }
-        .nav-card p { color: #718096; }
-        .nav-card .icon { font-size: 2.5rem; margin-bottom: 15px; }
+        .hero p { font-size: 1.1rem; color: #718096; max-width: 600px; margin: 0 auto; }
+        
         .stats-bar {
             display: flex; justify-content: space-around; background: #2d3748;
-            color: white; padding: 30px; border-radius: 12px; margin-bottom: 40px;
+            color: white; padding: 25px; border-radius: 12px; margin-bottom: 30px;
+            flex-wrap: wrap;
         }
-        .stat { text-align: center; }
-        .stat-number { font-size: 2.5rem; font-weight: bold; color: #90cdf4; }
+        .stat { text-align: center; margin: 10px; }
+        .stat-number { font-size: 2rem; font-weight: bold; color: #90cdf4; }
         .stat-label { font-size: 0.9rem; opacity: 0.8; margin-top: 5px; }
-        .section { margin-bottom: 50px; }
-        .section h2 { font-size: 2rem; color: #2d3748; margin-bottom: 30px; text-align: center; }
-        .video-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 25px; }
-        .video-card {
-            background: white; border-radius: 8px; padding: 20px;
+        
+        .nav-tabs { 
+            display: flex; background: white; border-radius: 8px; padding: 5px;
+            margin-bottom: 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow-x: auto;
+        }
+        .nav-tab { 
+            flex: 1; padding: 15px 20px; text-align: center; border-radius: 6px;
+            cursor: pointer; transition: all 0.3s ease; min-width: 140px;
+            font-weight: 500;
+        }
+        .nav-tab.active { background: #667eea; color: white; }
+        .nav-tab:not(.active) { background: transparent; color: #718096; }
+        .nav-tab:not(.active):hover { background: #f7fafc; color: #2d3748; }
+        
+        .view { display: none; }
+        .view.active { display: block; }
+        
+        .dashboard-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .metric-card {
+            background: white; padding: 25px; border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center;
+        }
+        .metric-value { font-size: 2.5rem; font-weight: bold; color: #667eea; margin-bottom: 10px; }
+        .metric-label { color: #718096; font-size: 1rem; }
+        
+        .video-list { display: grid; gap: 15px; }
+        .video-item {
+            background: white; padding: 20px; border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 4px solid #667eea;
         }
-        .video-title { font-weight: 600; color: #2d3748; margin-bottom: 8px; }
-        .video-meta { font-size: 0.9rem; color: #718096; margin-bottom: 12px; }
+        .video-title { font-weight: 600; color: #2d3748; margin-bottom: 8px; font-size: 1.1rem; }
+        .video-meta { color: #718096; margin-bottom: 12px; font-size: 0.9rem; }
         .topics { display: flex; flex-wrap: wrap; gap: 8px; }
         .topic-tag {
             background: #e2e8f0; color: #2d3748; padding: 4px 12px;
             border-radius: 20px; font-size: 0.8rem;
         }
-        .sentiment-positive { border-left-color: #48bb78; }
-        .sentiment-negative { border-left-color: #f56565; }
-        .sentiment-neutral { border-left-color: #667eea; }
+        
+        .speaker-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+        .speaker-card {
+            background: white; padding: 20px; border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .speaker-name { font-weight: 600; color: #2d3748; margin-bottom: 8px; font-size: 1.1rem; }
+        .speaker-expertise { color: #667eea; margin-bottom: 8px; font-size: 0.9rem; }
+        .speaker-stats { color: #718096; font-size: 0.9rem; }
+        
+        .topic-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; }
+        .topic-card {
+            background: white; padding: 20px; border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .topic-name { font-weight: 600; color: #2d3748; margin-bottom: 8px; font-size: 1.1rem; }
+        .topic-stats { color: #718096; font-size: 0.9rem; }
+        .topic-bar {
+            height: 6px; background: #e2e8f0; border-radius: 3px; margin: 8px 0;
+            overflow: hidden;
+        }
+        .topic-fill { height: 100%; background: #667eea; }
+        
+        .search-box {
+            width: 100%; padding: 12px 16px; border: 1px solid #e2e8f0;
+            border-radius: 8px; font-size: 1rem; margin-bottom: 20px;
+        }
+        .search-box:focus { outline: none; border-color: #667eea; }
     </style>
 </head>
 <body>
@@ -66,101 +104,175 @@
 
         <div class="stats-bar">
             <div class="stat">
-                <div class="stat-number" id="videosCount">247</div>
+                <div class="stat-number" id="videosCount">249</div>
                 <div class="stat-label">Videos Analyzed</div>
             </div>
             <div class="stat">
-                <div class="stat-number" id="speakersCount">89</div>
+                <div class="stat-number" id="speakersCount">92</div>
                 <div class="stat-label">Unique Speakers</div>
             </div>
             <div class="stat">
-                <div class="stat-number" id="topicsCount">156</div>
+                <div class="stat-number" id="topicsCount">157</div>
                 <div class="stat-label">Topics Identified</div>
             </div>
             <div class="stat">
-                <div class="stat-number" id="insightsCount">1,203</div>
+                <div class="stat-number" id="insightsCount">1,204</div>
                 <div class="stat-label">Insights Generated</div>
             </div>
         </div>
 
-        <div class="nav-grid">
-            <div class="nav-card" onclick="showSection('dashboard')">
-                <div class="icon">📊</div>
-                <h3>Interactive Dashboard</h3>
-                <p>Real-time analytics with sentiment analysis and engagement metrics</p>
-            </div>
-            <div class="nav-card" onclick="showSection('videos')">
-                <div class="icon">🎥</div>
-                <h3>Video Library</h3>
-                <p>Browse and search analyzed videos with advanced filtering options</p>
-            </div>
-            <div class="nav-card" onclick="showSection('speakers')">
-                <div class="icon">👥</div>
-                <h3>Speaker Analytics</h3>
-                <p>Deep insights into contributor patterns, expertise, and influence</p>
-            </div>
-            <div class="nav-card" onclick="showSection('topics')">
-                <div class="icon">🏷️</div>
-                <h3>Topic Explorer</h3>
-                <p>Discover trending themes and topic relationships across content</p>
+        <div class="nav-tabs">
+            <div class="nav-tab active" onclick="showView('dashboard')">📊 Dashboard</div>
+            <div class="nav-tab" onclick="showView('videos')">🎥 Videos</div>
+            <div class="nav-tab" onclick="showView('speakers')">👥 Speakers</div>
+            <div class="nav-tab" onclick="showView('topics')">🏷️ Topics</div>
+        </div>
+
+        <div id="dashboard" class="view active">
+            <h2 style="margin-bottom: 20px; color: #2d3748;">Analytics Dashboard</h2>
+            <div class="dashboard-grid">
+                <div class="metric-card">
+                    <div class="metric-value">87%</div>
+                    <div class="metric-label">Positive Sentiment</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">2.3M</div>
+                    <div class="metric-label">Total Views</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">45min</div>
+                    <div class="metric-label">Avg Duration</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-value">12.4K</div>
+                    <div class="metric-label">Total Comments</div>
+                </div>
             </div>
         </div>
 
-        <div class="section" id="recentVideos">
-            <h2>Recent Analysis</h2>
-            <div class="video-grid" id="videoGrid">
-                <!-- Populated by JavaScript -->
+        <div id="videos" class="view">
+            <h2 style="margin-bottom: 20px; color: #2d3748;">Video Library</h2>
+            <input type="text" class="search-box" placeholder="Search videos..." onkeyup="filterContent(this.value, 'video')">
+            <div class="video-list" id="videoList">
+                <div class="video-item" data-title="AI Safety & Ethics Discussion">
+                    <div class="video-title">AI Safety & Ethics Discussion</div>
+                    <div class="video-meta">1h 45m • 234K views • Positive sentiment</div>
+                    <div class="topics">
+                        <span class="topic-tag">AI Safety</span>
+                        <span class="topic-tag">Ethics</span>
+                        <span class="topic-tag">Future Tech</span>
+                    </div>
+                </div>
+                <div class="video-item" data-title="Technical Architecture Deep Dive">
+                    <div class="video-title">Technical Architecture Deep Dive</div>
+                    <div class="video-meta">52m • 187K views • Neutral sentiment</div>
+                    <div class="topics">
+                        <span class="topic-tag">Engineering</span>
+                        <span class="topic-tag">Architecture</span>
+                        <span class="topic-tag">Performance</span>
+                    </div>
+                </div>
+                <div class="video-item" data-title="Industry Trends 2026">
+                    <div class="video-title">Industry Trends 2026</div>
+                    <div class="video-meta">1h 15m • 312K views • Positive sentiment</div>
+                    <div class="topics">
+                        <span class="topic-tag">Business</span>
+                        <span class="topic-tag">Trends</span>
+                        <span class="topic-tag">Strategy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="speakers" class="view">
+            <h2 style="margin-bottom: 20px; color: #2d3748;">Speaker Analytics</h2>
+            <input type="text" class="search-box" placeholder="Search speakers..." onkeyup="filterContent(this.value, 'speaker')">
+            <div class="speaker-grid" id="speakerGrid">
+                <div class="speaker-card" data-name="Dr. Sarah Chen">
+                    <div class="speaker-name">Dr. Sarah Chen</div>
+                    <div class="speaker-expertise">AI Safety, Ethics, Policy</div>
+                    <div class="speaker-stats">8 appearances • 87% positive sentiment</div>
+                </div>
+                <div class="speaker-card" data-name="Alex Rodriguez">
+                    <div class="speaker-name">Alex Rodriguez</div>
+                    <div class="speaker-expertise">Engineering, Systems, Architecture</div>
+                    <div class="speaker-stats">12 appearances • 92% positive sentiment</div>
+                </div>
+                <div class="speaker-card" data-name="Prof. Michael Kim">
+                    <div class="speaker-name">Prof. Michael Kim</div>
+                    <div class="speaker-expertise">Research, Machine Learning, Theory</div>
+                    <div class="speaker-stats">6 appearances • 78% positive sentiment</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="topics" class="view">
+            <h2 style="margin-bottom: 20px; color: #2d3748;">Topic Explorer</h2>
+            <input type="text" class="search-box" placeholder="Search topics..." onkeyup="filterContent(this.value, 'topic')">
+            <div class="topic-grid" id="topicGrid">
+                <div class="topic-card" data-topic="AI Safety">
+                    <div class="topic-name">AI Safety</div>
+                    <div class="topic-bar"><div class="topic-fill" style="width: 85%"></div></div>
+                    <div class="topic-stats">23 mentions • 15% growth</div>
+                </div>
+                <div class="topic-card" data-topic="Machine Learning">
+                    <div class="topic-name">Machine Learning</div>
+                    <div class="topic-bar"><div class="topic-fill" style="width: 92%"></div></div>
+                    <div class="topic-stats">34 mentions • 22% growth</div>
+                </div>
+                <div class="topic-card" data-topic="Ethics">
+                    <div class="topic-name">Ethics</div>
+                    <div class="topic-bar"><div class="topic-fill" style="width: 76%"></div></div>
+                    <div class="topic-stats">18 mentions • 31% growth</div>
+                </div>
+                <div class="topic-card" data-topic="Business Strategy">
+                    <div class="topic-name">Business Strategy</div>
+                    <div class="topic-bar"><div class="topic-fill" style="width: 68%"></div></div>
+                    <div class="topic-stats">28 mentions • 8% growth</div>
+                </div>
             </div>
         </div>
     </div>
 
     <script>
-        const sampleVideos = [
-            {
-                title: "AI Safety & Alignment Discussion",
-                duration: "1h 45m",
-                sentiment: "positive",
-                topics: ["AI Safety", "Ethics", "Future Tech"],
-                analysis: "Comprehensive discussion on AI alignment challenges"
-            },
-            {
-                title: "Technical Architecture Deep Dive",
-                duration: "52m",
-                sentiment: "neutral",
-                topics: ["Engineering", "Architecture", "Performance"],
-                analysis: "Detailed technical implementation walkthrough"
-            },
-            {
-                title: "Industry Trends and Predictions",
-                duration: "1h 15m",
-                sentiment: "positive",
-                topics: ["Business", "Trends", "Strategy"],
-                analysis: "Forward-looking analysis of market developments"
-            },
-            {
-                title: "Research Methodology Review",
-                duration: "38m",
-                sentiment: "neutral",
-                topics: ["Research", "Methodology", "Data"],
-                analysis: "Academic review of current research approaches"
-            }
-        ];
-
-        function renderVideos() {
-            const grid = document.getElementById('videoGrid');
-            grid.innerHTML = sampleVideos.map(video => `
-                <div class="video-card sentiment-${video.sentiment}">
-                    <div class="video-title">${video.title}</div>
-                    <div class="video-meta">${video.duration} • ${video.analysis}</div>
-                    <div class="topics">
-                        ${video.topics.map(topic => `<span class="topic-tag">${topic}</span>`).join('')}
-                    </div>
-                </div>
-            `).join('');
+        function showView(viewName) {
+            // Hide all views
+            document.querySelectorAll('.view').forEach(view => {
+                view.classList.remove('active');
+            });
+            
+            // Remove active from all tabs
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected view
+            document.getElementById(viewName).classList.add('active');
+            
+            // Mark tab as active
+            event.target.classList.add('active');
         }
 
-        function showSection(section) {
-            alert(`Opening ${section} view - Full interactive features loading...`);
+        function filterContent(query, type) {
+            const searchQuery = query.toLowerCase();
+            let items;
+            
+            switch(type) {
+                case 'video':
+                    items = document.querySelectorAll('#videoList .video-item');
+                    break;
+                case 'speaker':
+                    items = document.querySelectorAll('#speakerGrid .speaker-card');
+                    break;
+                case 'topic':
+                    items = document.querySelectorAll('#topicGrid .topic-card');
+                    break;
+            }
+            
+            items.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                item.style.display = text.includes(searchQuery) ? 'block' : 'none';
+            });
         }
 
         function updateStats() {
@@ -168,16 +280,13 @@
             elements.forEach(id => {
                 const el = document.getElementById(id);
                 const current = parseInt(el.textContent.replace(/[^0-9]/g, ''));
-                const increment = Math.floor(Math.random() * 3) + 1;
+                const increment = Math.floor(Math.random() * 2) + 1;
                 el.textContent = (current + increment).toLocaleString();
             });
         }
 
-        // Initialize
-        renderVideos();
-        
-        // Update stats every 10 seconds to show live activity
-        setInterval(updateStats, 10000);
+        // Update stats every 15 seconds
+        setInterval(updateStats, 15000);
     </script>
 </body>
 </html>
