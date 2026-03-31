@@ -1,0 +1,54 @@
+
+# 2026-03-25 22:45:46.585374
++y
+
+# 2026-03-25 22:47:43.840197
++I want to do similar to ~/dev/doac-insights - but i want to use a youtube channel i run as the source. Can you place, then scrape the youtube videos, then sspeach and image recog over them. All runining loally
+
+# 2026-03-25 22:49:14.815593
++ Y
+
+# 2026-03-25 22:49:18.844045
++ALL
+
+# 2026-03-25 22:49:28.679433
++Y
+
+# 2026-03-25 22:52:34.592100
++i just installed opencode on my mac, i can't use the opencode command.
+
+# 2026-03-25 22:52:49.052981
++i just installed opencode on my mac, i can't use the opencode command. Why? FiFix it!
+
+# 2026-03-25 22:52:55.768511
++i just installed opencode on my mac, i can't use the opencode command. Why? FiFix it! ❯ curl -fsSL https://opencode.ai/install | bash
++
++Installing opencode version: 1.3.2
++■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ 100%
++Command already exists in /Users/jhammant/.zshrc, skipping write.
++
++                                 ▄
++█▀▀█ █▀▀█ █▀▀█ █▀▀▄ █▀▀▀ █▀▀█ █▀▀█ █▀▀█
++█░░█ █░░█ █▀▀▀ █░░█ █░░░ █░░█ █░░█ █▀▀▀
++▀▀▀▀ █▀▀▀ ▀▀▀▀ ▀  ▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀▀ ▀▀▀▀
++
++
++OpenCode includes free models, to start:
++
++cd <project>  # Open directory
++opencode      # Run command
++
++For more information visit https://opencode.ai/docs
++
++
++
++  ghost   …/AIExchange   main ?1                       󰍛 80%  6s  22:51 󰁾 25%
++❯ opencode
++zsh: command not found: opencode
++
+
+# 2026-03-25 22:53:02.204712
++a
+
+# 2026-03-25 22:53:06.953063
++y
