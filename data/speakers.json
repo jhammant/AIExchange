@@ -1,0 +1,3773 @@
+[
+  {
+    "name": "The Exchange",
+    "video_count": 99,
+    "topics": [
+      {
+        "DevOps": 19
+      },
+      {
+        "Infrastructure as Code": 11
+      },
+      {
+        "Kubernetes": 10
+      },
+      {
+        "Observability": 5
+      },
+      {
+        "Terraform": 5
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 75.8,
+      "Neutral": 22.2,
+      "Negative": 2.0
+    },
+    "videos": [
+      {
+        "id": "K_bWU7WCj2M",
+        "title": "Evolution of Engineering Organisations",
+        "youtube_url": "https://www.youtube.com/watch?v=K_bWU7WCj2M",
+        "duration": 999,
+        "upload_date": "20260325"
+      },
+      {
+        "id": "YjheR847GbA",
+        "title": "How Global Technology Alliances enable AI success",
+        "youtube_url": "https://www.youtube.com/watch?v=YjheR847GbA",
+        "duration": 928,
+        "upload_date": "20260325"
+      },
+      {
+        "id": "RRE8SfrreZw",
+        "title": "Practical Tips For Using AI To Enhance And Accelerate Your Work",
+        "youtube_url": "https://www.youtube.com/watch?v=RRE8SfrreZw",
+        "duration": 528,
+        "upload_date": "20260305"
+      },
+      {
+        "id": "nn3eSLYt6LA",
+        "title": "The Agentic Enterprise: How AI Agents Are Rebuilding Business in 2026",
+        "youtube_url": "https://www.youtube.com/watch?v=nn3eSLYt6LA",
+        "duration": 1510,
+        "upload_date": "20260305"
+      },
+      {
+        "id": "zaqhLlTuNgg",
+        "title": "AI Journey and Software Development Transformation Summary",
+        "youtube_url": "https://www.youtube.com/watch?v=zaqhLlTuNgg",
+        "duration": 1190,
+        "upload_date": "20260305"
+      },
+      {
+        "id": "tjQbQz8yxkM",
+        "title": "Smaller Language Models for Smarter AI Agents",
+        "youtube_url": "https://www.youtube.com/watch?v=tjQbQz8yxkM",
+        "duration": 1266,
+        "upload_date": "20251030"
+      },
+      {
+        "id": "tuG45iqb9p0",
+        "title": "The Continuous Compliance Framework: an open source solution to reduce toil in compliance",
+        "youtube_url": "https://www.youtube.com/watch?v=tuG45iqb9p0",
+        "duration": 1542,
+        "upload_date": "20250929"
+      },
+      {
+        "id": "yt-9PH1SnuQ",
+        "title": "Three Things that Cloud Can Teach Us About AI Adoption",
+        "youtube_url": "https://www.youtube.com/watch?v=yt-9PH1SnuQ",
+        "duration": 1406,
+        "upload_date": "20250929"
+      },
+      {
+        "id": "LOS1rlb2XXk",
+        "title": "Building your first LLM app into Production at a traditional industry",
+        "youtube_url": "https://www.youtube.com/watch?v=LOS1rlb2XXk",
+        "duration": 1273,
+        "upload_date": "20250822"
+      },
+      {
+        "id": "vuGxCVBgDJM",
+        "title": "AI in the Death Tech space",
+        "youtube_url": "https://www.youtube.com/watch?v=vuGxCVBgDJM",
+        "duration": 1245,
+        "upload_date": "20250822"
+      }
+    ]
+  },
+  {
+    "name": "DevOps Exchange",
+    "video_count": 12,
+    "topics": [
+      {
+        "Kubernetes": 3
+      },
+      {
+        "Digital Transformation": 2
+      },
+      {
+        "Secret Management": 2
+      },
+      {
+        "Configuration Management": 2
+      },
+      {
+        "Terraform": 2
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 66.7,
+      "Neutral": 33.3
+    },
+    "videos": [
+      {
+        "id": "5lk-g9nThN4",
+        "title": "DevOps Exchange - An Evening with Gene Kim",
+        "youtube_url": "https://www.youtube.com/watch?v=5lk-g9nThN4",
+        "duration": 3966,
+        "upload_date": "20240202"
+      },
+      {
+        "id": "7FHKGUaJcBU",
+        "title": "DevOps Exchange - Carlos Horowicz, CEO / CTO & CoFounder, Planisys",
+        "youtube_url": "https://www.youtube.com/watch?v=7FHKGUaJcBU",
+        "duration": 1689,
+        "upload_date": "20200911"
+      },
+      {
+        "id": "SMBUW4utEGw",
+        "title": "DevOps Exchange - Martyn Coupland, Senior Azure Consultant, Ensono",
+        "youtube_url": "https://www.youtube.com/watch?v=SMBUW4utEGw",
+        "duration": 1700,
+        "upload_date": "20200911"
+      },
+      {
+        "id": "poXBQ0gLMsI",
+        "title": "DevOps Exchange - Steven Wade, Independent Kubernetes Consultant",
+        "youtube_url": "https://www.youtube.com/watch?v=poXBQ0gLMsI",
+        "duration": 2025,
+        "upload_date": "20200911"
+      },
+      {
+        "id": "fq_77raDJPM",
+        "title": "DevOps Exchange - August ft.CloudBees, Millennium Management, Slalom & Bridgecrew",
+        "youtube_url": "https://www.youtube.com/watch?v=fq_77raDJPM",
+        "duration": 4136,
+        "upload_date": "20200807"
+      },
+      {
+        "id": "G7gu1AvTPxQ",
+        "title": "DevOps Exchange - Alessandro De Maria, Head of SRE @ Synthace & Kapitan Cofounder",
+        "youtube_url": "https://www.youtube.com/watch?v=G7gu1AvTPxQ",
+        "duration": 1905,
+        "upload_date": "20200619"
+      },
+      {
+        "id": "Ur6pDUvaDhY",
+        "title": "DevOps Exchange - Gabriel Cismondi, Technology Lead & Lead Architect @ HSBC",
+        "youtube_url": "https://www.youtube.com/watch?v=Ur6pDUvaDhY",
+        "duration": 1449,
+        "upload_date": "20200619"
+      },
+      {
+        "id": "iiBXUW238TY",
+        "title": "DevOps Exchange - \u00c1d\u00e1m S\u00e1ndor, Cloud Native Architect @ Container Solutions",
+        "youtube_url": "https://www.youtube.com/watch?v=iiBXUW238TY",
+        "duration": 1219,
+        "upload_date": "20200619"
+      },
+      {
+        "id": "4vPrcQ5uGqU",
+        "title": "DevOps Exchange - Philipp Krenn, Elasticsearch \"From containers to Kubernetes Operators\"",
+        "youtube_url": "https://www.youtube.com/watch?v=4vPrcQ5uGqU",
+        "duration": 1766,
+        "upload_date": "20200605"
+      },
+      {
+        "id": "7vcdmm6BSqI",
+        "title": "DevOps Exchange - Lewis Marshall, Appvia \"How to self serve on cloud services\"",
+        "youtube_url": "https://www.youtube.com/watch?v=7vcdmm6BSqI",
+        "duration": 1498,
+        "upload_date": "20200605"
+      }
+    ]
+  },
+  {
+    "name": "Ionut Craciunescu",
+    "video_count": 3,
+    "topics": [
+      {
+        "FCA Regulation": 2
+      },
+      {
+        "Data as a Product": 1
+      },
+      {
+        "Data Mesh Architecture": 1
+      },
+      {
+        "DevOps and Data Engineering": 1
+      },
+      {
+        "Data Ownership": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "AwW2p94t1RE",
+        "title": "Ionut Craciunescu @ Utility Warehouse - Journey into data as a product",
+        "youtube_url": "https://www.youtube.com/watch?v=AwW2p94t1RE",
+        "duration": 1201,
+        "upload_date": "20230112"
+      },
+      {
+        "id": "oZR5L8FBEkM",
+        "title": "Ionut Craciunescu @ Wealth Wizards - AWS Cognito - A Serverless Authentication System",
+        "youtube_url": "https://www.youtube.com/watch?v=oZR5L8FBEkM",
+        "duration": 1271,
+        "upload_date": "20191202"
+      },
+      {
+        "id": "EIJmYgk6Hjg",
+        "title": "Ionut Craciunescu @ Wealth Wizards  Unblocking the release train with ISTIO Traffic Management",
+        "youtube_url": "https://www.youtube.com/watch?v=EIJmYgk6Hjg",
+        "duration": 866,
+        "upload_date": "20190820"
+      }
+    ]
+  },
+  {
+    "name": "Henrique Rodrigues",
+    "video_count": 3,
+    "topics": [
+      {
+        "DevOps": 2
+      },
+      {
+        "Linux distributions": 1
+      },
+      {
+        "Dvian distribution": 1
+      },
+      {
+        "CVEs and security": 1
+      },
+      {
+        "Containerization": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 33.3,
+      "Positive": 66.7
+    },
+    "videos": [
+      {
+        "id": "2Iq4UuVV7bM",
+        "title": "Henrique Rodrigues @ LYTT - Why Debian is not secure",
+        "youtube_url": "https://www.youtube.com/watch?v=2Iq4UuVV7bM",
+        "duration": 852,
+        "upload_date": "20220325"
+      },
+      {
+        "id": "Nuu4QzwZuus",
+        "title": "Henrique Rodrigues @ LYTT - Introduction to Pulumi, a hidden gem of infrastructure orchestration",
+        "youtube_url": "https://www.youtube.com/watch?v=Nuu4QzwZuus",
+        "duration": 1668,
+        "upload_date": "20201126"
+      },
+      {
+        "id": "2CYRmEt_z38",
+        "title": "Henrique Rodrigues - Principal DevOps @ Direct Line Group  - Best practices considered harmful",
+        "youtube_url": "https://www.youtube.com/watch?v=2CYRmEt_z38",
+        "duration": 1295,
+        "upload_date": "20190411"
+      }
+    ]
+  },
+  {
+    "name": "DevOps Exchange NYC",
+    "video_count": 3,
+    "topics": [
+      {
+        "Microservices Architecture": 1
+      },
+      {
+        "Cloud Computing": 1
+      },
+      {
+        "System Visualization": 1
+      },
+      {
+        "Distributed Systems": 1
+      },
+      {
+        "Observability": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "-HYq-yA8UZQ",
+        "title": "DevOps Exchange NYC - featuring Nitzan Shapira @ Epsagon",
+        "youtube_url": "https://www.youtube.com/watch?v=-HYq-yA8UZQ",
+        "duration": 971,
+        "upload_date": "20200924"
+      },
+      {
+        "id": "K6uu0LYaazI",
+        "title": "DevOps Exchange NYC - ft. Baruch Sadogursky & Leonid Igolnik",
+        "youtube_url": "https://www.youtube.com/watch?v=K6uu0LYaazI",
+        "duration": 2726,
+        "upload_date": "20200924"
+      },
+      {
+        "id": "kbm_4e7l0II",
+        "title": "DevOps Exchange NYC - Tom Limoncelli @ Stack Overflow",
+        "youtube_url": "https://www.youtube.com/watch?v=kbm_4e7l0II",
+        "duration": 2058,
+        "upload_date": "20200924"
+      }
+    ]
+  },
+  {
+    "name": "Will Hall",
+    "video_count": 2,
+    "topics": [
+      {
+        "DevSecOps": 1
+      },
+      {
+        "DevOps": 1
+      },
+      {
+        "Security in Software Development": 1
+      },
+      {
+        "CI/CD Pipelines": 1
+      },
+      {
+        "Tooling and Automation": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "DnYG8Ta3szY",
+        "title": "Will Hall @ EPAM - Simple Hacks to DevSecOps Superstardom",
+        "youtube_url": "https://www.youtube.com/watch?v=DnYG8Ta3szY",
+        "duration": 1282,
+        "upload_date": "20230210"
+      },
+      {
+        "id": "LC6yVmm33H8",
+        "title": "Will Hall - GitLab, Terraform and AWS; A Perfect Combination",
+        "youtube_url": "https://www.youtube.com/watch?v=LC6yVmm33H8",
+        "duration": 1236,
+        "upload_date": "20191202"
+      }
+    ]
+  },
+  {
+    "name": "Jon Hammant",
+    "video_count": 2,
+    "topics": [
+      {
+        "DevOps": 1
+      },
+      {
+        "Skills Development": 1
+      },
+      {
+        "Hard Skills vs Soft Skills": 1
+      },
+      {
+        "Amazon AWS": 1
+      },
+      {
+        "Career Growth": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "U9KMmS3V0cg",
+        "title": "Jon Hammant @ AWS - Building skills in a DevOps world \u2013 T, E, V, and Ven Shaped engineers",
+        "youtube_url": "https://www.youtube.com/watch?v=U9KMmS3V0cg",
+        "duration": 1509,
+        "upload_date": "20220325"
+      },
+      {
+        "id": "eOpJ5B84q6s",
+        "title": "Jon Hammant @ AWS - DevOps and Transformation at Amazon",
+        "youtube_url": "https://www.youtube.com/watch?v=eOpJ5B84q6s",
+        "duration": 1556,
+        "upload_date": "20210429"
+      }
+    ]
+  },
+  {
+    "name": "Andy Cowley",
+    "video_count": 2,
+    "topics": [
+      {
+        "DevOps transformation": 1
+      },
+      {
+        "Autonomous vehicle development": 1
+      },
+      {
+        "Infrastructure as Code": 1
+      },
+      {
+        "Developer onboarding": 1
+      },
+      {
+        "Cloud deployment": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "oG3tAqbdHS0",
+        "title": "Andy Cowley @ Five - Lessons Learnt from Teaching an ADAS Company to DevOps",
+        "youtube_url": "https://www.youtube.com/watch?v=oG3tAqbdHS0",
+        "duration": 2428,
+        "upload_date": "20210729"
+      },
+      {
+        "id": "XXPh6l4oXDI",
+        "title": "Andy Cowley @ FiveAi - From cars to keyboards, DevOps at an Autonomous Vehicles company",
+        "youtube_url": "https://www.youtube.com/watch?v=XXPh6l4oXDI",
+        "duration": 1322,
+        "upload_date": "20191005"
+      }
+    ]
+  },
+  {
+    "name": "JSX",
+    "video_count": 2,
+    "topics": [
+      {
+        "Digital Showcase Platform": 1
+      },
+      {
+        "COVID-19 Pandemic Response": 1
+      },
+      {
+        "Strapi CMS": 1
+      },
+      {
+        "AWS CloudFront": 1
+      },
+      {
+        "Mobile-First Design": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "S9TA4ZRE6h0",
+        "title": "JSX - January ft.  Anisha Malde, Senior Front End Developer @ IBM",
+        "youtube_url": "https://www.youtube.com/watch?v=S9TA4ZRE6h0",
+        "duration": 896,
+        "upload_date": "20210127"
+      },
+      {
+        "id": "F0npOItr9Ow",
+        "title": "JSX - July featuring Gousto & Vortexa",
+        "youtube_url": "https://www.youtube.com/watch?v=F0npOItr9Ow",
+        "duration": 3270,
+        "upload_date": "20200729"
+      }
+    ]
+  },
+  {
+    "name": "JavaScript Exchange",
+    "video_count": 2,
+    "topics": [
+      {
+        "Test Driven Delivery": 1
+      },
+      {
+        "Agile Development": 1
+      },
+      {
+        "Small Team Collaboration": 1
+      },
+      {
+        "End-to-End Testing": 1
+      },
+      {
+        "Feature Delivery": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "pHCEhIidFEI",
+        "title": "JavaScript Exchange - Luis Deigo Hern\u00e1ndez Arias, METRO Markets",
+        "youtube_url": "https://www.youtube.com/watch?v=pHCEhIidFEI",
+        "duration": 1900,
+        "upload_date": "20200917"
+      },
+      {
+        "id": "KsbkOX5RanQ",
+        "title": "JavaScript Exchange - #2 - Virtual Meetup 2020",
+        "youtube_url": "https://www.youtube.com/watch?v=KsbkOX5RanQ",
+        "duration": 3898,
+        "upload_date": "20200422"
+      }
+    ]
+  },
+  {
+    "name": "Volary",
+    "video_count": 1,
+    "topics": [
+      {
+        "Volary: Memory layer for AI agents": 1
+      },
+      {
+        "Episodic memory vs. semantic memory": 1
+      },
+      {
+        "AI agent development challenges": 1
+      },
+      {
+        "Prompt engineering": 1
+      },
+      {
+        "Hippocampus analogy": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "zRx7_dF0RHM",
+        "title": "Volary: The memory layer for the agentic era",
+        "youtube_url": "https://www.youtube.com/watch?v=zRx7_dF0RHM",
+        "duration": 1054,
+        "upload_date": "20260325"
+      }
+    ]
+  },
+  {
+    "name": "Scaling AI",
+    "video_count": 1,
+    "topics": [
+      {
+        "AI Scaling Strategies": 1
+      },
+      {
+        "Hedgehog vs. Fox Philosophy": 1
+      },
+      {
+        "AI Adoption Challenges": 1
+      },
+      {
+        "DataIQ's AI Framework": 1
+      },
+      {
+        "McKinsey AI Insights": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "66hKxMw_kMg",
+        "title": "Scaling AI: The Fox Knows Many Things. The Hedgehog Knows One Big Thing",
+        "youtube_url": "https://www.youtube.com/watch?v=66hKxMw_kMg",
+        "duration": 1456,
+        "upload_date": "20251030"
+      }
+    ]
+  },
+  {
+    "name": "Democratizing Enterprise AI",
+    "video_count": 1,
+    "topics": [
+      {
+        "Democratizing Enterprise AI": 1
+      },
+      {
+        "AI Ecosystems vs. Isolated AI Projects": 1
+      },
+      {
+        "AI Challenges: Data Readiness, IP, Cost, Innovation, Governance": 1
+      },
+      {
+        "AI Use Cases in Retail": 1
+      },
+      {
+        "AI Applications: Forecasting, Inventory, Pricing, Chatbots": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "cAoQaykhVyk",
+        "title": "Democratizing Enterprise AI: Building and Governing at Scale",
+        "youtube_url": "https://www.youtube.com/watch?v=cAoQaykhVyk",
+        "duration": 829,
+        "upload_date": "20250929"
+      }
+    ]
+  },
+  {
+    "name": "Securing Vibe Coding",
+    "video_count": 1,
+    "topics": [
+      {
+        "AI-generated code security": 1
+      },
+      {
+        "Vibe coding": 1
+      },
+      {
+        "Security vulnerabilities in AI code": 1
+      },
+      {
+        "Best practices for secure AI coding": 1
+      },
+      {
+        "AI prompt engineering": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "1Ob9aHX6f9Y",
+        "title": "Securing Vibe Coding: Addressing the Security Challenges of AI-Generated Code",
+        "youtube_url": "https://www.youtube.com/watch?v=1Ob9aHX6f9Y",
+        "duration": 1543,
+        "upload_date": "20250711"
+      }
+    ]
+  },
+  {
+    "name": "Building Scalable AI Systems",
+    "video_count": 1,
+    "topics": [
+      {
+        "AI Scaling Laws": 1
+      },
+      {
+        "AI Factories": 1
+      },
+      {
+        "Pre-Training, Post-Training, and Test-Time Scaling": 1
+      },
+      {
+        "Heterogeneous Compute Systems": 1
+      },
+      {
+        "AI Infrastructure Investment": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "o6aj4RFRbyw",
+        "title": "Building Scalable AI Systems: Hierarchical Intelligence & the Rise of AI Factories",
+        "youtube_url": "https://www.youtube.com/watch?v=o6aj4RFRbyw",
+        "duration": 1287,
+        "upload_date": "20250711"
+      }
+    ]
+  },
+  {
+    "name": "Platform Engineers",
+    "video_count": 1,
+    "topics": [
+      {
+        "Evolving role of platform engineers": 1
+      },
+      {
+        "Data and AI workloads": 1
+      },
+      {
+        "Cross-functional collaboration": 1
+      },
+      {
+        "Platform engineering principles": 1
+      },
+      {
+        "DevOps and data science integration": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "9DBXZPSJD14",
+        "title": "Platform Engineers: The Hidden Architects of the AI Revolution",
+        "youtube_url": "https://www.youtube.com/watch?v=9DBXZPSJD14",
+        "duration": 1476,
+        "upload_date": "20250630"
+      }
+    ]
+  },
+  {
+    "name": "Meet Platform Plane",
+    "video_count": 1,
+    "topics": [
+      {
+        "Cybernetic Delivery Platform (CDP)": 1
+      },
+      {
+        "DevOps": 1
+      },
+      {
+        "Cloud Applications": 1
+      },
+      {
+        "Software Development": 1
+      },
+      {
+        "Platform Plane": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "gzPTJ7UyM2E",
+        "title": "Meet Platform Plane: Supercharge Dev Teams & Cut Costs by 25%",
+        "youtube_url": "https://www.youtube.com/watch?v=gzPTJ7UyM2E",
+        "duration": 828,
+        "upload_date": "20250630"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Native Solutions",
+    "video_count": 1,
+    "topics": [
+      {
+        "Cloud Native investment justification": 1
+      },
+      {
+        "Developer efficiency": 1
+      },
+      {
+        "Risk reduction": 1
+      },
+      {
+        "Financial restructuring": 1
+      },
+      {
+        "Business ROI": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "g3wuQNilN6k",
+        "title": "Cloud Native Solutions: Demonstrating ROI and Business Impact",
+        "youtube_url": "https://www.youtube.com/watch?v=g3wuQNilN6k",
+        "duration": 1033,
+        "upload_date": "20250520"
+      }
+    ]
+  },
+  {
+    "name": "Beyond LLMOps",
+    "video_count": 1,
+    "topics": [
+      {
+        "Silco company overview": 1
+      },
+      {
+        "COVID-19 app development": 1
+      },
+      {
+        "Zurich Airport digital platform": 1
+      },
+      {
+        "AI in medical diagnosis": 1
+      },
+      {
+        "Executive priorities in AI (HTTPI, AI governments)": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "_tHHzkkvgHc",
+        "title": "Beyond LLMOps: Multi Cloud AI Deployment Strategies",
+        "youtube_url": "https://www.youtube.com/watch?v=_tHHzkkvgHc",
+        "duration": 1454,
+        "upload_date": "20250228"
+      }
+    ]
+  },
+  {
+    "name": "AI Agents Explained",
+    "video_count": 1,
+    "topics": [
+      {
+        "AI Agents": 1
+      },
+      {
+        "LangGraph": 1
+      },
+      {
+        "Autogen": 1
+      },
+      {
+        "Declarative Configuration": 1
+      },
+      {
+        "Agent Workflows": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "L7G3d_gawO4",
+        "title": "AI Agents Explained: Engineering Challenges & How to Solve Them",
+        "youtube_url": "https://www.youtube.com/watch?v=L7G3d_gawO4",
+        "duration": 1364,
+        "upload_date": "20250129"
+      }
+    ]
+  },
+  {
+    "name": "Inside Agentic AI",
+    "video_count": 1,
+    "topics": [
+      {
+        "Agententic AI": 1
+      },
+      {
+        "Hybrid Teams": 1
+      },
+      {
+        "High-Assurance Organisations": 1
+      },
+      {
+        "AI in Defense and National Security": 1
+      },
+      {
+        "Multi-Agent Systems": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "qV4LGhL2XBY",
+        "title": "Inside Agentic AI: Building AI Agent Teams That Work",
+        "youtube_url": "https://www.youtube.com/watch?v=qV4LGhL2XBY",
+        "duration": 1128,
+        "upload_date": "20250129"
+      }
+    ]
+  },
+  {
+    "name": "Srivalsan Mannoor",
+    "video_count": 1,
+    "topics": [
+      {
+        "Cloud Infrastructure": 1
+      },
+      {
+        "DevOps": 1
+      },
+      {
+        "Platform Engineering": 1
+      },
+      {
+        "Crossplane": 1
+      },
+      {
+        "Kubernetes (K8s)": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "HfASrid8Y3g",
+        "title": "Srivalsan Mannoor @ AWS - How to build the Cloud Infrastructure in the K8s style using Crossplane",
+        "youtube_url": "https://www.youtube.com/watch?v=HfASrid8Y3g",
+        "duration": 1246,
+        "upload_date": "20240311"
+      }
+    ]
+  },
+  {
+    "name": "Dora Militaru",
+    "video_count": 1,
+    "topics": [
+      {
+        "Edge Computing": 1
+      },
+      {
+        "Authentication": 1
+      },
+      {
+        "Passkeys": 1
+      },
+      {
+        "OWASP Top 10": 1
+      },
+      {
+        "Security": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "luOsQaRcpQ0",
+        "title": "Dora Militaru @ Fastly - Zen and the Art of Edge Authentication",
+        "youtube_url": "https://www.youtube.com/watch?v=luOsQaRcpQ0",
+        "duration": 1364,
+        "upload_date": "20240311"
+      }
+    ]
+  },
+  {
+    "name": "Lachlan Holmes",
+    "video_count": 1,
+    "topics": [
+      {
+        "SRE (Site Reliability Engineering)": 1
+      },
+      {
+        "SRE Implementation": 1
+      },
+      {
+        "Load Balancer": 1
+      },
+      {
+        "APM Tool": 1
+      },
+      {
+        "Observability": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "pess2GvboS0",
+        "title": "Lachlan Holmes - \"Implementing SRE from scratch\"",
+        "youtube_url": "https://www.youtube.com/watch?v=pess2GvboS0",
+        "duration": 1316,
+        "upload_date": "20231218"
+      }
+    ]
+  },
+  {
+    "name": "Patrick Hyland",
+    "video_count": 1,
+    "topics": [
+      {
+        "Domino's digital platform evolution": 1
+      },
+      {
+        "Site Reliability Engineering (SRE)": 1
+      },
+      {
+        "Dynamic Capabilities Framework": 1
+      },
+      {
+        "Phoenix Architecture": 1
+      },
+      {
+        "DevOps Practices": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "BwQuc2xefls",
+        "title": "Patrick Hyland @ Domino's - Pizza Platforms, Dynamic Capabilities and SRE/GenAI",
+        "youtube_url": "https://www.youtube.com/watch?v=BwQuc2xefls",
+        "duration": 2704,
+        "upload_date": "20231130"
+      }
+    ]
+  },
+  {
+    "name": "Raul Rodriguez",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps": 1
+      },
+      {
+        "NHS COVID-19 App": 1
+      },
+      {
+        "Digital Contact Tracing": 1
+      },
+      {
+        "Preventing COVID-19 Deaths": 1
+      },
+      {
+        "Microservices": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "q9j2iiqOpG4",
+        "title": "Raul Rodriguez @ Z\u00fchlke Engineering - Preventing Deaths: DevOps' 10,000 Success",
+        "youtube_url": "https://www.youtube.com/watch?v=q9j2iiqOpG4",
+        "duration": 1403,
+        "upload_date": "20231130"
+      }
+    ]
+  },
+  {
+    "name": "Ben Stanley",
+    "video_count": 1,
+    "topics": [
+      {
+        "Self-hosting Large Language Models (LLMs)": 1
+      },
+      {
+        "LLM Modes of Use": 1
+      },
+      {
+        "Fine-tuning": 1
+      },
+      {
+        "Inference": 1
+      },
+      {
+        "Streaming": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "5bRYfnWgPvE",
+        "title": "Ben Stanley @ Temrel - Self-hosting LLMs for Dummies",
+        "youtube_url": "https://www.youtube.com/watch?v=5bRYfnWgPvE",
+        "duration": 1071,
+        "upload_date": "20231006"
+      }
+    ]
+  },
+  {
+    "name": "Denys Vasyliev",
+    "video_count": 1,
+    "topics": [
+      {
+        "AI Reliability Engineering (AIRE)": 1
+      },
+      {
+        "ChatGPT Growth": 1
+      },
+      {
+        "LangChain Framework": 1
+      },
+      {
+        "DevOps and SRE Challenges": 1
+      },
+      {
+        "AI Deployment Strategies": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "DIiaZ3WtICc",
+        "title": "Denys Vasyliev @ GfK - AIRe - AI Reliability Engineering",
+        "youtube_url": "https://www.youtube.com/watch?v=DIiaZ3WtICc",
+        "duration": 1594,
+        "upload_date": "20231006"
+      }
+    ]
+  },
+  {
+    "name": "George Mamalakis",
+    "video_count": 1,
+    "topics": [
+      {
+        "Disaster Recovery": 1
+      },
+      {
+        "Data Center Failures": 1
+      },
+      {
+        "Meta Infrastructure": 1
+      },
+      {
+        "Traffic Redirection": 1
+      },
+      {
+        "Microservices Architecture": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "_KuNL5XqfI4",
+        "title": "George Mamalakis @ META - Disaster Recovery @ Meta",
+        "youtube_url": "https://www.youtube.com/watch?v=_KuNL5XqfI4",
+        "duration": 1099,
+        "upload_date": "20231006"
+      }
+    ]
+  },
+  {
+    "name": "Damon Wright",
+    "video_count": 1,
+    "topics": [
+      {
+        "Kubernetes": 1
+      },
+      {
+        "Containers": 1
+      },
+      {
+        "Linux Namespaces": 1
+      },
+      {
+        "Control Groups (Cgroups)": 1
+      },
+      {
+        "DevOps": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "uLkF4BJHYu8",
+        "title": "Damon Wright @ Capgemini - Kubernetes pods: they really are a container?",
+        "youtube_url": "https://www.youtube.com/watch?v=uLkF4BJHYu8",
+        "duration": 2287,
+        "upload_date": "20231006"
+      }
+    ]
+  },
+  {
+    "name": "Matteo Rinaudo",
+    "video_count": 1,
+    "topics": [
+      {
+        "Infrastructure as Code (IaC)": 1
+      },
+      {
+        "AWS CloudFormation": 1
+      },
+      {
+        "YAML and JSON templates": 1
+      },
+      {
+        "DevOps practices": 1
+      },
+      {
+        "Cloud resource management": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "21HvVrMRenY",
+        "title": "Matteo Rinaudo @ AWS - \"AWS CloudFormation - technical introduction\"",
+        "youtube_url": "https://www.youtube.com/watch?v=21HvVrMRenY",
+        "duration": 2136,
+        "upload_date": "20230915"
+      }
+    ]
+  },
+  {
+    "name": "Sal Furino",
+    "video_count": 1,
+    "topics": [
+      {
+        "SLO Implementation": 1
+      },
+      {
+        "Site Reliability Engineering (SRE)": 1
+      },
+      {
+        "Reliability Culture": 1
+      },
+      {
+        "Observability": 1
+      },
+      {
+        "Customer Journeys": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "NI6Nr8i9AP4",
+        "title": "Sal Furino - \"9 Things You Should Do When Starting to Use SLOs\"",
+        "youtube_url": "https://www.youtube.com/watch?v=NI6Nr8i9AP4",
+        "duration": 1675,
+        "upload_date": "20230915"
+      }
+    ]
+  },
+  {
+    "name": "Calvin Barker",
+    "video_count": 1,
+    "topics": [
+      {
+        "Identity, Authentication, Authorization": 1
+      },
+      {
+        "DevOps": 1
+      },
+      {
+        "Security": 1
+      },
+      {
+        "API Gateways": 1
+      },
+      {
+        "Microservices": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "sLcL69I2ZZQ",
+        "title": "Calvin Barker @ Rokt - \"Edge-Terminating Authentication\"",
+        "youtube_url": "https://www.youtube.com/watch?v=sLcL69I2ZZQ",
+        "duration": 649,
+        "upload_date": "20230915"
+      }
+    ]
+  },
+  {
+    "name": "Kosseila Hd",
+    "video_count": 1,
+    "topics": [
+      {
+        "OAuth 2.0": 1
+      },
+      {
+        "OpenID Connect (OIDC)": 1
+      },
+      {
+        "Authentication Protocols": 1
+      },
+      {
+        "GitHub Actions": 1
+      },
+      {
+        "Azure": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "P4dJS84ur7E",
+        "title": "Kosseila Hd - \"What\u2019s OIDC and why should you use it asap in your GitHub pipeline\"",
+        "youtube_url": "https://www.youtube.com/watch?v=P4dJS84ur7E",
+        "duration": 2443,
+        "upload_date": "20230905"
+      }
+    ]
+  },
+  {
+    "name": "Jonas Dizon",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps Culture at Financeit": 1
+      },
+      {
+        "Team Agreement and Shared Principles": 1
+      },
+      {
+        "Workload Management and Prioritization": 1
+      },
+      {
+        "Comparison with Amazon's Microservices Model": 1
+      },
+      {
+        "Operational Challenges in Regulated Environments": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "R88GQ6HhwyY",
+        "title": "Jonas Dizon - \"Running small but efficient DevOps teams\"",
+        "youtube_url": "https://www.youtube.com/watch?v=R88GQ6HhwyY",
+        "duration": 3221,
+        "upload_date": "20230905"
+      }
+    ]
+  },
+  {
+    "name": "Iftikhar Ali",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps": 1
+      },
+      {
+        "SRE (Site Reliability Engineering)": 1
+      },
+      {
+        "CI/CD Pipelines": 1
+      },
+      {
+        "Application Monitoring": 1
+      },
+      {
+        "Instana": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "aBkeeVSpjzA",
+        "title": "Iftikhar Ali - \"Use-case study: Using GitOps to manage app deployments on OpenShift platform\"",
+        "youtube_url": "https://www.youtube.com/watch?v=aBkeeVSpjzA",
+        "duration": 1421,
+        "upload_date": "20230905"
+      }
+    ]
+  },
+  {
+    "name": "George Gkirtsou",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps Platform Development": 1
+      },
+      {
+        "Infrastructure as Code (IaC)": 1
+      },
+      {
+        "Cloud Architecture": 1
+      },
+      {
+        "Platform Engineering": 1
+      },
+      {
+        "Team Leadership": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "AahcUiBSlrk",
+        "title": "George Gkirtsou @ Bark - How Platform Team quickly created Atlas, an Int. Developer Platform at Bark",
+        "youtube_url": "https://www.youtube.com/watch?v=AahcUiBSlrk",
+        "duration": 975,
+        "upload_date": "20230830"
+      }
+    ]
+  },
+  {
+    "name": "Paula Kennedy",
+    "video_count": 1,
+    "topics": [
+      {
+        "Platform Engineering": 1
+      },
+      {
+        "Definition of a Platform": 1
+      },
+      {
+        "Team Responsibilities": 1
+      },
+      {
+        "Platform Boundaries": 1
+      },
+      {
+        "Infrastructure vs. Platform": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "GEWkHeJ6KHc",
+        "title": "Paula Kennedy @ Syntasso - From infrastructure to app deployment: Where does a platform start & end?",
+        "youtube_url": "https://www.youtube.com/watch?v=GEWkHeJ6KHc",
+        "duration": 1136,
+        "upload_date": "20230830"
+      }
+    ]
+  },
+  {
+    "name": "Mike Skaife",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps in the automotive industry": 1
+      },
+      {
+        "Continuous Deployment in Vehicles": 1
+      },
+      {
+        "SOTA (Software Over The Air) Platform": 1
+      },
+      {
+        "Vehicle Software Architecture": 1
+      },
+      {
+        "Software Scale in Modern Cars": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "ITfNA8KGt90",
+        "title": "Mike Skaife @ JLR - DevOps on Wheels - Continuous Deployment of Vehicle Software",
+        "youtube_url": "https://www.youtube.com/watch?v=ITfNA8KGt90",
+        "duration": 1020,
+        "upload_date": "20230830"
+      }
+    ]
+  },
+  {
+    "name": "Tim Murphy",
+    "video_count": 1,
+    "topics": [
+      {
+        "Jenkins platform critique": 1
+      },
+      {
+        "DevOps implementation challenges": 1
+      },
+      {
+        "Usability and documentation issues": 1
+      },
+      {
+        "Plugin library and version compatibility problems": 1
+      },
+      {
+        "Worker sizing and autoscaling": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral to Negative": 100.0
+    },
+    "videos": [
+      {
+        "id": "ebY4k_Z1ueE",
+        "title": "Tim Murphy @ ActionIQ - \"Our Jenkins Journey: Lessons Learned\"",
+        "youtube_url": "https://www.youtube.com/watch?v=ebY4k_Z1ueE",
+        "duration": 1277,
+        "upload_date": "20230801"
+      }
+    ]
+  },
+  {
+    "name": "David Stanke",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps metrics and performance": 1
+      },
+      {
+        "Software delivery measurement": 1
+      },
+      {
+        "Continuous improvement": 1
+      },
+      {
+        "Organizational outcomes": 1
+      },
+      {
+        "Predictive analytics": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "vHITG7TrCgY",
+        "title": "David Stanke @ Google - \"New insights and surprises from DORA research\"",
+        "youtube_url": "https://www.youtube.com/watch?v=vHITG7TrCgY",
+        "duration": 1345,
+        "upload_date": "20230801"
+      }
+    ]
+  },
+  {
+    "name": "Eugene Trufanov",
+    "video_count": 1,
+    "topics": [
+      {
+        "Career Development for Engineers": 1
+      },
+      {
+        "Engineering Roadmaps vs. Leadership Growth": 1
+      },
+      {
+        "Soft Skills Improvement": 1
+      },
+      {
+        "Professional Growth Strategies": 1
+      },
+      {
+        "DevOps Career Paths": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "YgIbVD0wvcI",
+        "title": "Eugene Trufanov @ Luxoft - \"Unstuck\"",
+        "youtube_url": "https://www.youtube.com/watch?v=YgIbVD0wvcI",
+        "duration": 1881,
+        "upload_date": "20230726"
+      }
+    ]
+  },
+  {
+    "name": "Larry Gordon",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps Leadership": 1
+      },
+      {
+        "DevOps Culture": 1
+      },
+      {
+        "DevOps Best Practices": 1
+      },
+      {
+        "Toolchain Management": 1
+      },
+      {
+        "Team Collaboration": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "UowV1wk4tAo",
+        "title": "Larry Gordon - @ Emtec - DevOps Starts with Leadership and Culture",
+        "youtube_url": "https://www.youtube.com/watch?v=UowV1wk4tAo",
+        "duration": 824,
+        "upload_date": "20230725"
+      }
+    ]
+  },
+  {
+    "name": "Michael Liberman",
+    "video_count": 1,
+    "topics": [
+      {
+        "Software Supply Chain Security": 1
+      },
+      {
+        "Open Source Security": 1
+      },
+      {
+        "Dependency Management": 1
+      },
+      {
+        "Log4j Vulnerability": 1
+      },
+      {
+        "Third-Party Risk": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "TkUYYk2AZPc",
+        "title": "Michael Liberman @ Kusari - Insights into the Software Supply Chain: An Introduction to GUAC",
+        "youtube_url": "https://www.youtube.com/watch?v=TkUYYk2AZPc",
+        "duration": 1214,
+        "upload_date": "20230718"
+      }
+    ]
+  },
+  {
+    "name": "Ashish Bhatia",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps": 1
+      },
+      {
+        "Kubernetes": 1
+      },
+      {
+        "Container Debugging": 1
+      },
+      {
+        "Application Deployment": 1
+      },
+      {
+        "Cube City": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "-BLThkDpfOc",
+        "title": "Ashish Bhatia @ Canvass AI - Debugging Kubernetes common problems",
+        "youtube_url": "https://www.youtube.com/watch?v=-BLThkDpfOc",
+        "duration": 1369,
+        "upload_date": "20230620"
+      }
+    ]
+  },
+  {
+    "name": "Shlomo Bielak",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps": 1
+      },
+      {
+        "SRE (Site Reliability Engineering)": 1
+      },
+      {
+        "Observability": 1
+      },
+      {
+        "Hype Cycle for Emerging Tech": 1
+      },
+      {
+        "CIO Principle": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "0lWqE52tdA4",
+        "title": "Shlomo Bielak @ theScore - Going from confidence in production to confidence for production",
+        "youtube_url": "https://www.youtube.com/watch?v=0lWqE52tdA4",
+        "duration": 2550,
+        "upload_date": "20230620"
+      }
+    ]
+  },
+  {
+    "name": "Natalie Godec",
+    "video_count": 1,
+    "topics": [
+      {
+        "Cloud-native data platforms": 1
+      },
+      {
+        "Data security in the cloud": 1
+      },
+      {
+        "Google Cloud Platform (GCP) services": 1
+      },
+      {
+        "VPC Service Controls": 1
+      },
+      {
+        "Ingress/Egress policies": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "P1bTBwlyPtU",
+        "title": "Natalie Godec @ Zencore - Building a cloud-native data platform with security in mind",
+        "youtube_url": "https://www.youtube.com/watch?v=P1bTBwlyPtU",
+        "duration": 828,
+        "upload_date": "20230309"
+      }
+    ]
+  },
+  {
+    "name": "Shirisha Vivekanand",
+    "video_count": 1,
+    "topics": [
+      {
+        "Chaos Engineering": 1
+      },
+      {
+        "System Resilience": 1
+      },
+      {
+        "AWS Well-Architected Framework": 1
+      },
+      {
+        "Reliability Pillar": 1
+      },
+      {
+        "Fault Injection Testing": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "u8kHFWiPFj8",
+        "title": "Shirisha Vivekanand @ AWS - Building Resilience through Chaos Engineering",
+        "youtube_url": "https://www.youtube.com/watch?v=u8kHFWiPFj8",
+        "duration": 1413,
+        "upload_date": "20230309"
+      }
+    ]
+  },
+  {
+    "name": "Ernesto Salas",
+    "video_count": 1,
+    "topics": [
+      {
+        "Cloud Networking": 1
+      },
+      {
+        "DevOps in Networking": 1
+      },
+      {
+        "Network as Code": 1
+      },
+      {
+        "AWS Infrastructure": 1
+      },
+      {
+        "Developer Experience": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "Sea--qnlE1c",
+        "title": "Ernesto Salas @ AWS - Networking-as-a-Service: from building pipes to enabling innovation",
+        "youtube_url": "https://www.youtube.com/watch?v=Sea--qnlE1c",
+        "duration": 1180,
+        "upload_date": "20230210"
+      }
+    ]
+  },
+  {
+    "name": "Hamed Silatani",
+    "video_count": 1,
+    "topics": [
+      {
+        "Monitoring tools in DevOps": 1
+      },
+      {
+        "People, Processes, Technology (PPT) framework": 1
+      },
+      {
+        "Reliability and resiliency engineering": 1
+      },
+      {
+        "Learning from real-world incidents": 1
+      },
+      {
+        "Technology Honeymoon Graph": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "qe5QC17vIWw",
+        "title": "Hamed Silatani @ Uptime Labs - Not happy with your monitoring tool, The answer might not be ...",
+        "youtube_url": "https://www.youtube.com/watch?v=qe5QC17vIWw",
+        "duration": 1096,
+        "upload_date": "20230112"
+      }
+    ]
+  },
+  {
+    "name": "Colin Humphrey",
+    "video_count": 1,
+    "topics": [
+      {
+        "SLO (Service Level Objective) culture": 1
+      },
+      {
+        "DevOps and SRE (Site Reliability Engineering)": 1
+      },
+      {
+        "SLI (Service Level Indicator)": 1
+      },
+      {
+        "Error Budget States": 1
+      },
+      {
+        "Phases of SLO adoption": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "re7E7vA_dQo",
+        "title": "Colin Humphrey @ Funding Circle - Embedding an SLOs culture within your organisation",
+        "youtube_url": "https://www.youtube.com/watch?v=re7E7vA_dQo",
+        "duration": 1397,
+        "upload_date": "20230112"
+      }
+    ]
+  },
+  {
+    "name": "Simone Casciaroli",
+    "video_count": 1,
+    "topics": [
+      {
+        "Platform as a Product": 1
+      },
+      {
+        "Metrics and Outcomes": 1
+      },
+      {
+        "Heat Framework": 1
+      },
+      {
+        "Platform Team Challenges": 1
+      },
+      {
+        "Engineering Leadership": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "JF35nT0fvyc",
+        "title": "Simone Casciaroli @ ONTO - Are we building Cloud Platforms using the right metrics?",
+        "youtube_url": "https://www.youtube.com/watch?v=JF35nT0fvyc",
+        "duration": 1158,
+        "upload_date": "20221117"
+      }
+    ]
+  },
+  {
+    "name": "Bharat Reddy",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps practices": 1
+      },
+      {
+        "Shortening feedback loops": 1
+      },
+      {
+        "Component ownership": 1
+      },
+      {
+        "DevOps culture vs. anti-patterns": 1
+      },
+      {
+        "Healthcare technology": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "cQlP7eqOKHU",
+        "title": "Bharat Reddy @ Accurx - Devopsing it: a retrospective on doubling our engineering team and living...",
+        "youtube_url": "https://www.youtube.com/watch?v=cQlP7eqOKHU",
+        "duration": 825,
+        "upload_date": "20221117"
+      }
+    ]
+  },
+  {
+    "name": "Joseph Irving",
+    "video_count": 1,
+    "topics": [
+      {
+        "Real-time game servers": 1
+      },
+      {
+        "Kubernetes challenges": 1
+      },
+      {
+        "Pod termination": 1
+      },
+      {
+        "Auto-scaling in gaming": 1
+      },
+      {
+        "Multi-region deployment": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "osv-uEO9VS4",
+        "title": "Joseph Irving @ Sony Playstation - Playstation and Kubernetes: How to solve a problem like real-time",
+        "youtube_url": "https://www.youtube.com/watch?v=osv-uEO9VS4",
+        "duration": 955,
+        "upload_date": "20221117"
+      }
+    ]
+  },
+  {
+    "name": "Matt Mould",
+    "video_count": 1,
+    "topics": [
+      {
+        "IoT Architecture": 1
+      },
+      {
+        "Edge Computing": 1
+      },
+      {
+        "Legacy Protocols": 1
+      },
+      {
+        "Cloud Connectivity": 1
+      },
+      {
+        "DevOps & IoT": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "6-nDxHT3WLo",
+        "title": "Matt Mould @ Storm Reply - From cattle to pets \u2013 part 1",
+        "youtube_url": "https://www.youtube.com/watch?v=6-nDxHT3WLo",
+        "duration": 1202,
+        "upload_date": "20220921"
+      }
+    ]
+  },
+  {
+    "name": "Matt Turner",
+    "video_count": 1,
+    "topics": [
+      {
+        "Service Mesh": 1
+      },
+      {
+        "Istio": 1
+      },
+      {
+        "DevOps": 1
+      },
+      {
+        "Application Operations (App Ops)": 1
+      },
+      {
+        "IT vs Dev Teams": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "axguar_ThIc",
+        "title": "Matt Turner @ Tetrate - AppOps: enabling real dev/ops collaboration",
+        "youtube_url": "https://www.youtube.com/watch?v=axguar_ThIc",
+        "duration": 1732,
+        "upload_date": "20220921"
+      }
+    ]
+  },
+  {
+    "name": "Robert Ray Barnes",
+    "video_count": 1,
+    "topics": [
+      {
+        "Cloud Identity": 1
+      },
+      {
+        "HashiCorp Vault": 1
+      },
+      {
+        "Secrets Management": 1
+      },
+      {
+        "Zero Trust Security": 1
+      },
+      {
+        "Secret Zero Problem": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "Jouts5NTorU",
+        "title": "Robert Ray Barnes @ HashiCorp - Cloud Identity with HashiCorp Vault",
+        "youtube_url": "https://www.youtube.com/watch?v=Jouts5NTorU",
+        "duration": 1380,
+        "upload_date": "20220325"
+      }
+    ]
+  },
+  {
+    "name": "James Betteley",
+    "video_count": 1,
+    "topics": [
+      {
+        "Scaling in Financial Services": 1
+      },
+      {
+        "Google Cloud Platform (GCP) Adoption": 1
+      },
+      {
+        "Compliance and Regulatory Challenges": 1
+      },
+      {
+        "DevOps and Cloud Maturity": 1
+      },
+      {
+        "Team Diversity in Cloud Adoption": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "5KFt3QpQDWo",
+        "title": "James Betteley @ Publicis Sapient - Scaling All of the Things",
+        "youtube_url": "https://www.youtube.com/watch?v=5KFt3QpQDWo",
+        "duration": 1755,
+        "upload_date": "20210729"
+      }
+    ]
+  },
+  {
+    "name": "Richard Haigh",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps adoption trends": 1
+      },
+      {
+        "Scaling DevOps teams": 1
+      },
+      {
+        "Health Hero case study": 1
+      },
+      {
+        "DevOps history and pioneers": 1
+      },
+      {
+        "Measuring DevOps success": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "kD9IlcUG-4c",
+        "title": "Richard Haigh @ HealthHero - DevOps: how to build and scale",
+        "youtube_url": "https://www.youtube.com/watch?v=kD9IlcUG-4c",
+        "duration": 1746,
+        "upload_date": "20210729"
+      }
+    ]
+  },
+  {
+    "name": "Mario Loria",
+    "video_count": 1,
+    "topics": [
+      {
+        "Developer Experience (DevX)": 1
+      },
+      {
+        "Kubernetes": 1
+      },
+      {
+        "Cloud Native": 1
+      },
+      {
+        "SRE": 1
+      },
+      {
+        "Docker": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "7eEhWDPMi7E",
+        "title": "Mario Loria @ CartaX - The Dawn of Developer Experience",
+        "youtube_url": "https://www.youtube.com/watch?v=7eEhWDPMi7E",
+        "duration": 1760,
+        "upload_date": "20210624"
+      }
+    ]
+  },
+  {
+    "name": "Rick Payne",
+    "video_count": 1,
+    "topics": [
+      {
+        "Security vs Development Collaboration": 1
+      },
+      {
+        "Shared Responsibility in Security": 1
+      },
+      {
+        "DevSecOps Culture Shift": 1
+      },
+      {
+        "Department of Defense Security Framework": 1
+      },
+      {
+        "GitLab Security Survey Insights": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "SWiFtKaVghI",
+        "title": "Rick Payne @ RMS - Security Champions \u2013 Open the Floodgates!",
+        "youtube_url": "https://www.youtube.com/watch?v=SWiFtKaVghI",
+        "duration": 1955,
+        "upload_date": "20210624"
+      }
+    ]
+  },
+  {
+    "name": "Bill Walker",
+    "video_count": 1,
+    "topics": [
+      {
+        "SRE and DevOps": 1
+      },
+      {
+        "Google Cloud Platform Infrastructure": 1
+      },
+      {
+        "On-Call Engineering": 1
+      },
+      {
+        "Data Center Operations": 1
+      },
+      {
+        "People Management in Tech": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "o2oOsR--bYw",
+        "title": "Bill Walker @ Google - Large-scale cluster management at Google with Borg and Kubernetes",
+        "youtube_url": "https://www.youtube.com/watch?v=o2oOsR--bYw",
+        "duration": 1168,
+        "upload_date": "20210624"
+      }
+    ]
+  },
+  {
+    "name": "Aditya Menon",
+    "video_count": 1,
+    "topics": [
+      {
+        "Kubernetes adoption": 1
+      },
+      {
+        "DevOps silos": 1
+      },
+      {
+        "Docker Compose limitations": 1
+      },
+      {
+        "Local Kubernetes development": 1
+      },
+      {
+        "Developer-operations collaboration": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "ZohBh2QFKtI",
+        "title": "Aditya Menon @ SPIN (Ford Mobility) - Developing apps with KinD",
+        "youtube_url": "https://www.youtube.com/watch?v=ZohBh2QFKtI",
+        "duration": 1149,
+        "upload_date": "20210429"
+      }
+    ]
+  },
+  {
+    "name": "Jason Cox",
+    "video_count": 1,
+    "topics": [
+      {
+        "Disney's strategic pillars": 1
+      },
+      {
+        "Disney acquisitions (Pixar, Marvel, Lucasfilm, 20th Century Fox)": 1
+      },
+      {
+        "Digital transformation via Disney+": 1
+      },
+      {
+        "DevOps transformation": 1
+      },
+      {
+        "Global storytelling": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "bthnPITfMKs",
+        "title": "Jason Cox @ Disney - Disney DevOps \u2013 Creating Digital Magic",
+        "youtube_url": "https://www.youtube.com/watch?v=bthnPITfMKs",
+        "duration": 1464,
+        "upload_date": "20210216"
+      }
+    ]
+  },
+  {
+    "name": "Josh Brown",
+    "video_count": 1,
+    "topics": [
+      {
+        "Developer Experience (DX) Feedback": 1
+      },
+      {
+        "Internal Hackathons": 1
+      },
+      {
+        "Spotify Developer Platform": 1
+      },
+      {
+        "Web API & SDKs": 1
+      },
+      {
+        "Developer Tool Improvement": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "cIyE-3h3D_E",
+        "title": "Josh Brown @ Spotify - Dogfooding internal developer products",
+        "youtube_url": "https://www.youtube.com/watch?v=cIyE-3h3D_E",
+        "duration": 626,
+        "upload_date": "20210216"
+      }
+    ]
+  },
+  {
+    "name": "Victor Cuascut",
+    "video_count": 1,
+    "topics": [
+      {
+        "Infrastructure as Code": 1
+      },
+      {
+        "DevOps Practices": 1
+      },
+      {
+        "Continuous Deployment": 1
+      },
+      {
+        "Reproducibility in Engineering": 1
+      },
+      {
+        "Cloud Infrastructure": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "hXdzhmqpWoU",
+        "title": "Victor Cuascut @ Crossix Solutions - Building the next generation DevOps Architecture with GitOps",
+        "youtube_url": "https://www.youtube.com/watch?v=hXdzhmqpWoU",
+        "duration": 1312,
+        "upload_date": "20210216"
+      }
+    ]
+  },
+  {
+    "name": "Adam Gordon Bell",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps challenges": 1
+      },
+      {
+        "Build system reliability": 1
+      },
+      {
+        "Jenkins": 1
+      },
+      {
+        "GitHub Actions": 1
+      },
+      {
+        "OS dependencies": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "bL432C2Hqfo",
+        "title": "Adam Gordon Bell @ Earthly Technologies - What if dockerfiles and makefiles had a baby...",
+        "youtube_url": "https://www.youtube.com/watch?v=bL432C2Hqfo",
+        "duration": 1087,
+        "upload_date": "20201126"
+      }
+    ]
+  },
+  {
+    "name": "PJ Hagerty",
+    "video_count": 1,
+    "topics": [
+      {
+        "Chat Ops": 1
+      },
+      {
+        "DevOps": 1
+      },
+      {
+        "Integration in Software": 1
+      },
+      {
+        "GitHub": 1
+      },
+      {
+        "Mattermost": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "sO_kE-T5yyE",
+        "title": "PJ Hagerty @ Mattermost - ChatOps When It Matters",
+        "youtube_url": "https://www.youtube.com/watch?v=sO_kE-T5yyE",
+        "duration": 1043,
+        "upload_date": "20201126"
+      }
+    ]
+  },
+  {
+    "name": "Hussein Badakhchani",
+    "video_count": 1,
+    "topics": [
+      {
+        "Zigloo platform": 1
+      },
+      {
+        "Crowdfunding success": 1
+      },
+      {
+        "Cloud-native technology": 1
+      },
+      {
+        "DevOps culture": 1
+      },
+      {
+        "Payments system engineering": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "Bx5sE6jt9iI",
+        "title": "Hussein Badakhchani @ Ziglu",
+        "youtube_url": "https://www.youtube.com/watch?v=Bx5sE6jt9iI",
+        "duration": 1110,
+        "upload_date": "20201030"
+      }
+    ]
+  },
+  {
+    "name": "David Gildeh",
+    "video_count": 1,
+    "topics": [
+      {
+        "Netflix Engineering": 1
+      },
+      {
+        "Observability": 1
+      },
+      {
+        "Microservices": 1
+      },
+      {
+        "DevOps": 1
+      },
+      {
+        "System Reliability": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "Vm-4_eyeii8",
+        "title": "David Gildeh @ Netflix",
+        "youtube_url": "https://www.youtube.com/watch?v=Vm-4_eyeii8",
+        "duration": 1648,
+        "upload_date": "20201030"
+      }
+    ]
+  },
+  {
+    "name": "Andrea Cappuccinello",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevSecOps": 1
+      },
+      {
+        "Security in DevOps": 1
+      },
+      {
+        "Code Secrets and Credentials": 1
+      },
+      {
+        "Open Source Security Tools": 1
+      },
+      {
+        "DevOps Security Risks": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "fE9FvsRopHo",
+        "title": "Andrea Cappuccinello @ CyberArk",
+        "youtube_url": "https://www.youtube.com/watch?v=fE9FvsRopHo",
+        "duration": 1601,
+        "upload_date": "20201030"
+      }
+    ]
+  },
+  {
+    "name": "JavaScript Exchange August",
+    "video_count": 1,
+    "topics": [
+      {
+        "JavaScript Exchange": 1
+      },
+      {
+        "Node.js": 1
+      },
+      {
+        "Polyglot Architecture": 1
+      },
+      {
+        "Astronomical Data Analysis": 1
+      },
+      {
+        "3.js": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "BT-O0tvDXSo",
+        "title": "JavaScript Exchange August - ft Busuu, Pento & Ably Realtime",
+        "youtube_url": "https://www.youtube.com/watch?v=BT-O0tvDXSo",
+        "duration": 5302,
+        "upload_date": "20200819"
+      }
+    ]
+  },
+  {
+    "name": "JSX August",
+    "video_count": 1,
+    "topics": [
+      {
+        "Node.js in Polyglot Architectures": 1
+      },
+      {
+        "Microservices Adoption": 1
+      },
+      {
+        "JavaScript Developer Trends": 1
+      },
+      {
+        "Kubernetes and DevOps": 1
+      },
+      {
+        "Full Stack Engineering": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "W9f21W5Nsbc",
+        "title": "JSX August - Iman Kalyan Majumdar, Pento",
+        "youtube_url": "https://www.youtube.com/watch?v=W9f21W5Nsbc",
+        "duration": 1474,
+        "upload_date": "20200819"
+      }
+    ]
+  },
+  {
+    "name": "Slava Kalmykov",
+    "video_count": 1,
+    "topics": [
+      {
+        "Continuous Delivery": 1
+      },
+      {
+        "Spotify Engineering Culture": 1
+      },
+      {
+        "Infrastructure Evolution": 1
+      },
+      {
+        "Microservices": 1
+      },
+      {
+        "Container Orchestration": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "1nJb_c-wTK4",
+        "title": "Slava Kalmykov @ Spotify - Continuous Delivery at Spotify",
+        "youtube_url": "https://www.youtube.com/watch?v=1nJb_c-wTK4",
+        "duration": 1601,
+        "upload_date": "20200130"
+      }
+    ]
+  },
+  {
+    "name": "Mark Knoop",
+    "video_count": 1,
+    "topics": [
+      {
+        "SRE Implementation": 1
+      },
+      {
+        "WorldPay Background": 1
+      },
+      {
+        "DevOps & Operational Transformation": 1
+      },
+      {
+        "Legacy Systems in Finance": 1
+      },
+      {
+        "New Acquiring Platform": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "Id492fr34E0",
+        "title": "Mark Knoop @ Worldpay - 100 days of SRE",
+        "youtube_url": "https://www.youtube.com/watch?v=Id492fr34E0",
+        "duration": 1756,
+        "upload_date": "20200130"
+      }
+    ]
+  },
+  {
+    "name": "Richard Clark",
+    "video_count": 1,
+    "topics": [
+      {
+        "Gender Equality in Tech": 1
+      },
+      {
+        "Conway's Law": 1
+      },
+      {
+        "DevOps Practices": 1
+      },
+      {
+        "Diversity & Inclusion in Engineering": 1
+      },
+      {
+        "Satirical Conference Talk": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "btKS9u1ukD0",
+        "title": "Richard Clark @ Depop - Orchestrating Gender Equality",
+        "youtube_url": "https://www.youtube.com/watch?v=btKS9u1ukD0",
+        "duration": 903,
+        "upload_date": "20191202"
+      }
+    ]
+  },
+  {
+    "name": "Dean Ward",
+    "video_count": 1,
+    "topics": [
+      {
+        "Stack Overflow for Teams": 1
+      },
+      {
+        "Monolith Scaling": 1
+      },
+      {
+        "Performance Optimization": 1
+      },
+      {
+        "HAProxy Load Balancing": 1
+      },
+      {
+        "WebSocket Architecture": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "g-hZZjN_Cbg",
+        "title": "Dean Ward @ Stack Overflow - Building Stack Overflow for Teams: Scaling for extreme multi-tenancy",
+        "youtube_url": "https://www.youtube.com/watch?v=g-hZZjN_Cbg",
+        "duration": 1699,
+        "upload_date": "20191202"
+      }
+    ]
+  },
+  {
+    "name": "Paul Markham",
+    "video_count": 1,
+    "topics": [
+      {
+        "Broadcast Media": 1
+      },
+      {
+        "Red Bee Media": 1
+      },
+      {
+        "TV Production Workflow": 1
+      },
+      {
+        "Digital Video Delivery": 1
+      },
+      {
+        "Resilient Systems": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "JZyZ5yLrfmk",
+        "title": "Paul Markham @ Red Bee Media - Doing some Serverless to keep TV on the air",
+        "youtube_url": "https://www.youtube.com/watch?v=JZyZ5yLrfmk",
+        "duration": 1431,
+        "upload_date": "20191005"
+      }
+    ]
+  },
+  {
+    "name": "Tom Hipwell",
+    "video_count": 1,
+    "topics": [
+      {
+        "Continuous Delivery": 1
+      },
+      {
+        "Infrastructure as Code": 1
+      },
+      {
+        "Cloud Native Architecture": 1
+      },
+      {
+        "Terraform": 1
+      },
+      {
+        "CircleCI": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "jicHwdIcRPA",
+        "title": "Tom Hipwell @Bulb - Using Terraform and CircleCI for the continuous delivery of cloud infrastructure",
+        "youtube_url": "https://www.youtube.com/watch?v=jicHwdIcRPA",
+        "duration": 921,
+        "upload_date": "20191005"
+      }
+    ]
+  },
+  {
+    "name": "William Louth",
+    "video_count": 1,
+    "topics": [
+      {
+        "Observability": 1
+      },
+      {
+        "DevOps": 1
+      },
+      {
+        "Microservices": 1
+      },
+      {
+        "Containers": 1
+      },
+      {
+        "Event Architecture": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "eg4ng7DC_4Q",
+        "title": "William Louth @ Instana - Observability in Context",
+        "youtube_url": "https://www.youtube.com/watch?v=eg4ng7DC_4Q",
+        "duration": 1271,
+        "upload_date": "20190820"
+      }
+    ]
+  },
+  {
+    "name": "Alex Chircop",
+    "video_count": 1,
+    "topics": [
+      {
+        "Cloud-native storage": 1
+      },
+      {
+        "Kubernetes": 1
+      },
+      {
+        "CNCF Storage SIG": 1
+      },
+      {
+        "Application-centric storage": 1
+      },
+      {
+        "Declarative storage": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "kWDmVQgR38Y",
+        "title": "Alex Chircop - Founder and CTO @ StorageOS - Understanding the Cloud Native Storage Landscape",
+        "youtube_url": "https://www.youtube.com/watch?v=kWDmVQgR38Y",
+        "duration": 1358,
+        "upload_date": "20190820"
+      }
+    ]
+  },
+  {
+    "name": "Suhail Patel",
+    "video_count": 1,
+    "topics": [
+      {
+        "Estrace tool usage": 1
+      },
+      {
+        "Kubernetes in banking": 1
+      },
+      {
+        "DevOps and platform engineering": 1
+      },
+      {
+        "Monzo banking platform": 1
+      },
+      {
+        "Infrastructure as code": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "TEeDGfjUNgY",
+        "title": "Suhail Patel @ Monzo - Using Envoy as a Service Proxy",
+        "youtube_url": "https://www.youtube.com/watch?v=TEeDGfjUNgY",
+        "duration": 1658,
+        "upload_date": "20190724"
+      }
+    ]
+  },
+  {
+    "name": "Matt Canty",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps philosophy": 1
+      },
+      {
+        "Infrastructure as Code": 1
+      },
+      {
+        "AWS migration": 1
+      },
+      {
+        "Terraform": 1
+      },
+      {
+        "Continuous Deployment": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "hrAJzP0km6c",
+        "title": "Matt Canty @ Tandem Bank - Tandem\u2019s Infrastructure Pipeline",
+        "youtube_url": "https://www.youtube.com/watch?v=hrAJzP0km6c",
+        "duration": 1424,
+        "upload_date": "20190724"
+      }
+    ]
+  },
+  {
+    "name": "Allistair Crossley",
+    "video_count": 1,
+    "topics": [
+      {
+        "Fintech startup journey": 1
+      },
+      {
+        "Regulated financial technology": 1
+      },
+      {
+        "Banking-as-a-service partnerships": 1
+      },
+      {
+        "Database architecture decisions": 1
+      },
+      {
+        "Tax automation and compliance": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "ix3avlj0R2M",
+        "title": "Allistair Crossley @ Coconut - Coconut's Technology Story 1.5 Years On, In a Nutshell",
+        "youtube_url": "https://www.youtube.com/watch?v=ix3avlj0R2M",
+        "duration": 1508,
+        "upload_date": "20190724"
+      }
+    ]
+  },
+  {
+    "name": "Jez McKingley",
+    "video_count": 1,
+    "topics": [
+      {
+        "Ansible evolution": 1
+      },
+      {
+        "Include mechanisms in Ansible": 1
+      },
+      {
+        "Declarative configuration": 1
+      },
+      {
+        "Agentless architecture": 1
+      },
+      {
+        "Playbooks and roles": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "5DsgOPXftTo",
+        "title": "Jez McKingley - Refactoring in Ansible #DOXMOUTH",
+        "youtube_url": "https://www.youtube.com/watch?v=5DsgOPXftTo",
+        "duration": 922,
+        "upload_date": "20190715"
+      }
+    ]
+  },
+  {
+    "name": "Andrei Butnaru",
+    "video_count": 1,
+    "topics": [
+      {
+        "Product Security": 1
+      },
+      {
+        "Continuous Integration": 1
+      },
+      {
+        "Automation in Security": 1
+      },
+      {
+        "OWASP ZAP": 1
+      },
+      {
+        "Security Testing": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "wES7kElR1WI",
+        "title": "Andrei Butnaru - Security and Automation - DOXMOUTH",
+        "youtube_url": "https://www.youtube.com/watch?v=wES7kElR1WI",
+        "duration": 936,
+        "upload_date": "20190715"
+      }
+    ]
+  },
+  {
+    "name": "Tom Clark",
+    "video_count": 1,
+    "topics": [
+      {
+        "ITV Digital Transformation": 1
+      },
+      {
+        "Legacy Systems Challenges": 1
+      },
+      {
+        "COBOL and Mainframe Issues": 1
+      },
+      {
+        "DevOps Adoption": 1
+      },
+      {
+        "Content Platform Modernization": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "6-fuPBnoljs",
+        "title": "Tom Clark - Head of Common Platform @ ITV - ITV's Common Platform v2",
+        "youtube_url": "https://www.youtube.com/watch?v=6-fuPBnoljs",
+        "duration": 1965,
+        "upload_date": "20190622"
+      }
+    ]
+  },
+  {
+    "name": "Daniel Caballero Rodriguez",
+    "video_count": 1,
+    "topics": [
+      {
+        "Infrastructure as Code": 1
+      },
+      {
+        "Edge Cloud": 1
+      },
+      {
+        "DevOps": 1
+      },
+      {
+        "Kubernetes": 1
+      },
+      {
+        "Cloud Infrastructure Management": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "Yp9YdscJ2eg",
+        "title": "Daniel Caballero Rodriguez - Senior SRE @ Fastly - Infrastructure as Code or as Configuration?",
+        "youtube_url": "https://www.youtube.com/watch?v=Yp9YdscJ2eg",
+        "duration": 1793,
+        "upload_date": "20190622"
+      }
+    ]
+  },
+  {
+    "name": "David Blooman",
+    "video_count": 1,
+    "topics": [
+      {
+        "Kubernetes adoption": 1
+      },
+      {
+        "Amazon EKS": 1
+      },
+      {
+        "Platform scalability": 1
+      },
+      {
+        "Container orchestration": 1
+      },
+      {
+        "AWS IAM and ALB integration": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "bu-eSmHZ-Y4",
+        "title": "David Blooman - Platform Engineer @ Depop - Kubernetes on EKS: The first 6 months",
+        "youtube_url": "https://www.youtube.com/watch?v=bu-eSmHZ-Y4",
+        "duration": 1011,
+        "upload_date": "20190622"
+      }
+    ]
+  },
+  {
+    "name": "Dan Potepa",
+    "video_count": 1,
+    "topics": [
+      {
+        "Tech Stack Evolution": 1
+      },
+      {
+        "CockroachDB Implementation": 1
+      },
+      {
+        "Tillsystem Deployment": 1
+      },
+      {
+        "Global Expansion": 1
+      },
+      {
+        "Kubernetes & GCP": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "DisB0H4SzL4",
+        "title": "Dan Potepa - Learnings from LUSH - DevOps Engineer - LUSH #DOXMOUTH",
+        "youtube_url": "https://www.youtube.com/watch?v=DisB0H4SzL4",
+        "duration": 1360,
+        "upload_date": "20190529"
+      }
+    ]
+  },
+  {
+    "name": "Tass Skoudros",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps Security": 1
+      },
+      {
+        "Agile Development": 1
+      },
+      {
+        "GDPR Compliance": 1
+      },
+      {
+        "Infrastructure Security": 1
+      },
+      {
+        "Software Development Practices": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "jl9KClTh19U",
+        "title": "Tass Skoudros - Security as a shared responsibility - Managing Director - Servana",
+        "youtube_url": "https://www.youtube.com/watch?v=jl9KClTh19U",
+        "duration": 1634,
+        "upload_date": "20190528"
+      }
+    ]
+  },
+  {
+    "name": "Lee Stacey",
+    "video_count": 1,
+    "topics": [
+      {
+        "IoT Connectivity Solutions": 1
+      },
+      {
+        "Industry 4.0": 1
+      },
+      {
+        "Enterprise IoT Adoption": 1
+      },
+      {
+        "IoT Security": 1
+      },
+      {
+        "Global IoT Market Trends": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "x-eaLvxDOPg",
+        "title": "Lee Stacey - Truth, Lies, and IoT - Product Evangelist for Thingstream",
+        "youtube_url": "https://www.youtube.com/watch?v=x-eaLvxDOPg",
+        "duration": 1181,
+        "upload_date": "20190528"
+      }
+    ]
+  },
+  {
+    "name": "Alessandro De Maria",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps Tooling": 1
+      },
+      {
+        "Kubernetes": 1
+      },
+      {
+        "Infrastructure as Code": 1
+      },
+      {
+        "Legacy Systems": 1
+      },
+      {
+        "Engineering Culture": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "7kFXs5moQjk",
+        "title": "Alessandro De Maria @ Synthace - Introducing Kapitan into your startup",
+        "youtube_url": "https://www.youtube.com/watch?v=7kFXs5moQjk",
+        "duration": 1658,
+        "upload_date": "20190516"
+      }
+    ]
+  },
+  {
+    "name": "Phil Thompson",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps culture": 1
+      },
+      {
+        "Enterprise transformation": 1
+      },
+      {
+        "Agile methodology critique": 1
+      },
+      {
+        "Development vs Operations collaboration": 1
+      },
+      {
+        "Organizational silos": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "ewpSNzoPxo4",
+        "title": "Phil Thompson @ Bloomberg - The challenge for DevOps isn't Dev, and it isn't Ops either",
+        "youtube_url": "https://www.youtube.com/watch?v=ewpSNzoPxo4",
+        "duration": 1128,
+        "upload_date": "20190516"
+      }
+    ]
+  },
+  {
+    "name": "Daniela Petruzalek",
+    "video_count": 1,
+    "topics": [
+      {
+        "Go programming language": 1
+      },
+      {
+        "Terminal modes (cooked, raw, c-break)": 1
+      },
+      {
+        "ANSI escape sequences": 1
+      },
+      {
+        "Game development tutorial": 1
+      },
+      {
+        "Open source project": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "r-ur2Go4-vU",
+        "title": "Daniela Petruzalek @ GoCardless - Pac Man from Scratch",
+        "youtube_url": "https://www.youtube.com/watch?v=r-ur2Go4-vU",
+        "duration": 1169,
+        "upload_date": "20190516"
+      }
+    ]
+  },
+  {
+    "name": "Sonya Moisset",
+    "video_count": 1,
+    "topics": [
+      {
+        "Cybersecurity Fundamentals": 1
+      },
+      {
+        "Secure CI/CD Pipelines": 1
+      },
+      {
+        "Web Application Security": 1
+      },
+      {
+        "OWASP Guidelines": 1
+      },
+      {
+        "Secure Software Development Lifecycle (SDLC)": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "0o9ka-Jqog4",
+        "title": "Sonya Moisset - Security Engineer @ Pride in London - Keep calm and secure your CI/CD pipeline",
+        "youtube_url": "https://www.youtube.com/watch?v=0o9ka-Jqog4",
+        "duration": 1047,
+        "upload_date": "20190411"
+      }
+    ]
+  },
+  {
+    "name": "Yitian Xu",
+    "video_count": 1,
+    "topics": [
+      {
+        "Multi-cloud strategy": 1
+      },
+      {
+        "Vendor lock-in avoidance": 1
+      },
+      {
+        "Cloud cost optimization": 1
+      },
+      {
+        "Cloud-native applications": 1
+      },
+      {
+        "Kubernetes and Docker": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "K1EfMmFvUKA",
+        "title": "Yitian Xu - Solution Architect @ Alibaba Cloud UK - Multi-Cloud Enablement",
+        "youtube_url": "https://www.youtube.com/watch?v=K1EfMmFvUKA",
+        "duration": 1115,
+        "upload_date": "20190411"
+      }
+    ]
+  },
+  {
+    "name": "Chris Evans",
+    "video_count": 1,
+    "topics": [
+      {
+        "Incident Management": 1
+      },
+      {
+        "Slack Integration": 1
+      },
+      {
+        "Engineering Culture": 1
+      },
+      {
+        "Automation Tools": 1
+      },
+      {
+        "Customer Operations": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "lsdvJBU3thw",
+        "title": "Chris Evans - Platform Team Lead @ Monzo - Managing Incidents at Monzo",
+        "youtube_url": "https://www.youtube.com/watch?v=lsdvJBU3thw",
+        "duration": 886,
+        "upload_date": "20190411"
+      }
+    ]
+  },
+  {
+    "name": "Vik Bhatti",
+    "video_count": 1,
+    "topics": [
+      {
+        "Kubernetes adoption challenges": 1
+      },
+      {
+        "Startup infrastructure evolution": 1
+      },
+      {
+        "Elastic Beanstalk limitations": 1
+      },
+      {
+        "Docker and DevOps tooling": 1
+      },
+      {
+        "Scaling engineering teams": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "1QiyT7owDQU",
+        "title": "Vik Bhatti - Head of Infrastructure @ Trussle - To kube or not to kube?",
+        "youtube_url": "https://www.youtube.com/watch?v=1QiyT7owDQU",
+        "duration": 1268,
+        "upload_date": "20190217"
+      }
+    ]
+  },
+  {
+    "name": "Olive Power",
+    "video_count": 1,
+    "topics": [
+      {
+        "Corporate Acquisitions": 1
+      },
+      {
+        "Heptio Company History": 1
+      },
+      {
+        "Kubernetes Ecosystem": 1
+      },
+      {
+        "Startup Growth": 1
+      },
+      {
+        "Open Source Software": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "ML8rfSOi2n0",
+        "title": "Olive Power - Field Engineer @ Heptio - Open Source tooling for taming your Kubernetes wild horses",
+        "youtube_url": "https://www.youtube.com/watch?v=ML8rfSOi2n0",
+        "duration": 1287,
+        "upload_date": "20190217"
+      }
+    ]
+  },
+  {
+    "name": "Marc Cluet",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps adoption challenges": 1
+      },
+      {
+        "DevOps vs ITIL": 1
+      },
+      {
+        "DevOps maturity levels": 1
+      },
+      {
+        "DevOps cost and ROI": 1
+      },
+      {
+        "DevOps workforce and hiring": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "gmBobse_pOo",
+        "title": "Marc Cluet @ DevOpsGroup - The DevOps Journey - How To Get There Painlessly",
+        "youtube_url": "https://www.youtube.com/watch?v=gmBobse_pOo",
+        "duration": 1763,
+        "upload_date": "20181020"
+      }
+    ]
+  },
+  {
+    "name": "Gary Rutland",
+    "video_count": 1,
+    "topics": [
+      {
+        "Infrastructure Re-platforming": 1
+      },
+      {
+        "Container Orchestration": 1
+      },
+      {
+        "Scalability Issues": 1
+      },
+      {
+        "Infrastructure Duplication": 1
+      },
+      {
+        "Cost Optimization": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "zr4JdqVTOqU",
+        "title": "Gary Rutland @ Kobalt Music - Kobalt\u2019s journey into container orchestration",
+        "youtube_url": "https://www.youtube.com/watch?v=zr4JdqVTOqU",
+        "duration": 1642,
+        "upload_date": "20181020"
+      }
+    ]
+  },
+  {
+    "name": "Tom Wilkie",
+    "video_count": 1,
+    "topics": [
+      {
+        "Prometheus monitoring system": 1
+      },
+      {
+        "Kubernetes integration": 1
+      },
+      {
+        "Service discovery": 1
+      },
+      {
+        "Time series data": 1
+      },
+      {
+        "DevOps observability": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "1xigs63DEvs",
+        "title": "Tom Wilkie @ Grafana Labs - Monitoring Kubernetes with Prometheus",
+        "youtube_url": "https://www.youtube.com/watch?v=1xigs63DEvs",
+        "duration": 1629,
+        "upload_date": "20180727"
+      }
+    ]
+  },
+  {
+    "name": "Iain Gray",
+    "video_count": 1,
+    "topics": [
+      {
+        "DevOps in Enterprise": 1
+      },
+      {
+        "Scaling Infrastructure": 1
+      },
+      {
+        "Terraform Modules": 1
+      },
+      {
+        "Startup to Enterprise Growth": 1
+      },
+      {
+        "Automation and Monitoring": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Neutral": 100.0
+    },
+    "videos": [
+      {
+        "id": "VRbjLG9Gim4",
+        "title": "Iain Gray @ Elsevier - The Three-legged Stool - Devops in the Enterprise",
+        "youtube_url": "https://www.youtube.com/watch?v=VRbjLG9Gim4",
+        "duration": 1400,
+        "upload_date": "20180727"
+      }
+    ]
+  },
+  {
+    "name": "Ric Harvey",
+    "video_count": 1,
+    "topics": [
+      {
+        "AWS Fargate": 1
+      },
+      {
+        "Docker in Production": 1
+      },
+      {
+        "ECS (EC2 Container Service)": 1
+      },
+      {
+        "Container Orchestration": 1
+      },
+      {
+        "Infrastructure as Code": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "14z7Es3Vxho",
+        "title": "Ric Harvey - Technical Evangelist @ Amazon - From laptop to production with AWS Fargate",
+        "youtube_url": "https://www.youtube.com/watch?v=14z7Es3Vxho",
+        "duration": 1785,
+        "upload_date": "20180429"
+      }
+    ]
+  },
+  {
+    "name": "Serhat Can",
+    "video_count": 1,
+    "topics": [
+      {
+        "On-Call Duty": 1
+      },
+      {
+        "Alert Fatigue": 1
+      },
+      {
+        "Employee Well-being": 1
+      },
+      {
+        "Incident Management": 1
+      },
+      {
+        "Kubernetes Operations": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "MMJqO0VAkls",
+        "title": "Serhat Can - SWE @ OpsGenie - Key steps towards building a healthy on-call culture",
+        "youtube_url": "https://www.youtube.com/watch?v=MMJqO0VAkls",
+        "duration": 790,
+        "upload_date": "20180429"
+      }
+    ]
+  },
+  {
+    "name": "Minimum Viable Docker",
+    "video_count": 1,
+    "topics": [
+      {
+        "Docker in Production": 1
+      },
+      {
+        "Microservices Architecture": 1
+      },
+      {
+        "AI in Healthcare": 1
+      },
+      {
+        "DevOps Practices": 1
+      },
+      {
+        "Infrastructure Without Orchestration": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "0BAfoEjKLC8",
+        "title": "Minimum Viable Docker: our journey towards orchestration - Jeremie Vallee",
+        "youtube_url": "https://www.youtube.com/watch?v=0BAfoEjKLC8",
+        "duration": 1093,
+        "upload_date": "20170728"
+      }
+    ]
+  },
+  {
+    "name": "Wojtek Oledzki",
+    "video_count": 1,
+    "topics": [
+      {
+        "AWS CodeBuild": 1
+      },
+      {
+        "CI/CD Pipelines": 1
+      },
+      {
+        "CodeCommit": 1
+      },
+      {
+        "CodePipeline": 1
+      },
+      {
+        "DevOps Automation": 1
+      }
+    ],
+    "sentiment_distribution": {
+      "Positive": 100.0
+    },
+    "videos": [
+      {
+        "id": "pQFGuS6-WUI",
+        "title": "#DOXLON Wojtek Oledzki: AWS CodeBuild \u2013 the fully managed CI you\u2019ve been waiting for",
+        "youtube_url": "https://www.youtube.com/watch?v=pQFGuS6-WUI",
+        "duration": 1056,
+        "upload_date": "20170601"
+      }
+    ]
+  }
+]

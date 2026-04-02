@@ -1,0 +1,3422 @@
+[
+  {
+    "id": "zM_4If5e5OQ",
+    "title": "How to build a Docker Monitoring Solution- Alex Dias - DevOps at Outlyer",
+    "youtube_url": "https://www.youtube.com/watch?v=zM_4If5e5OQ",
+    "upload_date": "20170526",
+    "channel": "The Exchange",
+    "summary": "Alex, a senior developer at Altair, presents how the company built its Docker monitoring solution. The system uses an agent that can be deployed via Docker or as a process agent to collect metrics fro...",
+    "topics": [
+      "Docker monitoring",
+      "Monitoring agents",
+      "Containerization",
+      "Metrics collection",
+      "Database scalability"
+    ]
+  },
+  {
+    "id": "QXNiUg1p8D4",
+    "title": "Using Alexa to deploy applications to Kubernetes- Renan Dias, DevOps Engineer at Flypay",
+    "youtube_url": "https://www.youtube.com/watch?v=QXNiUg1p8D4",
+    "upload_date": "20170530",
+    "channel": "The Exchange",
+    "summary": "Renan, a DevOps Engineer at FlyPay, presents a session on integrating artificial intelligence with DevOps workflows. He highlights the challenge of manually deploying or rolling back software when rem...",
+    "topics": [
+      "DevOps Automation",
+      "Voice Commands in CI/CD",
+      "Amazon Alexa Integration",
+      "Jenkins Deployment",
+      "Kubernetes"
+    ]
+  },
+  {
+    "id": "pQFGuS6-WUI",
+    "title": "#DOXLON Wojtek Oledzki: AWS CodeBuild \u2013 the fully managed CI you\u2019ve been waiting for",
+    "youtube_url": "https://www.youtube.com/watch?v=pQFGuS6-WUI",
+    "upload_date": "20170601",
+    "channel": "The Exchange",
+    "summary": "The speaker introduces AWS CodeBuild, CodePipeline, and CodeCommit as part of a live demo session, acknowledging that demos rarely go as planned. They begin by polling the audience on familiarity with...",
+    "topics": [
+      "AWS CodeBuild",
+      "CI/CD Pipelines",
+      "CodeCommit",
+      "CodePipeline",
+      "DevOps Automation"
+    ]
+  },
+  {
+    "id": "8FMSXdD81zw",
+    "title": "Containing Elsevier's World Using HashiCorp Nomad - James Rasell",
+    "youtube_url": "https://www.youtube.com/watch?v=8FMSXdD81zw",
+    "upload_date": "20170703",
+    "channel": "The Exchange",
+    "summary": "The speaker, a principal engineer at Elzavier, presents a demo of Hashtag Group Nomad, a platform designed to support 100 distinct development teams, each needing to run their own Kubernetes or Nomad ...",
+    "topics": [
+      "Infrastructure as Code",
+      "Nomad vs Kubernetes",
+      "Terraform Modules",
+      "DevOps Automation",
+      "Multi-team Platform"
+    ]
+  },
+  {
+    "id": "k_KjnnXr2qo",
+    "title": "Webscale in 15 days - Graeme Forbes",
+    "youtube_url": "https://www.youtube.com/watch?v=k_KjnnXr2qo",
+    "upload_date": "20170703",
+    "channel": "The Exchange",
+    "summary": "The speaker recounts their whirlwind career journey, from building networks for special schools to working at the BBC, then moving into cloud and automation projects. They describe being thrust into a...",
+    "topics": [
+      "Career progression",
+      "Laravel",
+      "AWS",
+      "15-day project deadline",
+      "Tech stack"
+    ]
+  },
+  {
+    "id": "s4qasWn_mFc",
+    "title": "Istio and Kubernetes - Kelsey Hightower",
+    "youtube_url": "https://www.youtube.com/watch?v=s4qasWn_mFc",
+    "upload_date": "20170703",
+    "channel": "The Exchange",
+    "summary": "The speaker introduces Kubernetes and Istio as key components in modern platform development, emphasizing that while Docker enables consistent app packaging, Kubernetes manages deployment across machi...",
+    "topics": [
+      "Kubernetes",
+      "Istio",
+      "Sidecar Pattern",
+      "Containerization",
+      "Platform-as-a-Service"
+    ]
+  },
+  {
+    "id": "0BAfoEjKLC8",
+    "title": "Minimum Viable Docker: our journey towards orchestration - Jeremie Vallee",
+    "youtube_url": "https://www.youtube.com/watch?v=0BAfoEjKLC8",
+    "upload_date": "20170728",
+    "channel": "The Exchange",
+    "summary": "Jeremy from Babylon Health presents how the company has managed to run Dockerized microservices in production without relying on orchestration tools, emphasizing their focus on affordability and acces...",
+    "topics": [
+      "Docker in Production",
+      "Microservices Architecture",
+      "AI in Healthcare",
+      "DevOps Practices",
+      "Infrastructure Without Orchestration"
+    ]
+  },
+  {
+    "id": "J1Gdi5sy0uI",
+    "title": "Ops is dead. Long live Ops - Frederico Fregosi",
+    "youtube_url": "https://www.youtube.com/watch?v=J1Gdi5sy0uI",
+    "upload_date": "20170728",
+    "channel": "The Exchange",
+    "summary": "Fridaricon, Lead Scythe IoT Engineer DevOps at Curve, opens with a candid reflection on his dual role: half DevOps, half explaining what 'Scythe IoT Engineer' even means. He sets the stage by introduc...",
+    "topics": [
+      "DevOps",
+      "Fintech",
+      "Serverless Architecture",
+      "AWS Lambda",
+      "Startup Engineering"
+    ]
+  },
+  {
+    "id": "wZ1PECH_cfM",
+    "title": "Packaging microservices with nix - Jonas Chevalier",
+    "youtube_url": "https://www.youtube.com/watch?v=wZ1PECH_cfM",
+    "upload_date": "20170728",
+    "channel": "The Exchange",
+    "summary": "Jonas, also known as Zimbati M, opens his talk by surveying the audience, noting that 80% use Dockerfiles while only one person uses Nix. He shares his personal journey of quitting his job to become a...",
+    "topics": [
+      "Nix build system",
+      "Dockerfile alternatives",
+      "Reproducible builds",
+      "Package management",
+      "CI/CD with Nix"
+    ]
+  },
+  {
+    "id": "Dpt6UKa3kKE",
+    "title": "Building a Resilient VPC Transit Network using BGP, Cisco CSR, Terraform and Packer - Richard Clark",
+    "youtube_url": "https://www.youtube.com/watch?v=Dpt6UKa3kKE",
+    "upload_date": "20170904",
+    "channel": "The Exchange",
+    "summary": "The speaker, who joined Depop about 16 months prior, discusses the company\u2019s technical infrastructure and the challenges they faced with their legacy AWS architecture. Depop, a social marketplace focu...",
+    "topics": [
+      "Depop's technical infrastructure",
+      "AWS architecture evolution",
+      "Network design challenges",
+      "Microservices vs. monolith",
+      "Infrastructure as Code"
+    ]
+  },
+  {
+    "id": "rN7G_WS1koI",
+    "title": "Fun with SSL - Graeme Forbes",
+    "youtube_url": "https://www.youtube.com/watch?v=rN7G_WS1koI",
+    "upload_date": "20170904",
+    "channel": "The Exchange",
+    "summary": "The speaker outlines the challenges of implementing secure, scalable development workflows in a large public organization during the early 2000s, particularly around 2008. They describe the need for a...",
+    "topics": [
+      "SSL negotiation",
+      "Client certificates",
+      "Open-source development tools",
+      "Certificate revocation lists (CRLs)",
+      "Jenkins and Hudson"
+    ]
+  },
+  {
+    "id": "xAXC-cW32jI",
+    "title": "What does next-gen monitoring look like? - Owain Perry",
+    "youtube_url": "https://www.youtube.com/watch?v=xAXC-cW32jI",
+    "upload_date": "20170904",
+    "channel": "The Exchange",
+    "summary": "The speaker, a new employee at Justi, opens with a candid note that this isn't a traditional tech demo but rather a reflective and exploratory talk about the future of monitoring in their environment....",
+    "topics": [
+      "Monitoring Systems",
+      "GDPR Compliance",
+      "PCI Data Security",
+      "Role-Based Access Control",
+      "Multi-Region Data Replication"
+    ]
+  },
+  {
+    "id": "3h4Q038kLE8",
+    "title": "Nic Ferrier, DevOps Lead: I'm a hacker and work is weird...",
+    "youtube_url": "https://www.youtube.com/watch?v=3h4Q038kLE8",
+    "upload_date": "20171201",
+    "channel": "The Exchange",
+    "summary": "The speaker recounts a humorous anecdote from their time at ThoughtWorks, where they introduced a more candid and less formal approach to running retrospectives (Retros) to counteract the cynicism of ...",
+    "topics": [
+      "Retrospectives",
+      "Team Dynamics",
+      "Communication in Agile",
+      "Hacker Culture",
+      "Stephen Levy's 'Hackers'"
+    ]
+  },
+  {
+    "id": "PLkhuceiOdM",
+    "title": "Henrique Rodrigues, Lead DevOps @ Reevoo: Making operational change easy",
+    "youtube_url": "https://www.youtube.com/watch?v=PLkhuceiOdM",
+    "upload_date": "20171201",
+    "channel": "The Exchange",
+    "summary": "Henrikja Rodriguez, Lead DevOps Engineer at ReVue, opens his talk by acknowledging the audience\u2019s patience and setting the stage for a discussion on making operational change easier. He emphasizes tha...",
+    "topics": [
+      "Operational Change",
+      "DevOps Mindset",
+      "Continuous Delivery",
+      "Infrastructure as Code",
+      "Self-Healing Systems"
+    ]
+  },
+  {
+    "id": "f69zzVXawek",
+    "title": "Steven Armstrong, Principal DevOps Automation Engineer @ Paddy Power Betfair: Everything as code",
+    "youtube_url": "https://www.youtube.com/watch?v=f69zzVXawek",
+    "upload_date": "20180126",
+    "channel": "The Exchange",
+    "summary": "The speaker, a Scottish solution architect and author of 'DevOps for Networking,' is transitioning to a new role at Just Eat Tomorrow. They emphasize the importance of cross-team buy-in when implement...",
+    "topics": [
+      "DevOps",
+      "Infrastructure as Code",
+      "Immutable Infrastructure",
+      "Continuous Integration",
+      "Network Automation"
+    ]
+  },
+  {
+    "id": "oJsktAEhH3g",
+    "title": "Jiri Tyr & Vladimir Babichev @ Motion Picture Solutions: Make the prompt great again",
+    "youtube_url": "https://www.youtube.com/watch?v=oJsktAEhH3g",
+    "upload_date": "20180126",
+    "channel": "The Exchange",
+    "summary": "Geret and Vladimir introduce GBT (Go Bullet Train), a new shell prompt framework written in Go to address the performance issues of traditional shell frameworks like Bash and ZSH. They argue that whil...",
+    "topics": [
+      "GBT (Go Bullet Train)",
+      "Shell Prompt Optimization",
+      "Go Language Performance",
+      "Terminal Customization",
+      "Termux on Android"
+    ]
+  },
+  {
+    "id": "xPv-gNkATUU",
+    "title": "Yifan Zhao, Tech Lead @ Improbable: OpenTracing: An Improbable series of events",
+    "youtube_url": "https://www.youtube.com/watch?v=xPv-gNkATUU",
+    "upload_date": "20180428",
+    "channel": "The Exchange",
+    "summary": "Ethan from Improblem, tech lead of the internal platform team, presents on the adoption and use of Open Tracing within their infrastructure. He introduces SpecialS, a distributed operating platform de...",
+    "topics": [
+      "Open Tracing",
+      "Distributed Systems",
+      "Microservices",
+      "SpecialS Platform",
+      "Distributed Tracing"
+    ]
+  },
+  {
+    "id": "x_jiYsUcghA",
+    "title": "Richard Marshall, Head of Platform @ Wealth Wizards: Life with kube, warts\u2019n\u2019all",
+    "youtube_url": "https://www.youtube.com/watch?v=x_jiYsUcghA",
+    "upload_date": "20180428",
+    "channel": "The Exchange",
+    "summary": "Richard Marshall, Head of Platform at Wealth Wizards, shares insights from his 18-month collaboration with CUBE, Contains, and Marksos. Based in Lemmington, Midlands, he humorously acknowledges the sn...",
+    "topics": [
+      "FinTech",
+      "Robot Advisors",
+      "Microservices",
+      "Kubernetes",
+      "CUBE Platform"
+    ]
+  },
+  {
+    "id": "yGHd1JKf1qU",
+    "title": "Tom Clark, Head of Common Platform @ ITV: Are you happy at work?",
+    "youtube_url": "https://www.youtube.com/watch?v=yGHd1JKf1qU",
+    "upload_date": "20180428",
+    "channel": "The Exchange",
+    "summary": "Tom Clark, Head of Tom Platform at ITV, opens his talk with a lighthearted tone, thanking the audience for attending a rare prime-time session without ads. He introduces himself with a humorous recoun...",
+    "topics": [
+      "Workplace happiness",
+      "Career journey",
+      "ITV corporate culture",
+      "Management structure",
+      "High performance"
+    ]
+  },
+  {
+    "id": "14z7Es3Vxho",
+    "title": "Ric Harvey - Technical Evangelist @ Amazon - From laptop to production with AWS Fargate",
+    "youtube_url": "https://www.youtube.com/watch?v=14z7Es3Vxho",
+    "upload_date": "20180429",
+    "channel": "The Exchange",
+    "summary": "The speaker delivers a live, slide-free talk on deploying Docker applications in production using AWS Fargate. They highlight Fargate\u2019s key advantage: eliminating the need for users to manage underlyi...",
+    "topics": [
+      "AWS Fargate",
+      "Docker in Production",
+      "ECS (EC2 Container Service)",
+      "Container Orchestration",
+      "Infrastructure as Code"
+    ]
+  },
+  {
+    "id": "MMJqO0VAkls",
+    "title": "Serhat Can - SWE @ OpsGenie - Key steps towards building a healthy on-call culture",
+    "youtube_url": "https://www.youtube.com/watch?v=MMJqO0VAkls",
+    "upload_date": "20180429",
+    "channel": "The Exchange",
+    "summary": "Serthat from Obsini delivers a thoughtful talk on improving on-call practices in tech and beyond, emphasizing the human cost of constant alert fatigue. They begin by acknowledging the widespread, ofte...",
+    "topics": [
+      "On-Call Duty",
+      "Alert Fatigue",
+      "Employee Well-being",
+      "Incident Management",
+      "Kubernetes Operations"
+    ]
+  },
+  {
+    "id": "Mu_hx8M4fzM",
+    "title": "Mika Bostr\u00f6m - Head of Infrastr & Security @ Smarkets - Usability lessons",
+    "youtube_url": "https://www.youtube.com/watch?v=Mu_hx8M4fzM",
+    "upload_date": "20180429",
+    "channel": "The Exchange",
+    "summary": "Mika, representing a gambling company, opens her talk with a humorous and self-deprecating tone, admitting she was called in last minute and went 'wild' with the content. She references the phrase 'Bu...",
+    "topics": [
+      "DevOps philosophy",
+      "Usability vs Security",
+      "Gambling industry tech",
+      "Tooling for engineers",
+      "User experience in enterprise software"
+    ]
+  },
+  {
+    "id": "1xigs63DEvs",
+    "title": "Tom Wilkie @ Grafana Labs - Monitoring Kubernetes with Prometheus",
+    "youtube_url": "https://www.youtube.com/watch?v=1xigs63DEvs",
+    "upload_date": "20180727",
+    "channel": "The Exchange",
+    "summary": "Tom Wilkie, VP Product at Confiant Labs, kicks off his DevOps Exchange talk with a light-hearted introduction, acknowledging his new role and modest social media growth. He sets the stage by polling t...",
+    "topics": [
+      "Prometheus monitoring system",
+      "Kubernetes integration",
+      "Service discovery",
+      "Time series data",
+      "DevOps observability"
+    ]
+  },
+  {
+    "id": "VRbjLG9Gim4",
+    "title": "Iain Gray @ Elsevier - The Three-legged Stool - Devops in the Enterprise",
+    "youtube_url": "https://www.youtube.com/watch?v=VRbjLG9Gim4",
+    "upload_date": "20180727",
+    "channel": "The Exchange",
+    "summary": "Ian, an Ops Manager at Elspir, opens his talk by reflecting on his long career in IT, dating back to the era of floppy disks, and introduces his team\u2019s mission: building reusable, open-source Terrafor...",
+    "topics": [
+      "DevOps in Enterprise",
+      "Scaling Infrastructure",
+      "Terraform Modules",
+      "Startup to Enterprise Growth",
+      "Automation and Monitoring"
+    ]
+  },
+  {
+    "id": "k99Ax9ztZlI",
+    "title": "Ali Aktar & Irfan Ansari @ ApplyingAgile - Its not all about Kubernetes",
+    "youtube_url": "https://www.youtube.com/watch?v=k99Ax9ztZlI",
+    "upload_date": "20180727",
+    "channel": "The Exchange",
+    "summary": "Ali Aqta, a DevOps practitioner with experience in Java, Groovy, and Scala, introduces a team focused on cloud and DevOps automation using HashiStack tools on Google Cloud Platform (GCP). The talk aim...",
+    "topics": [
+      "HashiStack",
+      "DevOps",
+      "Infrastructure as Code",
+      "Google Cloud Platform",
+      "Terraform"
+    ]
+  },
+  {
+    "id": "FvKQP7Qnfuc",
+    "title": "Eirik Albrigtsen & Branden Faulls @ Babylon Health - Leveraging Kubernetes for global scale",
+    "youtube_url": "https://www.youtube.com/watch?v=FvKQP7Qnfuc",
+    "upload_date": "20181020",
+    "channel": "The Exchange",
+    "summary": "Brandon Falls, newly appointed Head of Platform Engineering at Babylon Health, introduces the company\u2019s mission to make healthcare globally accessible and affordable through digital innovation. He hig...",
+    "topics": [
+      "Healthcare technology",
+      "Telemedicine",
+      "AI in healthcare",
+      "Global healthcare access",
+      "Scalability in tech"
+    ]
+  },
+  {
+    "id": "gmBobse_pOo",
+    "title": "Marc Cluet @ DevOpsGroup - The DevOps Journey - How To Get There Painlessly",
+    "youtube_url": "https://www.youtube.com/watch?v=gmBobse_pOo",
+    "upload_date": "20181020",
+    "channel": "The Exchange",
+    "summary": "Mark, originally from Barcelona and self-declared alcoholic, opens his talk with a humorous disclaimer about being the last speaker, then dives into his extensive DevOps journey since 2009. He recount...",
+    "topics": [
+      "DevOps adoption challenges",
+      "DevOps vs ITIL",
+      "DevOps maturity levels",
+      "DevOps cost and ROI",
+      "DevOps workforce and hiring"
+    ]
+  },
+  {
+    "id": "zr4JdqVTOqU",
+    "title": "Gary Rutland @ Kobalt Music - Kobalt\u2019s journey into container orchestration",
+    "youtube_url": "https://www.youtube.com/watch?v=zr4JdqVTOqU",
+    "upload_date": "20181020",
+    "channel": "The Exchange",
+    "summary": "Gary from Cobalt opens his talk by apologizing for the title confusion, clarifying that while the session will touch on container orchestration, it\u2019s part of a broader infrastructure re-platforming in...",
+    "topics": [
+      "Infrastructure Re-platforming",
+      "Container Orchestration",
+      "Scalability Issues",
+      "Infrastructure Duplication",
+      "Cost Optimization"
+    ]
+  },
+  {
+    "id": "1QiyT7owDQU",
+    "title": "Vik Bhatti - Head of Infrastructure @ Trussle - To kube or not to kube?",
+    "youtube_url": "https://www.youtube.com/watch?v=1QiyT7owDQU",
+    "upload_date": "20190217",
+    "channel": "The Exchange",
+    "summary": "Vic, Head of Infrastructure at Trustle, opens his talk by acknowledging his recent arrival at the company and that much of his content is based on learning from others. He humorously admits his love f...",
+    "topics": [
+      "Kubernetes adoption challenges",
+      "Startup infrastructure evolution",
+      "Elastic Beanstalk limitations",
+      "Docker and DevOps tooling",
+      "Scaling engineering teams"
+    ]
+  },
+  {
+    "id": "ML8rfSOi2n0",
+    "title": "Olive Power - Field Engineer @ Heptio - Open Source tooling for taming your Kubernetes wild horses",
+    "youtube_url": "https://www.youtube.com/watch?v=ML8rfSOi2n0",
+    "upload_date": "20190217",
+    "channel": "The Exchange",
+    "summary": "Olive Power, formerly of Red Hat, opens her talk by reflecting on the whirlwind of corporate acquisitions she experienced in the past year, including narrowly avoiding one and then being acquired hers...",
+    "topics": [
+      "Corporate Acquisitions",
+      "Heptio Company History",
+      "Kubernetes Ecosystem",
+      "Startup Growth",
+      "Open Source Software"
+    ]
+  },
+  {
+    "id": "0o9ka-Jqog4",
+    "title": "Sonya Moisset - Security Engineer @ Pride in London - Keep calm and secure your CI/CD pipeline",
+    "youtube_url": "https://www.youtube.com/watch?v=0o9ka-Jqog4",
+    "upload_date": "20190411",
+    "channel": "The Exchange",
+    "summary": "Sonia, a security engineer, kicks off a talk on securing CI/CD pipelines and web application security, emphasizing the shift from 'nice to have' to 'must have' in cybersecurity investments. She refere...",
+    "topics": [
+      "Cybersecurity Fundamentals",
+      "Secure CI/CD Pipelines",
+      "Web Application Security",
+      "OWASP Guidelines",
+      "Secure Software Development Lifecycle (SDLC)"
+    ]
+  },
+  {
+    "id": "2CYRmEt_z38",
+    "title": "Henrique Rodrigues - Principal DevOps @ Direct Line Group  - Best practices considered harmful",
+    "youtube_url": "https://www.youtube.com/watch?v=2CYRmEt_z38",
+    "upload_date": "20190411",
+    "channel": "The Exchange",
+    "summary": "Enrique, a Principal Ops Engineer at Darwin (DLG), opens his talk by humorously positioning himself as an 'insure salesman' while advocating for context-driven best practices in engineering. He critiq...",
+    "topics": [
+      "Best Practices in Engineering",
+      "Scrum vs. Agile",
+      "Monorepo vs. Multi-repo",
+      "Context-Dependent Solutions",
+      "DevOps Culture"
+    ]
+  },
+  {
+    "id": "K1EfMmFvUKA",
+    "title": "Yitian Xu - Solution Architect @ Alibaba Cloud UK - Multi-Cloud Enablement",
+    "youtube_url": "https://www.youtube.com/watch?v=K1EfMmFvUKA",
+    "upload_date": "20190411",
+    "channel": "The Exchange",
+    "summary": "Etienne from Alibaba Cloud introduces the concept of multi-cloud computing, emphasizing its growing importance in enterprise strategy. He highlights key drivers for adopting multi-cloud, including avo...",
+    "topics": [
+      "Multi-cloud strategy",
+      "Vendor lock-in avoidance",
+      "Cloud cost optimization",
+      "Cloud-native applications",
+      "Kubernetes and Docker"
+    ]
+  },
+  {
+    "id": "lsdvJBU3thw",
+    "title": "Chris Evans - Platform Team Lead @ Monzo - Managing Incidents at Monzo",
+    "youtube_url": "https://www.youtube.com/watch?v=lsdvJBU3thw",
+    "upload_date": "20190411",
+    "channel": "The Exchange",
+    "summary": "Chris, Platform Team Lead at Monzo, introduces the team's incident management system, emphasizing that incidents are inevitable but can be managed better. He explains that Monzo treats even minor devi...",
+    "topics": [
+      "Incident Management",
+      "Slack Integration",
+      "Engineering Culture",
+      "Automation Tools",
+      "Customer Operations"
+    ]
+  },
+  {
+    "id": "7kFXs5moQjk",
+    "title": "Alessandro De Maria @ Synthace - Introducing Kapitan into your startup",
+    "youtube_url": "https://www.youtube.com/watch?v=7kFXs5moQjk",
+    "upload_date": "20190516",
+    "channel": "The Exchange",
+    "summary": "Alessandro, head of SRRI at Sindeys, presents the challenges of integrating modern DevOps tooling into a legacy tech environment. He shares his experience transitioning from DeepMind Health to Sindeys...",
+    "topics": [
+      "DevOps Tooling",
+      "Kubernetes",
+      "Infrastructure as Code",
+      "Legacy Systems",
+      "Engineering Culture"
+    ]
+  },
+  {
+    "id": "SR_f1MhFiO4",
+    "title": "Peter Flood & David Edwards @ River Island - DevOps transformation at River Island",
+    "youtube_url": "https://www.youtube.com/watch?v=SR_f1MhFiO4",
+    "upload_date": "20190516",
+    "channel": "The Exchange",
+    "summary": "David Edwards, Solutions Architect at River Ireland, opens with a brief self-introduction alongside Mike, the Services Engineer, setting a casual yet professional tone. He outlines River Ireland\u2019s tra...",
+    "topics": [
+      "River Ireland company history",
+      "Digital transformation in retail",
+      "Waterfall vs Agile methodologies",
+      "Tech debt and system reliability",
+      "Omnichannel business strategy"
+    ]
+  },
+  {
+    "id": "ewpSNzoPxo4",
+    "title": "Phil Thompson @ Bloomberg - The challenge for DevOps isn't Dev, and it isn't Ops either",
+    "youtube_url": "https://www.youtube.com/watch?v=ewpSNzoPxo4",
+    "upload_date": "20190516",
+    "channel": "The Exchange",
+    "summary": "The speaker, who admits to having no background in dev or ops, approaches the topic of DevOps from an outsider\u2019s perspective, drawing from their experience in management consulting and enterprise tran...",
+    "topics": [
+      "DevOps culture",
+      "Enterprise transformation",
+      "Agile methodology critique",
+      "Development vs Operations collaboration",
+      "Organizational silos"
+    ]
+  },
+  {
+    "id": "r-ur2Go4-vU",
+    "title": "Daniela Petruzalek @ GoCardless - Pac Man from Scratch",
+    "youtube_url": "https://www.youtube.com/watch?v=r-ur2Go4-vU",
+    "upload_date": "20190516",
+    "channel": "The Exchange",
+    "summary": "Daniela Petruzalek, a software engineer at Go Cardless and Google Developer Expert in Google Cloud, presents 'Pac-Go' \u2014 a Pac-Man game written in the Go programming language. Designed originally as a ...",
+    "topics": [
+      "Go programming language",
+      "Terminal modes (cooked, raw, c-break)",
+      "ANSI escape sequences",
+      "Game development tutorial",
+      "Open source project"
+    ]
+  },
+  {
+    "id": "jl9KClTh19U",
+    "title": "Tass Skoudros - Security as a shared responsibility - Managing Director - Servana",
+    "youtube_url": "https://www.youtube.com/watch?v=jl9KClTh19U",
+    "upload_date": "20190528",
+    "channel": "The Exchange",
+    "summary": "Tass Goudra, Managing Director of Servana, opens with a brief introduction to his background and the company\u2019s role as a DevOps specialist based in Bournemouth. He emphasizes the critical importance o...",
+    "topics": [
+      "DevOps Security",
+      "Agile Development",
+      "GDPR Compliance",
+      "Infrastructure Security",
+      "Software Development Practices"
+    ]
+  },
+  {
+    "id": "x-eaLvxDOPg",
+    "title": "Lee Stacey - Truth, Lies, and IoT - Product Evangelist for Thingstream",
+    "youtube_url": "https://www.youtube.com/watch?v=x-eaLvxDOPg",
+    "upload_date": "20190528",
+    "channel": "The Exchange",
+    "summary": "The speaker introduces themselves as part of Thingstreme, an IoT connectivity startup based in Bournemouth, spun out of the Swiss company Miriad. They highlight their team\u2019s extensive experience, glob...",
+    "topics": [
+      "IoT Connectivity Solutions",
+      "Industry 4.0",
+      "Enterprise IoT Adoption",
+      "IoT Security",
+      "Global IoT Market Trends"
+    ]
+  },
+  {
+    "id": "DisB0H4SzL4",
+    "title": "Dan Potepa - Learnings from LUSH - DevOps Engineer - LUSH #DOXMOUTH",
+    "youtube_url": "https://www.youtube.com/watch?v=DisB0H4SzL4",
+    "upload_date": "20190529",
+    "channel": "The Exchange",
+    "summary": "The speaker reflects on their team\u2019s progress since a previous talk in December, highlighting how they\u2019ve evolved their tech stack and operational practices. They\u2019ve moved quickly to adopt modern tool...",
+    "topics": [
+      "Tech Stack Evolution",
+      "CockroachDB Implementation",
+      "Tillsystem Deployment",
+      "Global Expansion",
+      "Kubernetes & GCP"
+    ]
+  },
+  {
+    "id": "6-fuPBnoljs",
+    "title": "Tom Clark - Head of Common Platform @ ITV - ITV's Common Platform v2",
+    "youtube_url": "https://www.youtube.com/watch?v=6-fuPBnoljs",
+    "upload_date": "20190622",
+    "channel": "The Exchange",
+    "summary": "Tom Clark, Head of Content Platform at ITV, opens with a lighthearted self-introduction, recounting his 20-year tech career\u2014from a 17-year-old Windows admin at Jaguar to leading ITV\u2019s digital transfor...",
+    "topics": [
+      "ITV Digital Transformation",
+      "Legacy Systems Challenges",
+      "COBOL and Mainframe Issues",
+      "DevOps Adoption",
+      "Content Platform Modernization"
+    ]
+  },
+  {
+    "id": "Yp9YdscJ2eg",
+    "title": "Daniel Caballero Rodriguez - Senior SRE @ Fastly - Infrastructure as Code or as Configuration?",
+    "youtube_url": "https://www.youtube.com/watch?v=Yp9YdscJ2eg",
+    "upload_date": "20190622",
+    "channel": "The Exchange",
+    "summary": "Daniel Caballero, a Sarmut engineer at Fasli (an Edge Cloud provider), opens his talk by acknowledging the previous speakers and setting the stage for his session on Infrastructure as Code (IaC). He c...",
+    "topics": [
+      "Infrastructure as Code",
+      "Edge Cloud",
+      "DevOps",
+      "Kubernetes",
+      "Cloud Infrastructure Management"
+    ]
+  },
+  {
+    "id": "bu-eSmHZ-Y4",
+    "title": "David Blooman - Platform Engineer @ Depop - Kubernetes on EKS: The first 6 months",
+    "youtube_url": "https://www.youtube.com/watch?v=bu-eSmHZ-Y4",
+    "upload_date": "20190622",
+    "channel": "The Exchange",
+    "summary": "Dave Lumin, Platform Engineer at Deepop, shares the company's journey toward adopting Kubernetes, particularly Amazon EKS, to handle its rapidly scaling platform. Deepop, which serves 4 million monthl...",
+    "topics": [
+      "Kubernetes adoption",
+      "Amazon EKS",
+      "Platform scalability",
+      "Container orchestration",
+      "AWS IAM and ALB integration"
+    ]
+  },
+  {
+    "id": "5DsgOPXftTo",
+    "title": "Jez McKingley - Refactoring in Ansible #DOXMOUTH",
+    "youtube_url": "https://www.youtube.com/watch?v=5DsgOPXftTo",
+    "upload_date": "20190715",
+    "channel": "The Exchange",
+    "summary": "The speaker presents a retrospective on how Antiball (likely intended to be Ansible) has evolved over the years, particularly focusing on the use of includes and refactoring code to improve maintainab...",
+    "topics": [
+      "Ansible evolution",
+      "Include mechanisms in Ansible",
+      "Declarative configuration",
+      "Agentless architecture",
+      "Playbooks and roles"
+    ]
+  },
+  {
+    "id": "wES7kElR1WI",
+    "title": "Andrei Butnaru - Security and Automation - DOXMOUTH",
+    "youtube_url": "https://www.youtube.com/watch?v=wES7kElR1WI",
+    "upload_date": "20190715",
+    "channel": "The Exchange",
+    "summary": "The speaker, a product and solution security intern at Zeemons and a student at Bournemouth University, shares their positive experience working in a security-focused enterprise environment. They high...",
+    "topics": [
+      "Product Security",
+      "Continuous Integration",
+      "Automation in Security",
+      "OWASP ZAP",
+      "Security Testing"
+    ]
+  },
+  {
+    "id": "TEeDGfjUNgY",
+    "title": "Suhail Patel @ Monzo - Using Envoy as a Service Proxy",
+    "youtube_url": "https://www.youtube.com/watch?v=TEeDGfjUNgY",
+    "upload_date": "20190724",
+    "channel": "The Exchange",
+    "summary": "The speaker, Sahel, a platform engineer at Monzo, opens with a lighthearted anecdote about estrace, a system tracing tool, and its rumored ban in France \u2014 a myth he investigates and debunks. He uses t...",
+    "topics": [
+      "Estrace tool usage",
+      "Kubernetes in banking",
+      "DevOps and platform engineering",
+      "Monzo banking platform",
+      "Infrastructure as code"
+    ]
+  },
+  {
+    "id": "hrAJzP0km6c",
+    "title": "Matt Canty @ Tandem Bank - Tandem\u2019s Infrastructure Pipeline",
+    "youtube_url": "https://www.youtube.com/watch?v=hrAJzP0km6c",
+    "upload_date": "20190724",
+    "channel": "The Exchange",
+    "summary": "Matt Kancy, a platform engineer at Tandem, delivers a candid and engaging talk on how the company built its infrastructure pipeline without major overhauls. He shares his background as one of Tandem\u2019s...",
+    "topics": [
+      "DevOps philosophy",
+      "Infrastructure as Code",
+      "AWS migration",
+      "Terraform",
+      "Continuous Deployment"
+    ]
+  },
+  {
+    "id": "ix3avlj0R2M",
+    "title": "Allistair Crossley @ Coconut - Coconut's Technology Story 1.5 Years On, In a Nutshell",
+    "youtube_url": "https://www.youtube.com/watch?v=ix3avlj0R2M",
+    "upload_date": "20190724",
+    "channel": "The Exchange",
+    "summary": "Alistair, CTO at Coconut, presents a retrospective on the company\u2019s technology journey over the past 18 months. He outlines how Coconut was built to consolidate six or more tools that self-employed pr...",
+    "topics": [
+      "Fintech startup journey",
+      "Regulated financial technology",
+      "Banking-as-a-service partnerships",
+      "Database architecture decisions",
+      "Tax automation and compliance"
+    ]
+  },
+  {
+    "id": "EIJmYgk6Hjg",
+    "title": "Ionut Craciunescu @ Wealth Wizards  Unblocking the release train with ISTIO Traffic Management",
+    "youtube_url": "https://www.youtube.com/watch?v=EIJmYgk6Hjg",
+    "upload_date": "20190820",
+    "channel": "The Exchange",
+    "summary": "The speaker, representing World Wizard, a fintech company based in Levington Spa, discusses their deployment challenges in a highly regulated environment. Their applications, Mo\u00efva and Zero, are FCA-r...",
+    "topics": [
+      "Microservices Architecture",
+      "FCA Regulation",
+      "Deployment Pipelines",
+      "Istio Service Mesh",
+      "Feature Flags"
+    ]
+  },
+  {
+    "id": "eg4ng7DC_4Q",
+    "title": "William Louth @ Instana - Observability in Context",
+    "youtube_url": "https://www.youtube.com/watch?v=eg4ng7DC_4Q",
+    "upload_date": "20190820",
+    "channel": "The Exchange",
+    "summary": "William Lout, a veteran in application performance monitoring with 19 years of experience, opens his talk by reflecting on his background with Instane Inception and his recent return to the company. H...",
+    "topics": [
+      "Observability",
+      "DevOps",
+      "Microservices",
+      "Containers",
+      "Event Architecture"
+    ]
+  },
+  {
+    "id": "kWDmVQgR38Y",
+    "title": "Alex Chircop - Founder and CTO @ StorageOS - Understanding the Cloud Native Storage Landscape",
+    "youtube_url": "https://www.youtube.com/watch?v=kWDmVQgR38Y",
+    "upload_date": "20190820",
+    "channel": "The Exchange",
+    "summary": "The speaker, a co-founder of Storage OS and newly appointed co-chair of the CNCF Storage SIG, opens with a light-hearted remark about being 'the guy standing between you and beer' before acknowledging...",
+    "topics": [
+      "Cloud-native storage",
+      "Kubernetes",
+      "CNCF Storage SIG",
+      "Application-centric storage",
+      "Declarative storage"
+    ]
+  },
+  {
+    "id": "JZyZ5yLrfmk",
+    "title": "Paul Markham @ Red Bee Media - Doing some Serverless to keep TV on the air",
+    "youtube_url": "https://www.youtube.com/watch?v=JZyZ5yLrfmk",
+    "upload_date": "20191005",
+    "channel": "The Exchange",
+    "summary": "Paul Mark, from Red Bee Media, opens his talk with a lighthearted, interactive vibe, encouraging the audience to spot TV shows on screen as a way to engage with the content. He introduces himself as a...",
+    "topics": [
+      "Broadcast Media",
+      "Red Bee Media",
+      "TV Production Workflow",
+      "Digital Video Delivery",
+      "Resilient Systems"
+    ]
+  },
+  {
+    "id": "XXPh6l4oXDI",
+    "title": "Andy Cowley @ FiveAi - From cars to keyboards, DevOps at an Autonomous Vehicles company",
+    "youtube_url": "https://www.youtube.com/watch?v=XXPh6l4oXDI",
+    "upload_date": "20191005",
+    "channel": "The Exchange",
+    "summary": "Andy, an infrastructure engineer at 5AI, introduces his team\u2019s work on developing autonomous vehicle software for Europe, a challenging but ambitious endeavor. He highlights the company\u2019s focus on saf...",
+    "topics": [
+      "Autonomous Vehicles",
+      "DevOps Culture",
+      "Infrastructure Engineering",
+      "Simulation in AI Development",
+      "Data-Driven Development"
+    ]
+  },
+  {
+    "id": "jicHwdIcRPA",
+    "title": "Tom Hipwell @Bulb - Using Terraform and CircleCI for the continuous delivery of cloud infrastructure",
+    "youtube_url": "https://www.youtube.com/watch?v=jicHwdIcRPA",
+    "upload_date": "20191005",
+    "channel": "The Exchange",
+    "summary": "Tom from Bulb, a UK-based green energy supplier founded in 2015, shares how the company scaled rapidly from 250,000 to 1.5 million members within a few years. As the company prepared for international...",
+    "topics": [
+      "Continuous Delivery",
+      "Infrastructure as Code",
+      "Cloud Native Architecture",
+      "Terraform",
+      "CircleCI"
+    ]
+  },
+  {
+    "id": "LC6yVmm33H8",
+    "title": "Will Hall - GitLab, Terraform and AWS; A Perfect Combination",
+    "youtube_url": "https://www.youtube.com/watch?v=LC6yVmm33H8",
+    "upload_date": "20191202",
+    "channel": "The Exchange",
+    "summary": "The speaker, a DevOps consultant at Hally Cloud and GitLab community advocate, opens with a lighthearted tone, emphasizing the value of doing 'less' while delivering more \u2014 a philosophy that guides th...",
+    "topics": [
+      "GitLab Terraform",
+      "AWS Integration",
+      "DevOps Philosophy",
+      "Tool Selection",
+      "Speed vs. Security"
+    ]
+  },
+  {
+    "id": "btKS9u1ukD0",
+    "title": "Richard Clark @ Depop - Orchestrating Gender Equality",
+    "youtube_url": "https://www.youtube.com/watch?v=btKS9u1ukD0",
+    "upload_date": "20191202",
+    "channel": "The Exchange",
+    "summary": "Richard, head of systems engineering at Deepop, opens his DevOps Exchange talk with a playful, self-deprecating tone, referencing 'It's Always Sunny in Philadelphia' to set the stage for a satirical t...",
+    "topics": [
+      "Gender Equality in Tech",
+      "Conway's Law",
+      "DevOps Practices",
+      "Diversity & Inclusion in Engineering",
+      "Satirical Conference Talk"
+    ]
+  },
+  {
+    "id": "g-hZZjN_Cbg",
+    "title": "Dean Ward @ Stack Overflow - Building Stack Overflow for Teams: Scaling for extreme multi-tenancy",
+    "youtube_url": "https://www.youtube.com/watch?v=g-hZZjN_Cbg",
+    "upload_date": "20191202",
+    "channel": "The Exchange",
+    "summary": "Dean Ward, Principal Developer at Stack Overflow, presents an overview of Stack Overflow for Teams, focusing on how the platform scaled a legacy 10-year-old monolith to handle extreme loads with high ...",
+    "topics": [
+      "Stack Overflow for Teams",
+      "Monolith Scaling",
+      "Performance Optimization",
+      "HAProxy Load Balancing",
+      "WebSocket Architecture"
+    ]
+  },
+  {
+    "id": "oZR5L8FBEkM",
+    "title": "Ionut Craciunescu @ Wealth Wizards - AWS Cognito - A Serverless Authentication System",
+    "youtube_url": "https://www.youtube.com/watch?v=oZR5L8FBEkM",
+    "upload_date": "20191202",
+    "channel": "The Exchange",
+    "summary": "Jonas Krochresko, Lead Platform Engineer at World Wizards, presents an overview of their platform for delivering affordable, AI-driven financial advice through regulated applications like 'Turo for Ad...",
+    "topics": [
+      "Financial Advice Automation",
+      "Amazon Cognito",
+      "User Pools",
+      "Identity Pools",
+      "JWT Tokens"
+    ]
+  },
+  {
+    "id": "LD0EsBwXLWA",
+    "title": "An Evening with Gene Kim - DevOps Exchange",
+    "youtube_url": "https://www.youtube.com/watch?v=LD0EsBwXLWA",
+    "upload_date": "20191217",
+    "channel": "The Exchange",
+    "summary": "The speaker, drawing from over two decades of studying high-performing technology organizations, reflects on how their research led them into the heart of the DevOps movement. They highlight how DevOp...",
+    "topics": [
+      "DevOps",
+      "High-Performance Organizations",
+      "Lean Principles",
+      "Software Delivery",
+      "Developer Productivity"
+    ]
+  },
+  {
+    "id": "VUAEGY_pq7Y",
+    "title": "DOXLON meetup 58",
+    "youtube_url": "https://www.youtube.com/watch?v=VUAEGY_pq7Y",
+    "upload_date": "20200129",
+    "channel": "The Exchange",
+    "summary": "The speaker, Brashee Saksana from World Pay, introduces the company\u2019s DevOps and newly established SRE practices, highlighting its global scale in payments infrastructure\u2014from small corner stores to m...",
+    "topics": [
+      "DevOps Practices",
+      "Continuous Delivery",
+      "Spotify Engineering Culture",
+      "Infrastructure Evolution",
+      "SRE Implementation"
+    ]
+  },
+  {
+    "id": "1nJb_c-wTK4",
+    "title": "Slava Kalmykov @ Spotify - Continuous Delivery at Spotify",
+    "youtube_url": "https://www.youtube.com/watch?v=1nJb_c-wTK4",
+    "upload_date": "20200130",
+    "channel": "The Exchange",
+    "summary": "Slava, a software engineer at Spotify, presents a historical overview of how the company evolved its deployment and infrastructure practices from its founding in 2006 to 2014. Initially, Spotify opera...",
+    "topics": [
+      "Continuous Delivery",
+      "Spotify Engineering Culture",
+      "Infrastructure Evolution",
+      "Microservices",
+      "Container Orchestration"
+    ]
+  },
+  {
+    "id": "Id492fr34E0",
+    "title": "Mark Knoop @ Worldpay - 100 days of SRE",
+    "youtube_url": "https://www.youtube.com/watch?v=Id492fr34E0",
+    "upload_date": "20200130",
+    "channel": "The Exchange",
+    "summary": "Mark, a new SRE leader at WorldPay, opens his talk by acknowledging his short tenure\u2014just 100 days in the role\u2014while emphasizing the unique challenge of establishing a new SRE function in an organizat...",
+    "topics": [
+      "SRE Implementation",
+      "WorldPay Background",
+      "DevOps & Operational Transformation",
+      "Legacy Systems in Finance",
+      "New Acquiring Platform"
+    ]
+  },
+  {
+    "id": "n3KuP7QnMfA",
+    "title": "DoxLockdown Special",
+    "youtube_url": "https://www.youtube.com/watch?v=n3KuP7QnMfA",
+    "upload_date": "20200415",
+    "channel": "The Exchange",
+    "summary": "This is the opening segment of the 70th DevOps Exchange event, held virtually for the first time due to lockdown. The host acknowledges the virtual format, noting the absence of live audience interact...",
+    "topics": [
+      "DevOps Exchange virtual event",
+      "Global DevOps community",
+      "Serverless containers",
+      "DevOps in regulated environments",
+      "Interactive Q&A"
+    ]
+  },
+  {
+    "id": "KsbkOX5RanQ",
+    "title": "JavaScript Exchange - #2 - Virtual Meetup 2020",
+    "youtube_url": "https://www.youtube.com/watch?v=KsbkOX5RanQ",
+    "upload_date": "20200422",
+    "channel": "The Exchange",
+    "summary": "The speaker opens the JavaScript Exchange event, a new addition to a growing community of developer-focused gatherings across the UK and Europe, including DevOps Exchange and Docs. The event is intera...",
+    "topics": [
+      "JavaScript community events",
+      "Eco-friendly JavaScript",
+      "API design",
+      "Performance metrics",
+      "Developer recruitment"
+    ]
+  },
+  {
+    "id": "D8_eSrblwlQ",
+    "title": "Serverless with Marcia Villalba, AWS",
+    "youtube_url": "https://www.youtube.com/watch?v=D8_eSrblwlQ",
+    "upload_date": "20200501",
+    "channel": "The Exchange",
+    "summary": "Marcia Vichalva, host of the YouTube channel FUBA, introduces herself and her mission to educate viewers on serverless AWS services and software engineering practices. She began the channel in 2016 to...",
+    "topics": [
+      "Serverless Architecture",
+      "AWS Services",
+      "Software Engineering",
+      "YouTube Tutorial Channel",
+      "Developer Education"
+    ]
+  },
+  {
+    "id": "X0de_S1FwHM",
+    "title": "Marcia Villalba, Developer Advocate, Amazon Web - \"Migrating existing applications to serverless\"",
+    "youtube_url": "https://www.youtube.com/watch?v=X0de_S1FwHM",
+    "upload_date": "20200526",
+    "channel": "The Exchange",
+    "summary": "Marsia, an AWS Developer Advocate with experience in serverless since 2016, kicks off a talk on migrating existing applications to serverless architecture. She emphasizes that serverless is more of a ...",
+    "topics": [
+      "Serverless Architecture",
+      "Migrating Monoliths to Serverless",
+      "Serverless Migration Case Studies",
+      "AWS Developer Advocate",
+      "Serverless Methodology"
+    ]
+  },
+  {
+    "id": "nvsIEKr3f3Q",
+    "title": "DevOps Exchange - Paul Sarbinowski, Google",
+    "youtube_url": "https://www.youtube.com/watch?v=nvsIEKr3f3Q",
+    "upload_date": "20200526",
+    "channel": "The Exchange",
+    "summary": "The presenter introduces Capitan, an open-source configuration management tool developed in-house at DeepMind Health (now part of Google) and open-sourced in October 2017. Capitan enables templating i...",
+    "topics": [
+      "Infrastructure as Code",
+      "Configuration Management",
+      "Cloud Deployment Tools",
+      "Helm Charts",
+      "Kubernetes"
+    ]
+  },
+  {
+    "id": "y0rAAUlTGCU",
+    "title": "DevOps Exchange, Red Hat \"Istio Service Mesh & pragmatic microservices architecture\"",
+    "youtube_url": "https://www.youtube.com/watch?v=y0rAAUlTGCU",
+    "upload_date": "20200526",
+    "channel": "The Exchange",
+    "summary": "Alex Soto, Red Hat\u2019s Director of LoB Experience, kicks off a technical talk on Istio and Java microservices, emphasizing that the content is beginner-friendly and can be replayed at home via a shared ...",
+    "topics": [
+      "Istio",
+      "Kubernetes",
+      "Microservices",
+      "Traffic Routing",
+      "VirtualService YAML"
+    ]
+  },
+  {
+    "id": "IRMQXO4gctk",
+    "title": "How to Hire and Retain Top Talent - Cloud and DevOps World (DevOps Exchange & LinuxRecruit)",
+    "youtube_url": "https://www.youtube.com/watch?v=IRMQXO4gctk",
+    "upload_date": "20200603",
+    "channel": "The Exchange",
+    "summary": "The speaker emphasizes that attracting and retaining top-tier engineers in DevOps and tech-driven fields hinges on more than just perks or superficial culture \u2014 it\u2019s about meaningful technical challen...",
+    "topics": [
+      "Hiring and retaining top engineers",
+      "DevOps and technology stack",
+      "Technical challenges and career growth",
+      "Avoiding overuse of cutting-edge tech",
+      "Building meaningful engineering culture"
+    ]
+  },
+  {
+    "id": "4vPrcQ5uGqU",
+    "title": "DevOps Exchange - Philipp Krenn, Elasticsearch \"From containers to Kubernetes Operators\"",
+    "youtube_url": "https://www.youtube.com/watch?v=4vPrcQ5uGqU",
+    "upload_date": "20200605",
+    "channel": "The Exchange",
+    "summary": "The speaker, an Elasticsearch Developer Advocate, opens with a lighthearted but insightful discussion on containers, particularly Docker, as a modern software delivery format. They acknowledge Docker\u2019...",
+    "topics": [
+      "Docker best practices",
+      "Container security",
+      "Elastic Stack (Elasticsearch, Kibana, etc.)",
+      "Linux permissions in containers",
+      "Orchestration vs. Docker images"
+    ]
+  },
+  {
+    "id": "7vcdmm6BSqI",
+    "title": "DevOps Exchange - Lewis Marshall, Appvia \"How to self serve on cloud services\"",
+    "youtube_url": "https://www.youtube.com/watch?v=7vcdmm6BSqI",
+    "upload_date": "20200605",
+    "channel": "The Exchange",
+    "summary": "The speaker, a site reliability engineer and tech evangelist with over 28 years of experience, discusses the challenges of self-service cloud resource provisioning for Kubernetes applications. They hi...",
+    "topics": [
+      "Self-service cloud resources",
+      "Kubernetes development",
+      "Developer experience",
+      "Site reliability engineering",
+      "Cloud-native infrastructure"
+    ]
+  },
+  {
+    "id": "hQDIOhQ16Ow",
+    "title": "DevOps Exchange - Sheen Brisals, The Lego Group \"Serverless Patterns Made Simple\"",
+    "youtube_url": "https://www.youtube.com/watch?v=hQDIOhQ16Ow",
+    "upload_date": "20200605",
+    "channel": "The Exchange",
+    "summary": "Shin Prasels, a senior engineering manager, opens his session by humorously noting he\u2019s sandwiched between two Kubernetes talks, setting a lighthearted tone. He defines 'patterns' as tools to accelera...",
+    "topics": [
+      "Serverless Architecture",
+      "Engineering Patterns",
+      "AWS Lambda",
+      "API Gateway",
+      "GraphQL"
+    ]
+  },
+  {
+    "id": "f-znW60j1Es",
+    "title": "JavaScript Exchange featuring VMWare Tanzu, Wealth Wizards and Webanytime",
+    "youtube_url": "https://www.youtube.com/watch?v=f-znW60j1Es",
+    "upload_date": "20200610",
+    "channel": "The Exchange",
+    "summary": "This is the opening segment of a virtual JavaScript Exchange event, hosted by the Dox Group (DevOps Exchange). The host welcomes attendees, outlines the event structure, and introduces the three speak...",
+    "topics": [
+      "Node.js Streams",
+      "Serverless JavaScript",
+      "Visual Regression Testing",
+      "DevOps Exchange Community",
+      "JavaScript Meetups"
+    ]
+  },
+  {
+    "id": "G7gu1AvTPxQ",
+    "title": "DevOps Exchange - Alessandro De Maria, Head of SRE @ Synthace & Kapitan Cofounder",
+    "youtube_url": "https://www.youtube.com/watch?v=G7gu1AvTPxQ",
+    "upload_date": "20200619",
+    "channel": "The Exchange",
+    "summary": "Alessandro de Maria, Head of Survey at Sintese, presents Tezoro, the latest tool under the Kapitan project, designed to enhance secret management in Kubernetes environments. Tezoro acts as a webhook a...",
+    "topics": [
+      "Kubernetes",
+      "Secret Management",
+      "Configuration Management",
+      "Terraform",
+      "Infrastructure as Code"
+    ]
+  },
+  {
+    "id": "Ur6pDUvaDhY",
+    "title": "DevOps Exchange - Gabriel Cismondi, Technology Lead & Lead Architect @ HSBC",
+    "youtube_url": "https://www.youtube.com/watch?v=Ur6pDUvaDhY",
+    "upload_date": "20200619",
+    "channel": "The Exchange",
+    "summary": "Gabriel Cismondi opens his talk by acknowledging the audience and setting the stage for a discussion on compliance and velocity in enterprise environments. He introduces himself as someone who has wor...",
+    "topics": [
+      "Compliance in Enterprise",
+      "Velocity in Software Development",
+      "Cloud Migration Challenges",
+      "Startup vs Enterprise Agility",
+      "Risk Management in Large Organizations"
+    ]
+  },
+  {
+    "id": "fZk4I42f9uc",
+    "title": "DevOps Exchange ft. HSBC, Synthace and Container Solutions",
+    "youtube_url": "https://www.youtube.com/watch?v=fZk4I42f9uc",
+    "upload_date": "20200619",
+    "channel": "The Exchange",
+    "summary": "The speaker, Adam Sandor from Container Solutions, opens the DevOps Exchange virtual event by welcoming attendees and sharing community updates. He highlights the growing global reach of the event, wi...",
+    "topics": [
+      "DevOps Exchange community",
+      "GitHub and CI/CD",
+      "Cloud-native transformation",
+      "Event sponsorship",
+      "Speaker lineup"
+    ]
+  },
+  {
+    "id": "iiBXUW238TY",
+    "title": "DevOps Exchange - \u00c1d\u00e1m S\u00e1ndor, Cloud Native Architect @ Container Solutions",
+    "youtube_url": "https://www.youtube.com/watch?v=iiBXUW238TY",
+    "upload_date": "20200619",
+    "channel": "The Exchange",
+    "summary": "Adam Shander, a cloud native architect from Amsterdam-based consultancy Container Solutions, opens his talk by acknowledging the audience and setting the stage for a discussion on how GitHub is reshap...",
+    "topics": [
+      "Cloud Native Transformation",
+      "Continuous Delivery",
+      "Microservices Architecture",
+      "Kubernetes",
+      "CI/CD"
+    ]
+  },
+  {
+    "id": "GpEJRaciAdE",
+    "title": "DevOps Exchange ft. Mika Bostr\u00f6m, VP of Engineering, Smarkets",
+    "youtube_url": "https://www.youtube.com/watch?v=GpEJRaciAdE",
+    "upload_date": "20200710",
+    "channel": "The Exchange",
+    "summary": "The speaker introduces a new approach to delivering conference talks online, aiming to be ahead of the curve by revealing slides upfront \u2014 a departure from the traditional live format. They set the st...",
+    "topics": [
+      "Compliance in Gambling Industry",
+      "Regulatory Audits",
+      "Real-Time Trading Systems",
+      "Workload Management",
+      "Speaker Experience & Conference Format"
+    ]
+  },
+  {
+    "id": "RmNVtFoyUqs",
+    "title": "DevOps Exchange July featuring S&P Global, Nutmeg and Smarkets",
+    "youtube_url": "https://www.youtube.com/watch?v=RmNVtFoyUqs",
+    "upload_date": "20200710",
+    "channel": "The Exchange",
+    "summary": "Jack, host of the DevOps Exchange July 2020 virtual event, opens the session by welcoming attendees and explaining the shift to virtual events due to recent circumstances. He highlights the community-...",
+    "topics": [
+      "DevOps virtual events",
+      "DevOps transformation",
+      "Community-driven conferences",
+      "DevOps recruitment",
+      "Remote work in DevOps"
+    ]
+  },
+  {
+    "id": "g3xyoAJOAVA",
+    "title": "DevOps Exchange ft. Carlos G\u00f3mez, Senior DevOps Engineer, Nutmeg",
+    "youtube_url": "https://www.youtube.com/watch?v=g3xyoAJOAVA",
+    "upload_date": "20200710",
+    "channel": "The Exchange",
+    "summary": "The speaker introduces the three pillars of observability \u2014 metrics, logs, and traces \u2014 explaining their distinct roles in understanding system behavior. Metrics provide high-level performance and hea...",
+    "topics": [
+      "Observability",
+      "Metrics",
+      "Logs",
+      "Traces",
+      "OpenTelemetry"
+    ]
+  },
+  {
+    "id": "rzZomlNrjDE",
+    "title": "DevOps Exchange ft. Aimee Bechtle - Head of DevOps, S&P Global",
+    "youtube_url": "https://www.youtube.com/watch?v=rzZomlNrjDE",
+    "upload_date": "20200710",
+    "channel": "The Exchange",
+    "summary": "Amy, a DevOps transformation leader with experience since 2013, opens her talk by sharing her passion for DevOps and the challenges large enterprises face when adopting it. She highlights how organiza...",
+    "topics": [
+      "DevOps adoption challenges",
+      "Cultural transformation in enterprises",
+      "CI/CD pipeline implementation",
+      "Legacy systems and organizational change",
+      "Agile maturity"
+    ]
+  },
+  {
+    "id": "F0npOItr9Ow",
+    "title": "JSX - July featuring Gousto & Vortexa",
+    "youtube_url": "https://www.youtube.com/watch?v=F0npOItr9Ow",
+    "upload_date": "20200729",
+    "channel": "The Exchange",
+    "summary": "The video opens with Tom, host of the JavaScript Exchange, welcoming attendees to the fourth event and third virtual one. He introduces the group as part of the larger 'Docks or the Exchange Meetup' c...",
+    "topics": [
+      "React Application Performance",
+      "Reselect Library",
+      "JavaScript Meetup Events",
+      "Community Building",
+      "Event Hosting & Sponsorship"
+    ]
+  },
+  {
+    "id": "ZxjEeYbkAPY",
+    "title": "JavaScript Exchange ft. Ana-Maria Pasparan, Software Development Engineer @ Gousto",
+    "youtube_url": "https://www.youtube.com/watch?v=ZxjEeYbkAPY",
+    "upload_date": "20200729",
+    "channel": "The Exchange",
+    "summary": "Anna Maria, a software developer at Gusto, presents on improving application performance using selectors, specifically focusing on reselect. She emphasizes the business and technical importance of per...",
+    "topics": [
+      "Application Performance",
+      "Redux Selectors",
+      "Reselect Library",
+      "React Optimization",
+      "Cross-Functional Teams"
+    ]
+  },
+  {
+    "id": "uQmDtxasm74",
+    "title": "JavaScript Exchange ft.Vortexa",
+    "youtube_url": "https://www.youtube.com/watch?v=uQmDtxasm74",
+    "upload_date": "20200729",
+    "channel": "The Exchange",
+    "summary": "J. O'Renelle, Head of Application Development at All Texas, opens his talk by introducing Sean Berry, a senior developer, and shares his 18-year journey in web application development, emphasizing the...",
+    "topics": [
+      "Energy Intelligence Platforms",
+      "Machine Learning in Logistics",
+      "Web Application Development",
+      "Node.js and JavaScript",
+      "Big Data Processing"
+    ]
+  },
+  {
+    "id": "TaWefHGRqug",
+    "title": "DevOps Exchange ft.Christian McHugh, Global Head of Automation @ Millennium Management",
+    "youtube_url": "https://www.youtube.com/watch?v=TaWefHGRqug",
+    "upload_date": "20200807",
+    "channel": "The Exchange",
+    "summary": "Christian McEw, a DevOps professional with experience in configuration management tools, shares a candid case study about selecting and adapting Salt Stack in a real-world environment. He recounts how...",
+    "topics": [
+      "DevOps tool selection",
+      "Salt Stack",
+      "Configuration management",
+      "Chef vs. Salt",
+      "Infrastructure team resistance"
+    ]
+  },
+  {
+    "id": "ZgtGVTl63Bk",
+    "title": "DevOps Exchange ft. Corcoran Smith @ Slalom Consulting & Barak Schoster Goihman @ Bridgecrew",
+    "youtube_url": "https://www.youtube.com/watch?v=ZgtGVTl63Bk",
+    "upload_date": "20200807",
+    "channel": "The Exchange",
+    "summary": "Corcoran, a Solution Architect at Slalom Consulting, opens with a lighthearted, fast-paced talk about the team\u2019s journey in building a static analysis tool for cloud infrastructure code. He humorously...",
+    "topics": [
+      "DevSecOps",
+      "Infrastructure as Code",
+      "Static Code Analysis",
+      "Checkov Tool",
+      "Cloud Security"
+    ]
+  },
+  {
+    "id": "fq_77raDJPM",
+    "title": "DevOps Exchange - August ft.CloudBees, Millennium Management, Slalom & Bridgecrew",
+    "youtube_url": "https://www.youtube.com/watch?v=fq_77raDJPM",
+    "upload_date": "20200807",
+    "channel": "The Exchange",
+    "summary": "Dan Campbell, host of the DevOps Exchange Bournemouth, opens the virtual August edition of the event, welcoming attendees and highlighting the global reach of the meetup network, including a new New Y...",
+    "topics": [
+      "DevOps Exchange",
+      "Digital Transformation",
+      "Microservices",
+      "Terraform Security",
+      "SaltStack Validation"
+    ]
+  },
+  {
+    "id": "jTj9TYbnL_s",
+    "title": "DevOps Exchange ft. Manuel Schuller, Technical Director @ CloudBees",
+    "youtube_url": "https://www.youtube.com/watch?v=jTj9TYbnL_s",
+    "upload_date": "20200807",
+    "channel": "The Exchange",
+    "summary": "The speaker, with over 20 years of experience in the software industry, reflects on the persistent challenges of digital transformation, particularly in the context of DevOps, microservices, and multi...",
+    "topics": [
+      "Digital Transformation",
+      "DevOps",
+      "Microservices",
+      "Multi-cloud",
+      "Software Delivery"
+    ]
+  },
+  {
+    "id": "1jBfV9XMLnw",
+    "title": "JSX August ft. Dani Vicario @ Busuu",
+    "youtube_url": "https://www.youtube.com/watch?v=1jBfV9XMLnw",
+    "upload_date": "20200819",
+    "channel": "The Exchange",
+    "summary": "Danny Ricardo, a certified Adobe technical trainer and senior engineer at Rousseau, opens his conference talk with gratitude to the organizers and audience, emphasizing his passion for astronomy, data...",
+    "topics": [
+      "Exoplanet Visualization",
+      "NASA API Integration",
+      "Data Visualization",
+      "3D Modeling",
+      "Open Source Code Sharing"
+    ]
+  },
+  {
+    "id": "BT-O0tvDXSo",
+    "title": "JavaScript Exchange August - ft Busuu, Pento & Ably Realtime",
+    "youtube_url": "https://www.youtube.com/watch?v=BT-O0tvDXSo",
+    "upload_date": "20200819",
+    "channel": "The Exchange",
+    "summary": "This is the opening segment of a JavaScript Exchange event, the fifth in its series since February. The host sets the stage by thanking attendees and introducing the event\u2019s structure, including live ...",
+    "topics": [
+      "JavaScript Exchange",
+      "Node.js",
+      "Polyglot Architecture",
+      "Astronomical Data Analysis",
+      "3.js"
+    ]
+  },
+  {
+    "id": "W9f21W5Nsbc",
+    "title": "JSX August - Iman Kalyan Majumdar, Pento",
+    "youtube_url": "https://www.youtube.com/watch?v=W9f21W5Nsbc",
+    "upload_date": "20200819",
+    "channel": "The Exchange",
+    "summary": "Amon, a full-stack engineer at Pinto, opens his talk by thanking the organizers and sharing his background\u2014from co-founding a startup in Edinburgh to his current role automating payroll for SMEs. He s...",
+    "topics": [
+      "Node.js in Polyglot Architectures",
+      "Microservices Adoption",
+      "JavaScript Developer Trends",
+      "Kubernetes and DevOps",
+      "Full Stack Engineering"
+    ]
+  },
+  {
+    "id": "t1meA8BEdLY",
+    "title": "JavaScript Exchange ft. Srushtika Neelakantam, Ably Realtime",
+    "youtube_url": "https://www.youtube.com/watch?v=t1meA8BEdLY",
+    "upload_date": "20200819",
+    "channel": "The Exchange",
+    "summary": "Srishti Kaniila Kantam, a Developer Advocate at Abley Real Time, shares her journey of building a multiplayer version of the classic game Space Invaders using Abley\u2019s Pub/Sub messaging infrastructure....",
+    "topics": [
+      "Multiplayer Game Development",
+      "Pub/Sub Messaging",
+      "Real-Time Applications",
+      "Game Architecture",
+      "Developer Advocacy"
+    ]
+  },
+  {
+    "id": "8UAA7tdbZd4",
+    "title": "JavaScript Exchange x Kodiri",
+    "youtube_url": "https://www.youtube.com/watch?v=8UAA7tdbZd4",
+    "upload_date": "20200820",
+    "channel": "The Exchange",
+    "summary": "Ricardo from CodeDi invites attendees to an upcoming event on August 26th, featuring collaborative JavaScript games with partners from JavaScript Exchange and Pusher. The event promises interactive an...",
+    "topics": [
+      "JavaScript games",
+      "Developer community events",
+      "JavaScript Exchange",
+      "Pusher",
+      "Meetup platform"
+    ]
+  },
+  {
+    "id": "7FHKGUaJcBU",
+    "title": "DevOps Exchange - Carlos Horowicz, CEO / CTO & CoFounder, Planisys",
+    "youtube_url": "https://www.youtube.com/watch?v=7FHKGUaJcBU",
+    "upload_date": "20200911",
+    "channel": "The Exchange",
+    "summary": "The speaker shares their volunteer experience at Alastria\u2019s core team, a nonprofit in Spain promoting the digital economy with over 500 European members. They focus on two private blockchain networks:...",
+    "topics": [
+      "Blockchain Monitoring",
+      "Private Permissioned Networks",
+      "Hyperledger Besu",
+      "Consensus Core",
+      "Proof of Authority"
+    ]
+  },
+  {
+    "id": "SMBUW4utEGw",
+    "title": "DevOps Exchange - Martyn Coupland, Senior Azure Consultant, Ensono",
+    "youtube_url": "https://www.youtube.com/watch?v=SMBUW4utEGw",
+    "upload_date": "20200911",
+    "channel": "The Exchange",
+    "summary": "The speaker, a senior ASHA consultant, opens with a brief introduction, emphasizing that while the talk is not about Azure, it focuses on the importance of cloud-native concepts for IT professionals. ...",
+    "topics": [
+      "Cloud Native",
+      "Platform as a Service (PaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "IT Professional Adaptation",
+      "S&P Global Market Intelligence"
+    ]
+  },
+  {
+    "id": "poXBQ0gLMsI",
+    "title": "DevOps Exchange - Steven Wade, Independent Kubernetes Consultant",
+    "youtube_url": "https://www.youtube.com/watch?v=poXBQ0gLMsI",
+    "upload_date": "20200911",
+    "channel": "The Exchange",
+    "summary": "Steve Wade, an independent Q and S consultant and former platform lead at Metal (a digital banking venture within RBS), opens his talk by acknowledging a recurring question he was asked early in his t...",
+    "topics": [
+      "Digital Banking Transformation",
+      "DevOps & Infrastructure as Code",
+      "State Reconciliation in Microservices",
+      "Agile Release Management",
+      "RBS Internal Innovation"
+    ]
+  },
+  {
+    "id": "2ji3GEzCDn0",
+    "title": "JavaScript Exchange ft. Mark Provan, BBC Voice & AI",
+    "youtube_url": "https://www.youtube.com/watch?v=2ji3GEzCDn0",
+    "upload_date": "20200917",
+    "channel": "The Exchange",
+    "summary": "The speaker, Mark Provin from the BBC\u2019s Team Hamilton, introduces how the organization automates its infrastructure using AWS CDK, especially for its voice assistant project 'Beep.' He reflects on the...",
+    "topics": [
+      "AWS CDK",
+      "Infrastructure as Code",
+      "Beep (BBC voice assistant)",
+      "CloudFormation",
+      "Automation in DevOps"
+    ]
+  },
+  {
+    "id": "pHCEhIidFEI",
+    "title": "JavaScript Exchange - Luis Deigo Hern\u00e1ndez Arias, METRO Markets",
+    "youtube_url": "https://www.youtube.com/watch?v=pHCEhIidFEI",
+    "upload_date": "20200917",
+    "channel": "The Exchange",
+    "summary": "Diego (or Liz Diagre) shares a personal story about adopting 'test driven delivery' \u2014 a process inspired by test-driven development (TDD) but adapted for real-world team dynamics. He recounts working ...",
+    "topics": [
+      "Test Driven Delivery",
+      "Agile Development",
+      "Small Team Collaboration",
+      "End-to-End Testing",
+      "Feature Delivery"
+    ]
+  },
+  {
+    "id": "-HYq-yA8UZQ",
+    "title": "DevOps Exchange NYC - featuring Nitzan Shapira @ Epsagon",
+    "youtube_url": "https://www.youtube.com/watch?v=-HYq-yA8UZQ",
+    "upload_date": "20200924",
+    "channel": "The Exchange",
+    "summary": "Nissan Shapira, CEO of Epstein and a former Israeli intelligence officer, opens with a discussion on the challenges of modern, high-scale, microservices-based architectures. He contrasts the simplicit...",
+    "topics": [
+      "Microservices Architecture",
+      "Cloud Computing",
+      "System Visualization",
+      "Distributed Systems",
+      "Observability"
+    ]
+  },
+  {
+    "id": "K6uu0LYaazI",
+    "title": "DevOps Exchange NYC - ft. Baruch Sadogursky & Leonid Igolnik",
+    "youtube_url": "https://www.youtube.com/watch?v=K6uu0LYaazI",
+    "upload_date": "20200924",
+    "channel": "The Exchange",
+    "summary": "This talk explores how individuals without formal authority\u2014like Alex, a former system administrator\u2014can influence DevOps culture and drive collaboration despite lacking managerial power. Alex\u2019s journ...",
+    "topics": [
+      "Influencing DevOps without authority",
+      "DevOps culture and collaboration",
+      "System administrator to DevOps engineer transition",
+      "DevOps literature and foundational books",
+      "Breaking silos in software delivery"
+    ]
+  },
+  {
+    "id": "kbm_4e7l0II",
+    "title": "DevOps Exchange NYC - Tom Limoncelli @ Stack Overflow",
+    "youtube_url": "https://www.youtube.com/watch?v=kbm_4e7l0II",
+    "upload_date": "20200924",
+    "channel": "The Exchange",
+    "summary": "The speaker, manager of the S3 teams at StackOverflow, introduces the concept of 'low-context DevOps' as a cultural shift to improve team dynamics in modern, fast-paced tech environments. Drawing from...",
+    "topics": [
+      "Low-context culture",
+      "DevOps culture",
+      "Communication in tech teams",
+      "Onboarding and knowledge transfer",
+      "Leadership in DevOps"
+    ]
+  },
+  {
+    "id": "Bx5sE6jt9iI",
+    "title": "Hussein Badakhchani @ Ziglu",
+    "youtube_url": "https://www.youtube.com/watch?v=Bx5sE6jt9iI",
+    "upload_date": "20201030",
+    "channel": "The Exchange",
+    "summary": "The speaker, Chief Technology Officer at Zigloo, opens by introducing the company\u2019s mission: to simplify global money management through a platform that allows users to buy, hold, sell, and spend cryp...",
+    "topics": [
+      "Zigloo platform",
+      "Crowdfunding success",
+      "Cloud-native technology",
+      "DevOps culture",
+      "Payments system engineering"
+    ]
+  },
+  {
+    "id": "Vm-4_eyeii8",
+    "title": "David Gildeh @ Netflix",
+    "youtube_url": "https://www.youtube.com/watch?v=Vm-4_eyeii8",
+    "upload_date": "20201030",
+    "channel": "The Exchange",
+    "summary": "The speaker, who previously founded a monitoring startup called Outline (now sold), shares his journey into Netflix, where he now leads the Tremishry Engineering team. He highlights Netflix\u2019s complex,...",
+    "topics": [
+      "Netflix Engineering",
+      "Observability",
+      "Microservices",
+      "DevOps",
+      "System Reliability"
+    ]
+  },
+  {
+    "id": "fE9FvsRopHo",
+    "title": "Andrea Cappuccinello @ CyberArk",
+    "youtube_url": "https://www.youtube.com/watch?v=fE9FvsRopHo",
+    "upload_date": "20201030",
+    "channel": "The Exchange",
+    "summary": "The speaker, Andr\u00e9 Montanuc, introduces the concept of DevSecOps \u2014 integrating security into the DevOps lifecycle \u2014 to address growing cybersecurity risks in modern software development. He highlights...",
+    "topics": [
+      "DevSecOps",
+      "Security in DevOps",
+      "Code Secrets and Credentials",
+      "Open Source Security Tools",
+      "DevOps Security Risks"
+    ]
+  },
+  {
+    "id": "Nuu4QzwZuus",
+    "title": "Henrique Rodrigues @ LYTT - Introduction to Pulumi, a hidden gem of infrastructure orchestration",
+    "youtube_url": "https://www.youtube.com/watch?v=Nuu4QzwZuus",
+    "upload_date": "20201126",
+    "channel": "The Exchange",
+    "summary": "Henrik Eroderikas, Lead DevOps Engineer at Light, introduces Pulumi as a modern orchestration tool for cloud environments, emphasizing its value over traditional tools like Terraform and AWS CloudForm...",
+    "topics": [
+      "Infrastructure as Code",
+      "Pulumi",
+      "Terraform",
+      "AWS CloudFormation",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "bL432C2Hqfo",
+    "title": "Adam Gordon Bell @ Earthly Technologies - What if dockerfiles and makefiles had a baby...",
+    "youtube_url": "https://www.youtube.com/watch?v=bL432C2Hqfo",
+    "upload_date": "20201126",
+    "channel": "The Exchange",
+    "summary": "Adam Gordon Bell opens his talk with a humorous hypothetical \u2014 what if Dr. Viles and Make Viles had a baby \u2014 to set up a discussion about build systems and DevOps challenges. He recounts a personal st...",
+    "topics": [
+      "DevOps challenges",
+      "Build system reliability",
+      "Jenkins",
+      "GitHub Actions",
+      "OS dependencies"
+    ]
+  },
+  {
+    "id": "sO_kE-T5yyE",
+    "title": "PJ Hagerty @ Mattermost - ChatOps When It Matters",
+    "youtube_url": "https://www.youtube.com/watch?v=sO_kE-T5yyE",
+    "upload_date": "20201126",
+    "channel": "The Exchange",
+    "summary": "PJ from Mattermost introduces the concept of 'chat ops when it matters,' emphasizing how chat-based operations are vital in DevOps workflows. Drawing from his background as a developer and community a...",
+    "topics": [
+      "Chat Ops",
+      "DevOps",
+      "Integration in Software",
+      "GitHub",
+      "Mattermost"
+    ]
+  },
+  {
+    "id": "fSsd69sJGaI",
+    "title": "JavaScript Exchange #7 ft William Heslam",
+    "youtube_url": "https://www.youtube.com/watch?v=fSsd69sJGaI",
+    "upload_date": "20201209",
+    "channel": "The Exchange",
+    "summary": "Will opens his talk by sharing his passion for JavaScript, React, and testing techniques, especially when combined. He recounts a real-world project involving complex, shared forms that were hard to t...",
+    "topics": [
+      "Testing in React",
+      "JavaScript Development",
+      "Career Simulation",
+      "Code Quality",
+      "Developer Productivity"
+    ]
+  },
+  {
+    "id": "jXA5scHreNY",
+    "title": "JavaScript Exchange ft. Pablo Magaz",
+    "youtube_url": "https://www.youtube.com/watch?v=jXA5scHreNY",
+    "upload_date": "20201209",
+    "channel": "The Exchange",
+    "summary": "Pablo Maraz introduces Deno, a secure, modern runtime for TypeScript built on Google's V8 engine, contrasting it with Node.js. He highlights Deno\u2019s focus on security, browser compatibility, and its de...",
+    "topics": [
+      "Deno runtime",
+      "Node.js comparison",
+      "Security in Deno",
+      "OEC framework",
+      "Middleware architecture"
+    ]
+  },
+  {
+    "id": "EKGYS0eOXJU",
+    "title": "JSX January featuring Sam Hopkins @ AND Digital",
+    "youtube_url": "https://www.youtube.com/watch?v=EKGYS0eOXJU",
+    "upload_date": "20210127",
+    "channel": "The Exchange",
+    "summary": "Sam, a Tech Lead at Digital, introduces a new client initiative with Titan Travel, a UK-based escorted tour specialist. He highlights the opportunity to build a completely greenfield digital platform ...",
+    "topics": [
+      "Next.js",
+      "Greenfield Development",
+      "Digital Transformation",
+      "Titan Travel",
+      "Full-Stack JavaScript"
+    ]
+  },
+  {
+    "id": "JquaJzvfQBU",
+    "title": "JavaScript Exchange January ft. IBM & AND Digital",
+    "youtube_url": "https://www.youtube.com/watch?v=JquaJzvfQBU",
+    "upload_date": "20210127",
+    "channel": "The Exchange",
+    "summary": "The speaker, Anisha from IBM, kicks off the JavaScript Exchange 2021 event by sharing a real-world case study: how her team delivered a digital showcase platform for University of Arts London (UAL) st...",
+    "topics": [
+      "Agile Development",
+      "Remote Work During Pandemic",
+      "Digital Showcase Platform",
+      "IBM Case Study",
+      "JavaScript Exchange Event"
+    ]
+  },
+  {
+    "id": "S9TA4ZRE6h0",
+    "title": "JSX - January ft.  Anisha Malde, Senior Front End Developer @ IBM",
+    "youtube_url": "https://www.youtube.com/watch?v=S9TA4ZRE6h0",
+    "upload_date": "20210127",
+    "channel": "The Exchange",
+    "summary": "Anisha, a consultant at IBM, recounts the rapid development of a digital showcase platform for UAL students during the COVID-19 pandemic. The project, dubbed 'Gigi COVID-19,' was conceived to replace ...",
+    "topics": [
+      "Digital Showcase Platform",
+      "COVID-19 Pandemic Response",
+      "Strapi CMS",
+      "AWS CloudFront",
+      "Mobile-First Design"
+    ]
+  },
+  {
+    "id": "bthnPITfMKs",
+    "title": "Jason Cox @ Disney - Disney DevOps \u2013 Creating Digital Magic",
+    "youtube_url": "https://www.youtube.com/watch?v=bthnPITfMKs",
+    "upload_date": "20210216",
+    "channel": "The Exchange",
+    "summary": "The speaker reflects on their experience working at Disney, highlighting the company\u2019s strategic pillars under CEO Bob Iger: creativity, technology, and globalization. They emphasize how Disney has ex...",
+    "topics": [
+      "Disney's strategic pillars",
+      "Disney acquisitions (Pixar, Marvel, Lucasfilm, 20th Century Fox)",
+      "Digital transformation via Disney+",
+      "DevOps transformation",
+      "Global storytelling"
+    ]
+  },
+  {
+    "id": "cIyE-3h3D_E",
+    "title": "Josh Brown @ Spotify - Dogfooding internal developer products",
+    "youtube_url": "https://www.youtube.com/watch?v=cIyE-3h3D_E",
+    "upload_date": "20210216",
+    "channel": "The Exchange",
+    "summary": "Josh, a new Spotify developer product lead based in Stockholm, shares insights on how to gather developer experience (DX) feedback during internal hackathons like Spotify\u2019s 'Hack Week.' He emphasizes ...",
+    "topics": [
+      "Developer Experience (DX) Feedback",
+      "Internal Hackathons",
+      "Spotify Developer Platform",
+      "Web API & SDKs",
+      "Developer Tool Improvement"
+    ]
+  },
+  {
+    "id": "hXdzhmqpWoU",
+    "title": "Victor Cuascut @ Crossix Solutions - Building the next generation DevOps Architecture with GitOps",
+    "youtube_url": "https://www.youtube.com/watch?v=hXdzhmqpWoU",
+    "upload_date": "20210216",
+    "channel": "The Exchange",
+    "summary": "The speaker discusses implementing the 'Get-UPs' pattern at Viva to simplify infrastructure deployment and modernization. This pattern treats infrastructure as code, enabling consistent, reproducible,...",
+    "topics": [
+      "Infrastructure as Code",
+      "DevOps Practices",
+      "Continuous Deployment",
+      "Reproducibility in Engineering",
+      "Cloud Infrastructure"
+    ]
+  },
+  {
+    "id": "ZohBh2QFKtI",
+    "title": "Aditya Menon @ SPIN (Ford Mobility) - Developing apps with KinD",
+    "youtube_url": "https://www.youtube.com/watch?v=ZohBh2QFKtI",
+    "upload_date": "20210429",
+    "channel": "The Exchange",
+    "summary": "The speaker reflects on how Kubernetes emerged as a transformative tool for DevOps, and how their team quickly recognized its value, pushing for adoption despite early complexity. They highlight a per...",
+    "topics": [
+      "Kubernetes adoption",
+      "DevOps silos",
+      "Docker Compose limitations",
+      "Local Kubernetes development",
+      "Developer-operations collaboration"
+    ]
+  },
+  {
+    "id": "bNc-Yi0JgT0",
+    "title": "Toby Lockyer & Dennis McCarthy - AnsibleDB \u2013 collect store discover (infrastructure facts)",
+    "youtube_url": "https://www.youtube.com/watch?v=bNc-Yi0JgT0",
+    "upload_date": "20210429",
+    "channel": "The Exchange",
+    "summary": "Toby, a co-founder of Ansible DB, introduces the product as a solution to the persistent problem of incomplete, inaccurate, and outdated CMDB (Configuration Management Database) data. He recounts how ...",
+    "topics": [
+      "CMDB challenges",
+      "Ansible migration issues",
+      "Infrastructure data collection",
+      "Database integration with Ansible",
+      "Docker deployment"
+    ]
+  },
+  {
+    "id": "eOpJ5B84q6s",
+    "title": "Jon Hammant @ AWS - DevOps and Transformation at Amazon",
+    "youtube_url": "https://www.youtube.com/watch?v=eOpJ5B84q6s",
+    "upload_date": "20210429",
+    "channel": "The Exchange",
+    "summary": "John Hammond, who leads the compute business for AWS in the UK, opens his talk by thanking the audience and acknowledging the presenters for their live demo. He shares his long-standing admiration for...",
+    "topics": [
+      "DevOps Transformation at Amazon",
+      "AWS Compute Business",
+      "Velocity and Collaboration",
+      "Amazon's Internal Operations",
+      "DevOps Practices and Culture"
+    ]
+  },
+  {
+    "id": "7eEhWDPMi7E",
+    "title": "Mario Loria @ CartaX - The Dawn of Developer Experience",
+    "youtube_url": "https://www.youtube.com/watch?v=7eEhWDPMi7E",
+    "upload_date": "20210624",
+    "channel": "The Exchange",
+    "summary": "Mario Loria, a Kubernetes-focused SRE at CARDAX, opens his talk by thanking fellow speakers and acknowledging his community-driven journey in cloud-native tech. He positions himself as a passionate ad...",
+    "topics": [
+      "Developer Experience (DevX)",
+      "Kubernetes",
+      "Cloud Native",
+      "SRE",
+      "Docker"
+    ]
+  },
+  {
+    "id": "SWiFtKaVghI",
+    "title": "Rick Payne @ RMS - Security Champions \u2013 Open the Floodgates!",
+    "youtube_url": "https://www.youtube.com/watch?v=SWiFtKaVghI",
+    "upload_date": "20210624",
+    "channel": "The Exchange",
+    "summary": "The speaker, a seasoned security professional with a background in systems engineering and DevOps, reflects on their journey into security and emphasizes the need for collaboration between security an...",
+    "topics": [
+      "Security vs Development Collaboration",
+      "Shared Responsibility in Security",
+      "DevSecOps Culture Shift",
+      "Department of Defense Security Framework",
+      "GitLab Security Survey Insights"
+    ]
+  },
+  {
+    "id": "o2oOsR--bYw",
+    "title": "Bill Walker @ Google - Large-scale cluster management at Google with Borg and Kubernetes",
+    "youtube_url": "https://www.youtube.com/watch?v=o2oOsR--bYw",
+    "upload_date": "20210624",
+    "channel": "The Exchange",
+    "summary": "Bill Walker, an Engineering Manager in Security SRE at Google, opens his talk by reflecting on his four-year journey into DevOps and SRE \u2014 a field new to him despite his prior experience in people man...",
+    "topics": [
+      "SRE and DevOps",
+      "Google Cloud Platform Infrastructure",
+      "On-Call Engineering",
+      "Data Center Operations",
+      "People Management in Tech"
+    ]
+  },
+  {
+    "id": "5KFt3QpQDWo",
+    "title": "James Betteley @ Publicis Sapient - Scaling All of the Things",
+    "youtube_url": "https://www.youtube.com/watch?v=5KFt3QpQDWo",
+    "upload_date": "20210729",
+    "channel": "The Exchange",
+    "summary": "James Betley, Director of Technology at Sapient, opens his virtual talk by acknowledging the novelty of the format and thanking attendees for participating without free pizza. He sets the stage to dis...",
+    "topics": [
+      "Scaling in Financial Services",
+      "Google Cloud Platform (GCP) Adoption",
+      "Compliance and Regulatory Challenges",
+      "DevOps and Cloud Maturity",
+      "Team Diversity in Cloud Adoption"
+    ]
+  },
+  {
+    "id": "kD9IlcUG-4c",
+    "title": "Richard Haigh @ HealthHero - DevOps: how to build and scale",
+    "youtube_url": "https://www.youtube.com/watch?v=kD9IlcUG-4c",
+    "upload_date": "20210729",
+    "channel": "The Exchange",
+    "summary": "Richard Hague, CTO at Health Hero, opens his talk by reflecting on his DevOps journey and the current state of DevOps adoption in organizations. He notes that despite DevOps being a popular topic, onl...",
+    "topics": [
+      "DevOps adoption trends",
+      "Scaling DevOps teams",
+      "Health Hero case study",
+      "DevOps history and pioneers",
+      "Measuring DevOps success"
+    ]
+  },
+  {
+    "id": "oG3tAqbdHS0",
+    "title": "Andy Cowley @ Five - Lessons Learnt from Teaching an ADAS Company to DevOps",
+    "youtube_url": "https://www.youtube.com/watch?v=oG3tAqbdHS0",
+    "upload_date": "20210729",
+    "channel": "The Exchange",
+    "summary": "Andy, an engineering manager at Five, shares insights from leading DevOps transformation at an autonomous driving company. He recounts the challenges of scaling infrastructure for 150 engineers with a...",
+    "topics": [
+      "DevOps transformation",
+      "Autonomous vehicle development",
+      "Infrastructure as Code",
+      "Developer onboarding",
+      "Cloud deployment"
+    ]
+  },
+  {
+    "id": "2Iq4UuVV7bM",
+    "title": "Henrique Rodrigues @ LYTT - Why Debian is not secure",
+    "youtube_url": "https://www.youtube.com/watch?v=2Iq4UuVV7bM",
+    "upload_date": "20220325",
+    "channel": "The Exchange",
+    "summary": "Henrik Rodriguez, a seasoned DevOps manager and long-time Linux enthusiast, opens his talk with a humorous and self-deprecating tone, acknowledging his beard, long hair, and affinity for metal as ster...",
+    "topics": [
+      "Linux distributions",
+      "Dvian distribution",
+      "CVEs and security",
+      "DevOps",
+      "Containerization"
+    ]
+  },
+  {
+    "id": "Jouts5NTorU",
+    "title": "Robert Ray Barnes @ HashiCorp - Cloud Identity with HashiCorp Vault",
+    "youtube_url": "https://www.youtube.com/watch?v=Jouts5NTorU",
+    "upload_date": "20220325",
+    "channel": "The Exchange",
+    "summary": "Rob Barnes, known as DevOps Rob and Developer Advocate at HashiCorp, opens his talk by expressing gratitude to the live audience, contrasting the experience of virtual talks with the joy of in-person ...",
+    "topics": [
+      "Cloud Identity",
+      "HashiCorp Vault",
+      "Secrets Management",
+      "Zero Trust Security",
+      "Secret Zero Problem"
+    ]
+  },
+  {
+    "id": "U9KMmS3V0cg",
+    "title": "Jon Hammant @ AWS - Building skills in a DevOps world \u2013 T, E, V, and Ven Shaped engineers",
+    "youtube_url": "https://www.youtube.com/watch?v=U9KMmS3V0cg",
+    "upload_date": "20220325",
+    "channel": "The Exchange",
+    "summary": "John Hammond, who leads the compute business for AWS in the UK and Ireland, opens his talk by emphasizing the unique and urgent demand for skilled professionals in today\u2019s tech landscape, especially w...",
+    "topics": [
+      "DevOps",
+      "Skills Development",
+      "Hard Skills vs Soft Skills",
+      "Amazon AWS",
+      "Career Growth"
+    ]
+  },
+  {
+    "id": "-ReEZ3CHD84",
+    "title": "Simona Ionascu and Jonny Sywulak @ Accurx - If you build it, they'll stop complaining about Jenkins",
+    "youtube_url": "https://www.youtube.com/watch?v=-ReEZ3CHD84",
+    "upload_date": "20220921",
+    "channel": "The Exchange",
+    "summary": "Johnny and Mona, both DevOps engineers at Accur X, introduce their talk on building internal development platforms (IDPs) through the lens of practical, incremental steps. They argue that while the vi...",
+    "topics": [
+      "Internal Development Platforms",
+      "CLI Tools for DevOps",
+      "Reducing Cognitive Load",
+      "DevOps Tooling",
+      "Kubernetes"
+    ]
+  },
+  {
+    "id": "6-nDxHT3WLo",
+    "title": "Matt Mould @ Storm Reply - From cattle to pets \u2013 part 1",
+    "youtube_url": "https://www.youtube.com/watch?v=6-nDxHT3WLo",
+    "upload_date": "20220921",
+    "channel": "The Exchange",
+    "summary": "Matt from Storm Reply UK opens with a humorous nod to the \u2018pets to cattle\u2019 analogy in DevOps, transitioning to the emerging challenge of IoT automation. He acknowledges the fantasy of seamless, secure...",
+    "topics": [
+      "IoT Architecture",
+      "Edge Computing",
+      "Legacy Protocols",
+      "Cloud Connectivity",
+      "DevOps & IoT"
+    ]
+  },
+  {
+    "id": "axguar_ThIc",
+    "title": "Matt Turner @ Tetrate - AppOps: enabling real dev/ops collaboration",
+    "youtube_url": "https://www.youtube.com/watch?v=axguar_ThIc",
+    "upload_date": "20220921",
+    "channel": "The Exchange",
+    "summary": "Matt Turner, from Tetray, opens with a light-hearted introduction to his company\u2019s service mesh management platform built on top of Istio. He acknowledges that while his solution is tailored for sophi...",
+    "topics": [
+      "Service Mesh",
+      "Istio",
+      "DevOps",
+      "Application Operations (App Ops)",
+      "IT vs Dev Teams"
+    ]
+  },
+  {
+    "id": "JF35nT0fvyc",
+    "title": "Simone Casciaroli @ ONTO - Are we building Cloud Platforms using the right metrics?",
+    "youtube_url": "https://www.youtube.com/watch?v=JF35nT0fvyc",
+    "upload_date": "20221117",
+    "channel": "The Exchange",
+    "summary": "Simone, Head of Engineering at On to, opens her talk by reflecting on the common pitfalls of platform teams\u2014especially the misconception that renaming a team or platform as 'Cloud Platform' automatica...",
+    "topics": [
+      "Platform as a Product",
+      "Metrics and Outcomes",
+      "Heat Framework",
+      "Platform Team Challenges",
+      "Engineering Leadership"
+    ]
+  },
+  {
+    "id": "cQlP7eqOKHU",
+    "title": "Bharat Reddy @ Accurx - Devopsing it: a retrospective on doubling our engineering team and living...",
+    "youtube_url": "https://www.youtube.com/watch?v=cQlP7eqOKHU",
+    "upload_date": "20221117",
+    "channel": "The Exchange",
+    "summary": "The video features Bharat Reddy, a DevOps engineer, presenting at an event titled '#DOXxLON' in London. He discusses his company's journey in building an internal platform and shares three key DevOps ...",
+    "topics": [
+      "DevOps practices",
+      "Shortening feedback loops",
+      "Component ownership",
+      "DevOps culture vs. anti-patterns",
+      "Healthcare technology"
+    ]
+  },
+  {
+    "id": "osv-uEO9VS4",
+    "title": "Joseph Irving @ Sony Playstation - Playstation and Kubernetes: How to solve a problem like real-time",
+    "youtube_url": "https://www.youtube.com/watch?v=osv-uEO9VS4",
+    "upload_date": "20221117",
+    "channel": "The Exchange",
+    "summary": "Joseph from PlayStation introduces the challenges of running real-time game servers in Kubernetes, contrasting them with easier-to-manage async services. Real-time servers require persistent, low-late...",
+    "topics": [
+      "Real-time game servers",
+      "Kubernetes challenges",
+      "Pod termination",
+      "Auto-scaling in gaming",
+      "Multi-region deployment"
+    ]
+  },
+  {
+    "id": "AwW2p94t1RE",
+    "title": "Ionut Craciunescu @ Utility Warehouse - Journey into data as a product",
+    "youtube_url": "https://www.youtube.com/watch?v=AwW2p94t1RE",
+    "upload_date": "20230112",
+    "channel": "The Exchange",
+    "summary": "The video presentation, led by Ionut Craciunescu, explores the concept of 'Data as a Product' and introduces the Data Mesh architecture. It begins by outlining the speaker's background and the organiz...",
+    "topics": [
+      "Data as a Product",
+      "Data Mesh Architecture",
+      "DevOps and Data Engineering",
+      "Data Ownership",
+      "Data Democratization"
+    ]
+  },
+  {
+    "id": "qe5QC17vIWw",
+    "title": "Hamed Silatani @ Uptime Labs - Not happy with your monitoring tool, The answer might not be ...",
+    "youtube_url": "https://www.youtube.com/watch?v=qe5QC17vIWw",
+    "upload_date": "20230112",
+    "channel": "The Exchange",
+    "summary": "The speaker, Hamed Silatani, CEO of Uptime Labs, addresses the common frustration with monitoring tools in DevOps environments. He argues that the real issue isn't the tools themselves, but rather the...",
+    "topics": [
+      "Monitoring tools in DevOps",
+      "People, Processes, Technology (PPT) framework",
+      "Reliability and resiliency engineering",
+      "Learning from real-world incidents",
+      "Technology Honeymoon Graph"
+    ]
+  },
+  {
+    "id": "re7E7vA_dQo",
+    "title": "Colin Humphrey @ Funding Circle - Embedding an SLOs culture within your organisation",
+    "youtube_url": "https://www.youtube.com/watch?v=re7E7vA_dQo",
+    "upload_date": "20230112",
+    "channel": "The Exchange",
+    "summary": "The video presentation, delivered by Colin Humphrey, focuses on embedding an SLO (Service Level Objective) culture within an organization. It begins with an introduction to SLOs and their importance i...",
+    "topics": [
+      "SLO (Service Level Objective) culture",
+      "DevOps and SRE (Site Reliability Engineering)",
+      "SLI (Service Level Indicator)",
+      "Error Budget States",
+      "Phases of SLO adoption"
+    ]
+  },
+  {
+    "id": "DnYG8Ta3szY",
+    "title": "Will Hall @ EPAM - Simple Hacks to DevSecOps Superstardom",
+    "youtube_url": "https://www.youtube.com/watch?v=DnYG8Ta3szY",
+    "upload_date": "20230210",
+    "channel": "The Exchange",
+    "summary": "The video features Will Hall, a DevSecOps professional with over seven years of experience, delivering a talk titled 'Simple Hacks to DevSecOps Super Stardom.' He uses humor and analogies to explain D...",
+    "topics": [
+      "DevSecOps",
+      "DevOps",
+      "Security in Software Development",
+      "CI/CD Pipelines",
+      "Tooling and Automation"
+    ]
+  },
+  {
+    "id": "Sea--qnlE1c",
+    "title": "Ernesto Salas @ AWS - Networking-as-a-Service: from building pipes to enabling innovation",
+    "youtube_url": "https://www.youtube.com/watch?v=Sea--qnlE1c",
+    "upload_date": "20230210",
+    "channel": "The Exchange",
+    "summary": "Ser Nesto Salas, AWS Networking lead for IMEA, opens his talk by acknowledging the challenges developers and platform teams face with networking\u2014often viewing it as a blocker to innovation. He shares ...",
+    "topics": [
+      "Cloud Networking",
+      "DevOps in Networking",
+      "Network as Code",
+      "AWS Infrastructure",
+      "Developer Experience"
+    ]
+  },
+  {
+    "id": "VCIusZjvULg",
+    "title": "Mitchell Homer & Simona Ionascu @ Accurx - Deploying When The Sun Don\u2019t Shine",
+    "youtube_url": "https://www.youtube.com/watch?v=VCIusZjvULg",
+    "upload_date": "20230210",
+    "channel": "The Exchange",
+    "summary": "The video features a DevOps presentation by Mitchell Homer and Simona Ionascu from AQRIX, discussing the challenges of deploying software in healthcare environments, particularly during inclement weat...",
+    "topics": [
+      "DevOps in Healthcare",
+      "System Availability",
+      "Weather Impact on IT Systems",
+      "Infrastructure Monitoring",
+      "Azure DevOps"
+    ]
+  },
+  {
+    "id": "7LnrDGMmBqQ",
+    "title": "Joon Park and Mihai Tabara @ Spotify - Backstage: The future of Developer Experience",
+    "youtube_url": "https://www.youtube.com/watch?v=7LnrDGMmBqQ",
+    "upload_date": "20230309",
+    "channel": "The Exchange",
+    "summary": "The video presents a talk by Joon Park and Mihai Tabara from Spotify, introducing 'Backstage,' an open-source platform designed to streamline developer workflows. The presenters explain that Backstage...",
+    "topics": [
+      "Backstage platform",
+      "Developer experience",
+      "DevOps",
+      "Developer portal",
+      "CI/CD"
+    ]
+  },
+  {
+    "id": "P1bTBwlyPtU",
+    "title": "Natalie Godec @ Zencore - Building a cloud-native data platform with security in mind",
+    "youtube_url": "https://www.youtube.com/watch?v=P1bTBwlyPtU",
+    "upload_date": "20230309",
+    "channel": "The Exchange",
+    "summary": "The video presentation by Natalie Godec, a cloud architect at Zen Core, explores the topic of building a cloud-native data platform with a focus on security. She discusses the vast amounts of data gen...",
+    "topics": [
+      "Cloud-native data platforms",
+      "Data security in the cloud",
+      "Google Cloud Platform (GCP) services",
+      "VPC Service Controls",
+      "Ingress/Egress policies"
+    ]
+  },
+  {
+    "id": "u8kHFWiPFj8",
+    "title": "Shirisha Vivekanand @ AWS - Building Resilience through Chaos Engineering",
+    "youtube_url": "https://www.youtube.com/watch?v=u8kHFWiPFj8",
+    "upload_date": "20230309",
+    "channel": "The Exchange",
+    "summary": "The video presentation, delivered by Shirisha Vivekanandan, explores the concept of Chaos Engineering as a method for building system resilience. It begins by defining resilience as the ability of a s...",
+    "topics": [
+      "Chaos Engineering",
+      "System Resilience",
+      "AWS Well-Architected Framework",
+      "Reliability Pillar",
+      "Fault Injection Testing"
+    ]
+  },
+  {
+    "id": "-BLThkDpfOc",
+    "title": "Ashish Bhatia @ Canvass AI - Debugging Kubernetes common problems",
+    "youtube_url": "https://www.youtube.com/watch?v=-BLThkDpfOc",
+    "upload_date": "20230620",
+    "channel": "The Exchange",
+    "summary": "Ashish presents a talk at the DevOps Exchange Toronto event, focusing on debugging Kubernetes application deployments. He highlights common errors like 'ImagePullBackOff', 'CrashLoopBackOff', and 'Pen...",
+    "topics": [
+      "DevOps",
+      "Kubernetes",
+      "Container Debugging",
+      "Application Deployment",
+      "Cube City"
+    ]
+  },
+  {
+    "id": "0lWqE52tdA4",
+    "title": "Shlomo Bielak @ theScore - Going from confidence in production to confidence for production",
+    "youtube_url": "https://www.youtube.com/watch?v=0lWqE52tdA4",
+    "upload_date": "20230620",
+    "channel": "The Exchange",
+    "summary": "The video features a presentation at the DevOps Exchange Toronto event, organized by Linux Recruit. The speaker, representing Penn, discusses key principles for DevOps and SRE practices, focusing on t...",
+    "topics": [
+      "DevOps",
+      "SRE (Site Reliability Engineering)",
+      "Observability",
+      "Hype Cycle for Emerging Tech",
+      "CIO Principle"
+    ]
+  },
+  {
+    "id": "gkqh2ut62gk",
+    "title": "Fr\u00e9d\u00e9ric Harper @ Kubefirst - Git Shit Done, the GitOps Way",
+    "youtube_url": "https://www.youtube.com/watch?v=gkqh2ut62gk",
+    "upload_date": "20230620",
+    "channel": "The Exchange",
+    "summary": "Fred, a Developer Advocate at Cune First, opens his talk with a casual, self-deprecating tone, acknowledging he\u2019s not a traditional presenter and joking about his Twitter obsession. He clarifies he\u2019s ...",
+    "topics": [
+      "GitOps",
+      "DevOps",
+      "CI/CD",
+      "Infrastructure as Code",
+      "Source of Truth"
+    ]
+  },
+  {
+    "id": "ZnMp4dhA_zE",
+    "title": "Tina Tyavlovskaya and Kabir Faisal @ ActionIQ - Rocky Journey to Replace Legacy Automation",
+    "youtube_url": "https://www.youtube.com/watch?v=ZnMp4dhA_zE",
+    "upload_date": "20230628",
+    "channel": "The Exchange",
+    "summary": "The video presents a case study on the migration of legacy test automation from Selenium to Cypress, highlighting the challenges and benefits of the transition. The speaker, Tina from ActionIQ, introd...",
+    "topics": [
+      "Legacy Automation Migration",
+      "Cypress vs Selenium",
+      "Test Case Modernization",
+      "Data-Driven Testing",
+      "Automation Frameworks"
+    ]
+  },
+  {
+    "id": "8u0qApZEGoU",
+    "title": "Raj Kumar, Technovation Maestro - The Journey of Leadership and DevOps",
+    "youtube_url": "https://www.youtube.com/watch?v=8u0qApZEGoU",
+    "upload_date": "20230707",
+    "channel": "The Exchange",
+    "summary": "The video features a presentation by Raj Kumar, a technology leader, at the DevOps Exchange Toronto event. He discusses the challenges of organizational growth, particularly the siloed nature of teams...",
+    "topics": [
+      "DevOps culture",
+      "Organizational silos",
+      "Leadership",
+      "Collaboration",
+      "Productivity"
+    ]
+  },
+  {
+    "id": "TkUYYk2AZPc",
+    "title": "Michael Liberman @ Kusari - Insights into the Software Supply Chain: An Introduction to GUAC",
+    "youtube_url": "https://www.youtube.com/watch?v=TkUYYk2AZPc",
+    "upload_date": "20230718",
+    "channel": "The Exchange",
+    "summary": "Mike Lieberman, co-founder of Kusari and active in the open source community, introduces the concept of software supply chain security (SSCS) during a conference talk. He highlights the growing need f...",
+    "topics": [
+      "Software Supply Chain Security",
+      "Open Source Security",
+      "Dependency Management",
+      "Log4j Vulnerability",
+      "Third-Party Risk"
+    ]
+  },
+  {
+    "id": "UowV1wk4tAo",
+    "title": "Larry Gordon - @ Emtec - DevOps Starts with Leadership and Culture",
+    "youtube_url": "https://www.youtube.com/watch?v=UowV1wk4tAo",
+    "upload_date": "20230725",
+    "channel": "The Exchange",
+    "summary": "The presentation, delivered by Larry Gordon of Emtec Inc., outlines the key principles and practices for successful DevOps implementation. It emphasizes that DevOps success begins with strong leadersh...",
+    "topics": [
+      "DevOps Leadership",
+      "DevOps Culture",
+      "DevOps Best Practices",
+      "Toolchain Management",
+      "Team Collaboration"
+    ]
+  },
+  {
+    "id": "YgIbVD0wvcI",
+    "title": "Eugene Trufanov @ Luxoft - \"Unstuck\"",
+    "youtube_url": "https://www.youtube.com/watch?v=YgIbVD0wvcI",
+    "upload_date": "20230726",
+    "channel": "The Exchange",
+    "summary": "Eugene Trufanov, a Lead DevOps Engineer at Luxoft, presents a talk on career development for engineers, focusing on the gap between technical engineering roadmaps and leadership growth. He outlines a ...",
+    "topics": [
+      "Career Development for Engineers",
+      "Engineering Roadmaps vs. Leadership Growth",
+      "Soft Skills Improvement",
+      "Professional Growth Strategies",
+      "DevOps Career Paths"
+    ]
+  },
+  {
+    "id": "6MUK7XY7fBs",
+    "title": "John Wiley & Sons - \"Cultivating a DevOps Culture: Seamless Transformation & Maximum Velocity\"",
+    "youtube_url": "https://www.youtube.com/watch?v=6MUK7XY7fBs",
+    "upload_date": "20230801",
+    "channel": "The Exchange",
+    "summary": "The video presentation discusses the automation of change management processes within DevOps CI/CD pipelines, focusing on improving efficiency, reducing manual work, and enhancing business value throu...",
+    "topics": [
+      "DevOps CI/CD Pipelines",
+      "Change Management Automation",
+      "DORA Metrics",
+      "Value Stream Management",
+      "Continuous Integration/Continuous Deployment (CI/CD)"
+    ]
+  },
+  {
+    "id": "ebY4k_Z1ueE",
+    "title": "Tim Murphy @ ActionIQ - \"Our Jenkins Journey: Lessons Learned\"",
+    "youtube_url": "https://www.youtube.com/watch?v=ebY4k_Z1ueE",
+    "upload_date": "20230801",
+    "channel": "The Exchange",
+    "summary": "The speaker, representing ActionIQ, delivers a candid and critical review of Jenkins, a popular DevOps automation platform. While acknowledging Jenkins' strengths and its role in helping teams survive...",
+    "topics": [
+      "Jenkins platform critique",
+      "DevOps implementation challenges",
+      "Usability and documentation issues",
+      "Plugin library and version compatibility problems",
+      "Worker sizing and autoscaling"
+    ]
+  },
+  {
+    "id": "vHITG7TrCgY",
+    "title": "David Stanke @ Google - \"New insights and surprises from DORA research\"",
+    "youtube_url": "https://www.youtube.com/watch?v=vHITG7TrCgY",
+    "upload_date": "20230801",
+    "channel": "The Exchange",
+    "summary": "The presentation explores how software delivery performance is measured and its impact on organizational outcomes, emphasizing the role of culture, security, and technical capabilities. It highlights ...",
+    "topics": [
+      "DevOps metrics and performance",
+      "Software delivery measurement",
+      "Continuous improvement",
+      "Organizational outcomes",
+      "Predictive analytics"
+    ]
+  },
+  {
+    "id": "AahcUiBSlrk",
+    "title": "George Gkirtsou @ Bark - How Platform Team quickly created Atlas, an Int. Developer Platform at Bark",
+    "youtube_url": "https://www.youtube.com/watch?v=AahcUiBSlrk",
+    "upload_date": "20230830",
+    "channel": "The Exchange",
+    "summary": "George Gkirtirtsou from Bark presents how the platform team at Bark created 'Atlas', an internal Dev platform, in just two months using open-source components. He outlines the challenges with their pr...",
+    "topics": [
+      "DevOps Platform Development",
+      "Infrastructure as Code (IaC)",
+      "Cloud Architecture",
+      "Platform Engineering",
+      "Team Leadership"
+    ]
+  },
+  {
+    "id": "GEWkHeJ6KHc",
+    "title": "Paula Kennedy @ Syntasso - From infrastructure to app deployment: Where does a platform start & end?",
+    "youtube_url": "https://www.youtube.com/watch?v=GEWkHeJ6KHc",
+    "upload_date": "20230830",
+    "channel": "The Exchange",
+    "summary": "Paula Kennedy presents on platform engineering, defining what a platform is and exploring its boundaries within organizations. She uses examples like Jira and AWS, contrasting them with traditional in...",
+    "topics": [
+      "Platform Engineering",
+      "Definition of a Platform",
+      "Team Responsibilities",
+      "Platform Boundaries",
+      "Infrastructure vs. Platform"
+    ]
+  },
+  {
+    "id": "ITfNA8KGt90",
+    "title": "Mike Skaife @ JLR - DevOps on Wheels - Continuous Deployment of Vehicle Software",
+    "youtube_url": "https://www.youtube.com/watch?v=ITfNA8KGt90",
+    "upload_date": "20230830",
+    "channel": "The Exchange",
+    "summary": "The video presents a DevOps-focused talk on vehicle software, delivered by Mike Skaife, Head of Engineering at Jaguar Land Rover (JLR). The presentation explores how DevOps practices are applied to au...",
+    "topics": [
+      "DevOps in the automotive industry",
+      "Continuous Deployment in Vehicles",
+      "SOTA (Software Over The Air) Platform",
+      "Vehicle Software Architecture",
+      "Software Scale in Modern Cars"
+    ]
+  },
+  {
+    "id": "P4dJS84ur7E",
+    "title": "Kosseila Hd - \"What\u2019s OIDC and why should you use it asap in your GitHub pipeline\"",
+    "youtube_url": "https://www.youtube.com/watch?v=P4dJS84ur7E",
+    "upload_date": "20230905",
+    "channel": "The Exchange",
+    "summary": "The video presentation by Kosseila Haddadlene, a Solutions Architect at Eclipsys, explores the origins, workflow, and practical implementation of OAuth 2.0 and OpenID Connect (OIDC) in modern authenti...",
+    "topics": [
+      "OAuth 2.0",
+      "OpenID Connect (OIDC)",
+      "Authentication Protocols",
+      "GitHub Actions",
+      "Azure"
+    ]
+  },
+  {
+    "id": "R88GQ6HhwyY",
+    "title": "Jonas Dizon - \"Running small but efficient DevOps teams\"",
+    "youtube_url": "https://www.youtube.com/watch?v=R88GQ6HhwyY",
+    "upload_date": "20230905",
+    "channel": "The Exchange",
+    "summary": "The video presentation, delivered by Jonas from Financeit, explores the DevOps culture and operational models within the company. It highlights the team's agreement on core principles such as precisio...",
+    "topics": [
+      "DevOps Culture at Financeit",
+      "Team Agreement and Shared Principles",
+      "Workload Management and Prioritization",
+      "Comparison with Amazon's Microservices Model",
+      "Operational Challenges in Regulated Environments"
+    ]
+  },
+  {
+    "id": "aBkeeVSpjzA",
+    "title": "Iftikhar Ali - \"Use-case study: Using GitOps to manage app deployments on OpenShift platform\"",
+    "youtube_url": "https://www.youtube.com/watch?v=aBkeeVSpjzA",
+    "upload_date": "20230905",
+    "channel": "The Exchange",
+    "summary": "The video presents a DevOps and SRE monitoring presentation by Iftekar, a senior manager at IBM, at the DevOps Exchange Toronto event. The talk covers the evolution from traditional software developme...",
+    "topics": [
+      "DevOps",
+      "SRE (Site Reliability Engineering)",
+      "CI/CD Pipelines",
+      "Application Monitoring",
+      "Instana"
+    ]
+  },
+  {
+    "id": "21HvVrMRenY",
+    "title": "Matteo Rinaudo @ AWS - \"AWS CloudFormation - technical introduction\"",
+    "youtube_url": "https://www.youtube.com/watch?v=21HvVrMRenY",
+    "upload_date": "20230915",
+    "channel": "The Exchange",
+    "summary": "The video presentation, delivered by AWS senior developer advocate Kai Landy, introduces AWS CloudFormation as a service for managing infrastructure as code. The session covers the core concepts of In...",
+    "topics": [
+      "Infrastructure as Code (IaC)",
+      "AWS CloudFormation",
+      "YAML and JSON templates",
+      "DevOps practices",
+      "Cloud resource management"
+    ]
+  },
+  {
+    "id": "NI6Nr8i9AP4",
+    "title": "Sal Furino - \"9 Things You Should Do When Starting to Use SLOs\"",
+    "youtube_url": "https://www.youtube.com/watch?v=NI6Nr8i9AP4",
+    "upload_date": "20230915",
+    "channel": "The Exchange",
+    "summary": "The video presentation by Kai Landy, a Site Reliability Engineer, discusses best practices for implementing Service Level Objectives (SLOs) in organizations. Landy emphasizes that while SRE books prov...",
+    "topics": [
+      "SLO Implementation",
+      "Site Reliability Engineering (SRE)",
+      "Reliability Culture",
+      "Observability",
+      "Customer Journeys"
+    ]
+  },
+  {
+    "id": "sLcL69I2ZZQ",
+    "title": "Calvin Barker @ Rokt - \"Edge-Terminating Authentication\"",
+    "youtube_url": "https://www.youtube.com/watch?v=sLcL69I2ZZQ",
+    "upload_date": "20230915",
+    "channel": "The Exchange",
+    "summary": "The video presents an analogy to explain the concepts of Identity, Authentication, and Authorization in the context of a digital system, using the example of an '18+ Pub' with a bartender named Alice....",
+    "topics": [
+      "Identity, Authentication, Authorization",
+      "DevOps",
+      "Security",
+      "API Gateways",
+      "Microservices"
+    ]
+  },
+  {
+    "id": "V3OcRaZIRTo",
+    "title": "DevOps Exchange London at DevOpsDays 2023",
+    "youtube_url": "https://www.youtube.com/watch?v=V3OcRaZIRTo",
+    "upload_date": "20230925",
+    "channel": "The Exchange",
+    "summary": "Chris, the moderator, opens the panel session at DevOps Days with a lighthearted welcome, thanking attendees for their participation and attendance. He humorously notes the disruption caused by people...",
+    "topics": [
+      "DevOps Days conference",
+      "DevOps evolution and history",
+      "Sponsorship and community",
+      "Panelist introductions",
+      "Engineering at Google and Amazon"
+    ]
+  },
+  {
+    "id": "5bRYfnWgPvE",
+    "title": "Ben Stanley @ Temrel - Self-hosting LLMs for Dummies",
+    "youtube_url": "https://www.youtube.com/watch?v=5bRYfnWgPvE",
+    "upload_date": "20231006",
+    "channel": "The Exchange",
+    "summary": "The video presentation by Ben Stanley explores the concept of self-hosting large language models (LLMs) for businesses, contrasting it with using third-party APIs like ChatGPT. Stanley explains that w...",
+    "topics": [
+      "Self-hosting Large Language Models (LLMs)",
+      "LLM Modes of Use",
+      "Fine-tuning",
+      "Inference",
+      "Streaming"
+    ]
+  },
+  {
+    "id": "DIiaZ3WtICc",
+    "title": "Denys Vasyliev @ GfK - AIRe - AI Reliability Engineering",
+    "youtube_url": "https://www.youtube.com/watch?v=DIiaZ3WtICc",
+    "upload_date": "20231006",
+    "channel": "The Exchange",
+    "summary": "The speaker, Denys Vasyliiev, presents on 'AI Reliability Engineering (AIRE)' at a DevOps Exchange event in London. He argues that AI is not just a fleeting trend but a significant technological advan...",
+    "topics": [
+      "AI Reliability Engineering (AIRE)",
+      "ChatGPT Growth",
+      "LangChain Framework",
+      "DevOps and SRE Challenges",
+      "AI Deployment Strategies"
+    ]
+  },
+  {
+    "id": "_KuNL5XqfI4",
+    "title": "George Mamalakis @ META - Disaster Recovery @ Meta",
+    "youtube_url": "https://www.youtube.com/watch?v=_KuNL5XqfI4",
+    "upload_date": "20231006",
+    "channel": "The Exchange",
+    "summary": "George Mama Likes, a Meta production engineer, discusses how the company handles data center disasters, using Hurricane Sandy in 2012 as a pivotal case study. At that time, Meta\u2019s reliance on a single...",
+    "topics": [
+      "Disaster Recovery",
+      "Data Center Failures",
+      "Meta Infrastructure",
+      "Traffic Redirection",
+      "Microservices Architecture"
+    ]
+  },
+  {
+    "id": "uLkF4BJHYu8",
+    "title": "Damon Wright @ Capgemini - Kubernetes pods: they really are a container?",
+    "youtube_url": "https://www.youtube.com/watch?v=uLkF4BJHYu8",
+    "upload_date": "20231006",
+    "channel": "The Exchange",
+    "summary": "The video features Damon Wright, a Platform Engineer at Capgemini, delivering a presentation at the DevOps Exchange London event. The talk, titled 'Kubernetes Pods: They Really Are a Container?', delv...",
+    "topics": [
+      "Kubernetes",
+      "Containers",
+      "Linux Namespaces",
+      "Control Groups (Cgroups)",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "BwQuc2xefls",
+    "title": "Patrick Hyland @ Domino's - Pizza Platforms, Dynamic Capabilities and SRE/GenAI",
+    "youtube_url": "https://www.youtube.com/watch?v=BwQuc2xefls",
+    "upload_date": "20231130",
+    "channel": "The Exchange",
+    "summary": "Patrick Hyland, Senior Engineering Manager at Domino's, presents on the modernization of the company's technical capabilities, focusing on the evolution of its Site Reliability Engineering (SRE) funct...",
+    "topics": [
+      "Domino's digital platform evolution",
+      "Site Reliability Engineering (SRE)",
+      "Dynamic Capabilities Framework",
+      "Phoenix Architecture",
+      "DevOps Practices"
+    ]
+  },
+  {
+    "id": "q9j2iiqOpG4",
+    "title": "Raul Rodriguez @ Z\u00fchlke Engineering - Preventing Deaths: DevOps' 10,000 Success",
+    "youtube_url": "https://www.youtube.com/watch?v=q9j2iiqOpG4",
+    "upload_date": "20231130",
+    "channel": "The Exchange",
+    "summary": "The video features Ra\u00fal Rodr\u00edguez, a DevOps engineer, presenting at the 'DevOps Exchange London' event. He discusses the critical role of DevOps in preventing COVID-19 deaths through the NHS app, high...",
+    "topics": [
+      "DevOps",
+      "NHS COVID-19 App",
+      "Digital Contact Tracing",
+      "Preventing COVID-19 Deaths",
+      "Microservices"
+    ]
+  },
+  {
+    "id": "Lqm-LtlOOR8",
+    "title": "Adriana Villela and Hannah Maxwell - \"Discover the surprising connection between baking and coding!\"",
+    "youtube_url": "https://www.youtube.com/watch?v=Lqm-LtlOOR8",
+    "upload_date": "20231218",
+    "channel": "The Exchange",
+    "summary": "The video is a lighthearted and creative presentation by Adriana Vilela and Hannah Maxwell, exploring the parallels between coding and baking. It uses whimsical visuals of a capybara chef and humorous...",
+    "topics": [
+      "Coding and debugging",
+      "Baking and recipe development",
+      "Learning new skills",
+      "Problem-solving",
+      "Humor and creativity in tech"
+    ]
+  },
+  {
+    "id": "pess2GvboS0",
+    "title": "Lachlan Holmes - \"Implementing SRE from scratch\"",
+    "youtube_url": "https://www.youtube.com/watch?v=pess2GvboS0",
+    "upload_date": "20231218",
+    "channel": "The Exchange",
+    "summary": "The video presentation, delivered by Lachlan Holmes, details the implementation of SRE (Site Reliability Engineering) practices at a SaaS startup. The speaker outlines the three core pillars of their ...",
+    "topics": [
+      "SRE (Site Reliability Engineering)",
+      "SRE Implementation",
+      "Load Balancer",
+      "APM Tool",
+      "Observability"
+    ]
+  },
+  {
+    "id": "f08WpvtInvM",
+    "title": "Matt LeBlanc and Hart Ripley - \"Migrating PacMan to another Cluster/Cloud\"",
+    "youtube_url": "https://www.youtube.com/watch?v=f08WpvtInvM",
+    "upload_date": "20231219",
+    "channel": "The Exchange",
+    "summary": "The video discusses the challenges of connecting and managing Kubernetes clusters across different cloud environments and on-premises setups. It introduces 'KubeSlice' as a solution to securely connec...",
+    "topics": [
+      "Kubernetes cluster connectivity",
+      "Multi-cloud and hybrid cloud networking",
+      "KubeSlice",
+      "Inter-cluster communication",
+      "Disaster recovery (DR) for Kubernetes"
+    ]
+  },
+  {
+    "id": "5lk-g9nThN4",
+    "title": "DevOps Exchange - An Evening with Gene Kim",
+    "youtube_url": "https://www.youtube.com/watch?v=5lk-g9nThN4",
+    "upload_date": "20240202",
+    "channel": "The Exchange",
+    "summary": "Gene Kim presents a comprehensive analysis of DevOps organizational transformation, drawing parallels with Toyota's production system. He discusses the 'Three Layers of Work' model (Technical Object, ...",
+    "topics": [
+      "DevOps organizational transformation",
+      "Toyota Production System",
+      "Double-Loop Learning",
+      "Lean and Agile methodologies",
+      "DevOps maturity"
+    ]
+  },
+  {
+    "id": "HfASrid8Y3g",
+    "title": "Srivalsan Mannoor @ AWS - How to build the Cloud Infrastructure in the K8s style using Crossplane",
+    "youtube_url": "https://www.youtube.com/watch?v=HfASrid8Y3g",
+    "upload_date": "20240311",
+    "channel": "The Exchange",
+    "summary": "The video presentation, delivered by Srivalsan Mannooroor Sudhagar, explores the concept of 'Crossplane' as a platform for building cloud infrastructure. It begins by posing the question of why platfo...",
+    "topics": [
+      "Cloud Infrastructure",
+      "DevOps",
+      "Platform Engineering",
+      "Crossplane",
+      "Kubernetes (K8s)"
+    ]
+  },
+  {
+    "id": "luOsQaRcpQ0",
+    "title": "Dora Militaru @ Fastly - Zen and the Art of Edge Authentication",
+    "youtube_url": "https://www.youtube.com/watch?v=luOsQaRcpQ0",
+    "upload_date": "20240311",
+    "channel": "The Exchange",
+    "summary": "Dora Militaru presents on 'Zen and the Art of Edge Authentication,' discussing the evolution and implementation of authentication in modern, distributed systems. She emphasizes the importance of bring...",
+    "topics": [
+      "Edge Computing",
+      "Authentication",
+      "Passkeys",
+      "OWASP Top 10",
+      "Security"
+    ]
+  },
+  {
+    "id": "-fT60-ZpyC0",
+    "title": "Boost Team Autonomy with Declarative DevOps | Terraform, Helm & K8s Operators",
+    "youtube_url": "https://www.youtube.com/watch?v=-fT60-ZpyC0",
+    "upload_date": "20240419",
+    "channel": "The Exchange",
+    "summary": "Daniel Kiddikesh from Warplay's web team discusses the team's shift toward declarative DevOps practices, which enables them to write less code while achieving more. He highlights the benefits of tools...",
+    "topics": [
+      "Declarative DevOps",
+      "Infrastructure as Code",
+      "Terraform",
+      "Kubernetes Operators",
+      "Team Collaboration & Ownership"
+    ]
+  },
+  {
+    "id": "1rpmXS2_JpU",
+    "title": "The 10 Year Journey of ITV\u2019s Common Platform",
+    "youtube_url": "https://www.youtube.com/watch?v=1rpmXS2_JpU",
+    "upload_date": "20240419",
+    "channel": "The Exchange",
+    "summary": "Thomas Haynes from ITV's Common Platform team presents an overview of the platform's 10-year evolution, focusing on its core principles, version upgrades (CPv1, CPv2, CPv3), and key features. He highl...",
+    "topics": [
+      "ITV's Common Platform evolution",
+      "CPv1, CPv2, CPv3 architecture",
+      "Infrastructure as Code (IaC) with Terraform and Helm",
+      "Self-service for developers",
+      "Platform governance and security"
+    ]
+  },
+  {
+    "id": "XOhqTARQfD4",
+    "title": "From Pro Footballer to Kubernetes Engineer: My Journey into Dev Platforms & Cloud Tech",
+    "youtube_url": "https://www.youtube.com/watch?v=XOhqTARQfD4",
+    "upload_date": "20240419",
+    "channel": "The Exchange",
+    "summary": "Steve Wade, an independent cloud consultant, delivers a talk at DevOps Exchange London, tracing his personal journey from playing professional football to becoming a developer in the cloud-native spac...",
+    "topics": [
+      "DevOps",
+      "Kubernetes",
+      "Cloud-native technologies",
+      "Developer journey",
+      "Teamwork"
+    ]
+  },
+  {
+    "id": "FafU5AshNeI",
+    "title": "The Future of DevOps and Platform Engineering in a world of AI",
+    "youtube_url": "https://www.youtube.com/watch?v=FafU5AshNeI",
+    "upload_date": "20240531",
+    "channel": "The Exchange",
+    "summary": "John Boero, Field CTO at TeraSky, presents on the future of DevOps and platform engineering in the age of AI. He discusses prompt engineering, context size vs. prompt, and the deployment of LLMs. The ...",
+    "topics": [
+      "DevOps and Platform Engineering",
+      "AI and Large Language Models (LLMs)",
+      "Prompt Engineering",
+      "Kubernetes and Containerization",
+      "AWS CLI and Cloud Infrastructure"
+    ]
+  },
+  {
+    "id": "L0PE2k3Ty8A",
+    "title": "The Journey from Traditional Ops to SRE \u2014 Lessons from Greenpeace",
+    "youtube_url": "https://www.youtube.com/watch?v=L0PE2k3Ty8A",
+    "upload_date": "20240531",
+    "channel": "The Exchange",
+    "summary": "Joe Goodings, a former Greenpeace IT officer, presents a talk at DevOps Exchange London on the transition of Greenpeace's IT operations team from OpsDev to SRE. He uses a humorous, analogical approach...",
+    "topics": [
+      "DevOps",
+      "SRE (Site Reliability Engineering)",
+      "Greenpeace IT Operations",
+      "Team Transition",
+      "Cloud Migration"
+    ]
+  },
+  {
+    "id": "YZEkIlziOok",
+    "title": "Dealing with Security Alert Overload: TUI\u2019s 3-Step Approach",
+    "youtube_url": "https://www.youtube.com/watch?v=YZEkIlziOok",
+    "upload_date": "20240531",
+    "channel": "The Exchange",
+    "summary": "The video presents a talk by Corcoran Smith, focusing on how to do less work in the context of DevOps and security at TUI, a global travel company. Smith outlines a framework for prioritizing security...",
+    "topics": [
+      "DevOps Security",
+      "Security Prioritization",
+      "Vulnerability Management",
+      "TUI Travel Company",
+      "Security Engineering"
+    ]
+  },
+  {
+    "id": "GCBkqXSoWLU",
+    "title": "How to Build Applications Using Only Infrastructure as Code",
+    "youtube_url": "https://www.youtube.com/watch?v=GCBkqXSoWLU",
+    "upload_date": "20240729",
+    "channel": "The Exchange",
+    "summary": "Ryan Cormack, from Motorway, delivers a presentation on 'Infrastructure as Code' at the DevOps Exchange London. He explains the concept through practical examples using AWS, contrasting traditional in...",
+    "topics": [
+      "Infrastructure as Code (IaC)",
+      "AWS Cloud Services",
+      "DevOps Practices",
+      "Code-Driven Infrastructure",
+      "Cloud Architecture"
+    ]
+  },
+  {
+    "id": "KTzJVOUstlg",
+    "title": "How to Build a Hybrid Local + Kubernetes Dev Environment That Actually Works",
+    "youtube_url": "https://www.youtube.com/watch?v=KTzJVOUstlg",
+    "upload_date": "20240729",
+    "channel": "The Exchange",
+    "summary": "David Kirk presents a talk on building a hybrid development environment for microservices using Kubernetes (k8s). He discusses the challenges of managing dozens of services, focusing on reducing compu...",
+    "topics": [
+      "Hybrid Development Environment",
+      "Microservices Architecture",
+      "Kubernetes (k8s)",
+      "Docker and Docker-in-Docker (DinD)",
+      "DevOps Tooling"
+    ]
+  },
+  {
+    "id": "qKDjQN4tFVs",
+    "title": "How to Build & Scale Game Development in the Cloud",
+    "youtube_url": "https://www.youtube.com/watch?v=qKDjQN4tFVs",
+    "upload_date": "20240729",
+    "channel": "The Exchange",
+    "summary": "James Gibbard, Principal Platform Engineer at Slalom, presents on the challenges and solutions for building and scaling AAA game development in the cloud. He outlines the current state of AAA game dev...",
+    "topics": [
+      "Cloud-based game development",
+      "AAA game development challenges",
+      "AWS cloud solutions (EC2, FSx, S2S VPN, Transit Gateway)",
+      "Parsec HPR for low-latency streaming",
+      "Game development workflow optimization"
+    ]
+  },
+  {
+    "id": "Xn6LZmxZP8c",
+    "title": "Feature Flags 101: Decouple Deploy and Release Like a Pro",
+    "youtube_url": "https://www.youtube.com/watch?v=Xn6LZmxZP8c",
+    "upload_date": "20240930",
+    "channel": "The Exchange",
+    "summary": "Kyle Johnson, co-founder of Flagsmith, delivers a talk on decoupling deployment and release processes using feature flags. He highlights the bottlenecks in traditional software release cycles\u2014such as ...",
+    "topics": [
+      "Feature Flags",
+      "DevOps",
+      "Open Source",
+      "Software Deployment",
+      "Release Management"
+    ]
+  },
+  {
+    "id": "ghQHrxzZnaA",
+    "title": "DevOps Dirty Little Secret",
+    "youtube_url": "https://www.youtube.com/watch?v=ghQHrxzZnaA",
+    "upload_date": "20240930",
+    "channel": "The Exchange",
+    "summary": "Neil Douek, a DevOps product manager, presents at the DevOps Exchange London event. He introduces the concept of 'DevOps Dirty Little Secret,' framing it within a brief history of engineering types: T...",
+    "topics": [
+      "DevOps",
+      "Engineering History",
+      "AI in DevOps",
+      "Cognitive Strain",
+      "YAML Configuration Issues"
+    ]
+  },
+  {
+    "id": "z0WIzoN9ImM",
+    "title": "From Bare Metal to 10K Argo Apps: Aladdin\u2019s Cloud Native Transformation",
+    "youtube_url": "https://www.youtube.com/watch?v=z0WIzoN9ImM",
+    "upload_date": "20240930",
+    "channel": "The Exchange",
+    "summary": "The video presentation, led by Ali Noor from BlackRock, details the evolution of the 'Aladdin' cloud-native platform. It traces the company's journey from adopting containers and experimenting with Me...",
+    "topics": [
+      "Cloud Native Journey",
+      "Aladdin Platform",
+      "Kubernetes",
+      "GitOps",
+      "OpenShift"
+    ]
+  },
+  {
+    "id": "12p2Mhk-_bQ",
+    "title": "Post-Quantum Cryptography Is Coming to the Cloud \u2014 Here\u2019s What You Need to Know",
+    "youtube_url": "https://www.youtube.com/watch?v=12p2Mhk-_bQ",
+    "upload_date": "20241003",
+    "channel": "The Exchange",
+    "summary": "The video presentation by Sam Burns explores the transition from traditional to post-quantum cryptography (PQC), driven by the threat of quantum computers breaking current encryption. It covers the co...",
+    "topics": [
+      "Post-Quantum Cryptography (PQC)",
+      "Quantum Computing",
+      "NIST Standards",
+      "Cloud Infrastructure Security",
+      "TLS Encryption"
+    ]
+  },
+  {
+    "id": "a8v0Zu-mBCQ",
+    "title": "How to Track Your Team\u2019s Open Source Dependencies (and Why You Should)",
+    "youtube_url": "https://www.youtube.com/watch?v=a8v0Zu-mBCQ",
+    "upload_date": "20241003",
+    "channel": "The Exchange",
+    "summary": "Jamie Tanna, a Senior Software Engineer at Elastic and a prolific blogger, presents a talk at DevOps Exchange London on quantifying an organization's reliance on open source software. He introduces hi...",
+    "topics": [
+      "Open Source Software Reliance",
+      "Dependency Management",
+      "DevOps",
+      "Software Engineering",
+      "Project Management"
+    ]
+  },
+  {
+    "id": "cNQZhLTZzWg",
+    "title": "Deploy and Scale your AI apps with the Azure Developer CLI",
+    "youtube_url": "https://www.youtube.com/watch?v=cNQZhLTZzWg",
+    "upload_date": "20241003",
+    "channel": "The Exchange",
+    "summary": "The video presentation by Liam Hampton, a Microsoft Senior Developer Advocate, focuses on deploying and scaling AI applications using the Azure Developer CLI (azd). He introduces the CLI as a tool to ...",
+    "topics": [
+      "Azure Developer CLI (azd)",
+      "Deploying AI Applications",
+      "Scaling Applications",
+      "DevOps Lifecycle",
+      "Azure Services"
+    ]
+  },
+  {
+    "id": "hfheediH_nw",
+    "title": "How to Go from Engineer to Engineering Manager (Without Burning Out)",
+    "youtube_url": "https://www.youtube.com/watch?v=hfheediH_nw",
+    "upload_date": "20241003",
+    "channel": "The Exchange",
+    "summary": "Dan Holdsworth, a DevOps advocate and former engineer, delivers a talk at the DevOps Exchange London event. He discusses the transition from being an engineer to a manager, highlighting the lack of do...",
+    "topics": [
+      "Transition from Engineer to Manager",
+      "DevOps Management",
+      "Leadership Development",
+      "Communication Skills",
+      "Mindset Shift"
+    ]
+  },
+  {
+    "id": "Bp-klfCJfBs",
+    "title": "Intro to GraphQL: A Better Way to Build APIs",
+    "youtube_url": "https://www.youtube.com/watch?v=Bp-klfCJfBs",
+    "upload_date": "20241017",
+    "channel": "The Exchange",
+    "summary": "The video presentation by Ellie Tahmasebi explores GraphQL as a modern API solution for developers. She explains core concepts such as the schema, queries, and mutations, contrasting them with traditi...",
+    "topics": [
+      "GraphQL core concepts",
+      "GraphQL vs REST API comparison",
+      "GraphQL advantages for developers",
+      "Declarative data fetching",
+      "Schema, queries, and mutations"
+    ]
+  },
+  {
+    "id": "L5Oia6y3VJs",
+    "title": "Using DevOps & GitOps to Manage Data Platforms Like Databricks",
+    "youtube_url": "https://www.youtube.com/watch?v=L5Oia6y3VJs",
+    "upload_date": "20241017",
+    "channel": "The Exchange",
+    "summary": "The speaker, Rob Lazzurs, critiques the practice of 'ClickOps' in DevOps, arguing that managing infrastructure through a graphical user interface (GUI) or direct cloud console interactions is not idea...",
+    "topics": [
+      "DevOps",
+      "Infrastructure as Code (IaC)",
+      "Terraform",
+      "ClickOps",
+      "AWS"
+    ]
+  },
+  {
+    "id": "atSrTfENghs",
+    "title": "Optimising Developer Experience with Amazon Q: Tips & Tools",
+    "youtube_url": "https://www.youtube.com/watch?v=atSrTfENghs",
+    "upload_date": "20241017",
+    "channel": "The Exchange",
+    "summary": "The video presentation, delivered by Shalabh Srivastava, explores how Amazon Q Developer can enhance the productivity and experience of software developers. It uses an analogy of a personal travel pla...",
+    "topics": [
+      "Amazon Q Developer",
+      "AI-powered code suggestions",
+      "Unit test generation best practices",
+      "Understanding chat context",
+      "Inline code completion"
+    ]
+  },
+  {
+    "id": "L7G3d_gawO4",
+    "title": "AI Agents Explained: Engineering Challenges & How to Solve Them",
+    "youtube_url": "https://www.youtube.com/watch?v=L7G3d_gawO4",
+    "upload_date": "20250129",
+    "channel": "The Exchange",
+    "summary": "The video presents a comprehensive overview of AI agent architecture and implementation, focusing on the engineering perspective. Presented by Diogo Sousa and Brendan Foxen from AI Exchange, the sessi...",
+    "topics": [
+      "AI Agents",
+      "LangGraph",
+      "Autogen",
+      "Declarative Configuration",
+      "Agent Workflows"
+    ]
+  },
+  {
+    "id": "UVXFupUkx_4",
+    "title": "Practical Security Guardrails for LLMs",
+    "youtube_url": "https://www.youtube.com/watch?v=UVXFupUkx_4",
+    "upload_date": "20250129",
+    "channel": "The Exchange",
+    "summary": "The video features Nick Vinsonson presenting at DevSecCon, discussing practical security guardrails for Large Language Models (LLMs). He outlines key threats such as data and model poisoning, prompt i...",
+    "topics": [
+      "AI Security",
+      "Large Language Models (LLMs)",
+      "Security Guardrails",
+      "Data Poisoning",
+      "Prompt Injection"
+    ]
+  },
+  {
+    "id": "Y-WpRea9Dow",
+    "title": "Build Your Own AI App with Open Source Tools \u2013 A Step by Step Guide",
+    "youtube_url": "https://www.youtube.com/watch?v=Y-WpRea9Dow",
+    "upload_date": "20250129",
+    "channel": "The Exchange",
+    "summary": "Luke Marsdsen, CEO of Helix.ml, presents a talk at DevSecCon on how anyone can become an AI engineer using open-source models. He emphasizes that building AI applications is now accessible without nee...",
+    "topics": [
+      "AI Engineering",
+      "Open-Source Models",
+      "Retrieval-Augmented Generation (RAG)",
+      "AI Prototyping",
+      "DevSecOps"
+    ]
+  },
+  {
+    "id": "qV4LGhL2XBY",
+    "title": "Inside Agentic AI: Building AI Agent Teams That Work",
+    "youtube_url": "https://www.youtube.com/watch?v=qV4LGhL2XBY",
+    "upload_date": "20250129",
+    "channel": "The Exchange",
+    "summary": "Rob Price presents on 'Agententic AI: Designing Hybrid Teams for High-Assurance Organisations' at AI Exchange London. He discusses how to apply Agententic AI concepts to high-assurance sectors like de...",
+    "topics": [
+      "Agententic AI",
+      "Hybrid Teams",
+      "High-Assurance Organisations",
+      "AI in Defense and National Security",
+      "Multi-Agent Systems"
+    ]
+  },
+  {
+    "id": "I6L3d0bR7ik",
+    "title": "Deploying LLMs in K8s: The DevOps Approach to AI Infrastructure",
+    "youtube_url": "https://www.youtube.com/watch?v=I6L3d0bR7ik",
+    "upload_date": "20250228",
+    "channel": "The Exchange",
+    "summary": "The video presentation, delivered by Srivalsan Mannooroor Sudhagar, focuses on deploying large language models (LLMs) in a Kubernetes cluster using the Ray framework. The speaker, who works with Amazo...",
+    "topics": [
+      "Deploying LLMs in Kubernetes",
+      "Ray Framework Architecture",
+      "Platform Engineering",
+      "vLLM System Overview",
+      "DevOps Practices for AI"
+    ]
+  },
+  {
+    "id": "_tHHzkkvgHc",
+    "title": "Beyond LLMOps: Multi Cloud AI Deployment Strategies",
+    "youtube_url": "https://www.youtube.com/watch?v=_tHHzkkvgHc",
+    "upload_date": "20250228",
+    "channel": "The Exchange",
+    "summary": "The speaker introduces Silco, a global company with 17 offices, highlighting its role in enabling transformative digital solutions for clients. Examples include the rapid development of a COVID-19 pro...",
+    "topics": [
+      "Silco company overview",
+      "COVID-19 app development",
+      "Zurich Airport digital platform",
+      "AI in medical diagnosis",
+      "Executive priorities in AI (HTTPI, AI governments)"
+    ]
+  },
+  {
+    "id": "_z_Y7IUxXHU",
+    "title": "From Zero to Observable: Building a Complete Grafana Observability Stack | Step-by-Step Guide",
+    "youtube_url": "https://www.youtube.com/watch?v=_z_Y7IUxXHU",
+    "upload_date": "20250228",
+    "channel": "The Exchange",
+    "summary": "The speaker uses a vivid analogy of a pilot losing cockpit visibility to illustrate the critical importance of observability in mission-critical systems. They emphasize that without observability, ope...",
+    "topics": [
+      "Observability",
+      "System Reliability",
+      "Cloud-Native Infrastructure",
+      "Cost Efficiency in Monitoring",
+      "Analogies in Tech Communication"
+    ]
+  },
+  {
+    "id": "4YssE42lQUM",
+    "title": "Cracking the AI Adoption Paradox: Escape PoC Purgatory & Implement GenAI at Scale",
+    "youtube_url": "https://www.youtube.com/watch?v=4YssE42lQUM",
+    "upload_date": "20250403",
+    "channel": "The Exchange",
+    "summary": "The speaker, Andrea Bureca, introduces herself as an AWS UK/Ireland AI/ML Specialist and discusses the 'GenAI Adoption Paradox.' She highlights the disconnect between the hype surrounding AI and the r...",
+    "topics": [
+      "AI Adoption Paradox",
+      "GenAI Market Trends",
+      "Key Challenges in AI Implementation",
+      "AI Business Value Creation",
+      "AI Project Failure Rates"
+    ]
+  },
+  {
+    "id": "Alvlka30QdU",
+    "title": "The Psychology of Prompt Injection: AI\u2019s Social Engineering Problem",
+    "youtube_url": "https://www.youtube.com/watch?v=Alvlka30QdU",
+    "upload_date": "20250403",
+    "channel": "The Exchange",
+    "summary": "The video presentation by Joe Bollen explores the psychological aspects of prompt injection in AI models, particularly focusing on how AI systems can be manipulated through social engineering tactics....",
+    "topics": [
+      "Prompt Injection",
+      "Social Engineering",
+      "Large Language Models (LLMs)",
+      "AI Security",
+      "Deterministic vs Non-Deterministic Outcomes"
+    ]
+  },
+  {
+    "id": "c2Q8kE7a_hU",
+    "title": "Data in the Era of AI: Enabling Personalisation and User-Centric Experiences",
+    "youtube_url": "https://www.youtube.com/watch?v=c2Q8kE7a_hU",
+    "upload_date": "20250403",
+    "channel": "The Exchange",
+    "summary": "Marcelo Vilela, Principal Data Product Manager at Skyscanner, presents on how data in the era of AI enables personalisation and user-centric experiences. He discusses challenges in user adoption, expe...",
+    "topics": [
+      "Data in the Era of AI",
+      "Personalisation",
+      "User-Centric Experiences",
+      "GenAI Applications",
+      "User Retention"
+    ]
+  },
+  {
+    "id": "DtBvjN5bwZY",
+    "title": "Forget the AI hype. Here's how real AI agents are built to solve real problems",
+    "youtube_url": "https://www.youtube.com/watch?v=DtBvjN5bwZY",
+    "upload_date": "20250425",
+    "channel": "The Exchange",
+    "summary": "Nishi Ajmera, a solutions architect and AI ambassador, delivers a talk on building AI agents for smarter workflows. She explains the fundamentals of AI agents as autonomous systems that perceive their...",
+    "topics": [
+      "AI Agents",
+      "LLM (Large Language Models)",
+      "Agent Design",
+      "Common Mistakes in AI Agent Development",
+      "Real-World Use Cases"
+    ]
+  },
+  {
+    "id": "O0Xmoxtd0-w",
+    "title": "Securing Your Software Supply Chain: Why SBOMs Are Essential for DevOps and Compliance",
+    "youtube_url": "https://www.youtube.com/watch?v=O0Xmoxtd0-w",
+    "upload_date": "20250425",
+    "channel": "The Exchange",
+    "summary": "The speaker introduces 'S-bombs' \u2014 an informal term for 'Software Bill of Materials' (SBOMs) \u2014 as a critical tool for software transparency and compliance. They explain that an SBOM is like a recipe l...",
+    "topics": [
+      "Software Bill of Materials (SBOM)",
+      "Software Supply Chain Security",
+      "Secure by Design",
+      "Regulatory Compliance (EU CRA, US Executive Order)",
+      "PCI DSS 4.0"
+    ]
+  },
+  {
+    "id": "OSxCMZzSzVo",
+    "title": "Observability, Data Democracy and now AI",
+    "youtube_url": "https://www.youtube.com/watch?v=OSxCMZzSzVo",
+    "upload_date": "20250425",
+    "channel": "The Exchange",
+    "summary": "The video presents a talk by Ricardo Moreira, a DevOps Principal at Vodafone, on the topic of 'Observability, Data Democracy, and AI'. He explores the evolution of observability and its connection to ...",
+    "topics": [
+      "Observability",
+      "Data Democracy",
+      "AI",
+      "DevOps",
+      "Monitoring"
+    ]
+  },
+  {
+    "id": "PJY8fDqZI2g",
+    "title": "How to Build and Deploy AI Agents with Docker",
+    "youtube_url": "https://www.youtube.com/watch?v=PJY8fDqZI2g",
+    "upload_date": "20250520",
+    "channel": "The Exchange",
+    "summary": "The video presentation by Ivan Pedrazas at DockerCon London explores the concept of AI agents and the MCP (Model Context Protocol) within the context of DevOps and AI. The speaker introduces tools lik...",
+    "topics": [
+      "AI Agents",
+      "Docker MCP Protocol",
+      "LLMs (Large Language Models)",
+      "DevOps",
+      "RAG (Retrieval-Augmented Generation)"
+    ]
+  },
+  {
+    "id": "g3wuQNilN6k",
+    "title": "Cloud Native Solutions: Demonstrating ROI and Business Impact",
+    "youtube_url": "https://www.youtube.com/watch?v=g3wuQNilN6k",
+    "upload_date": "20250520",
+    "channel": "The Exchange",
+    "summary": "Simon Forster, a senior architect in financial services, presents a compelling case for justifying Cloud Native investment to business stakeholders. He addresses the common skepticism and challenges s...",
+    "topics": [
+      "Cloud Native investment justification",
+      "Developer efficiency",
+      "Risk reduction",
+      "Financial restructuring",
+      "Business ROI"
+    ]
+  },
+  {
+    "id": "p4QL4GIj_JM",
+    "title": "Switch Your Internal Platform to Multi-Player Mode",
+    "youtube_url": "https://www.youtube.com/watch?v=p4QL4GIj_JM",
+    "upload_date": "20250520",
+    "channel": "The Exchange",
+    "summary": "The speaker, Paula Kennedy, presents a talk on 'Platform Engineering' at the DevOps Exchange London event. She argues that internal platforms should move from a 'single-player' mode to a 'multiplayer'...",
+    "topics": [
+      "Platform Engineering",
+      "DevOps Evolution",
+      "Siloed Teams",
+      "Multiplayer Mode",
+      "Cognitive Load Reduction"
+    ]
+  },
+  {
+    "id": "9DBXZPSJD14",
+    "title": "Platform Engineers: The Hidden Architects of the AI Revolution",
+    "youtube_url": "https://www.youtube.com/watch?v=9DBXZPSJD14",
+    "upload_date": "20250630",
+    "channel": "The Exchange",
+    "summary": "The video presentation by Ezzhil Suresh explores the evolving role of platform engineers in the context of data and AI. Suresh, a platform engineer with experience in digital transformation, particula...",
+    "topics": [
+      "Evolving role of platform engineers",
+      "Data and AI workloads",
+      "Cross-functional collaboration",
+      "Platform engineering principles",
+      "DevOps and data science integration"
+    ]
+  },
+  {
+    "id": "gzPTJ7UyM2E",
+    "title": "Meet Platform Plane: Supercharge Dev Teams & Cut Costs by 25%",
+    "youtube_url": "https://www.youtube.com/watch?v=gzPTJ7UyM2E",
+    "upload_date": "20250630",
+    "channel": "The Exchange",
+    "summary": "The video presents an introduction to the Cybernetic Delivery Platform (CDP), formerly known as the Platform Plane, by Z\u00fchlke. The speaker, Immo Huneke, explains how the CDP is an accelerator asset de...",
+    "topics": [
+      "Cybernetic Delivery Platform (CDP)",
+      "DevOps",
+      "Cloud Applications",
+      "Software Development",
+      "Platform Plane"
+    ]
+  },
+  {
+    "id": "1Ob9aHX6f9Y",
+    "title": "Securing Vibe Coding: Addressing the Security Challenges of AI-Generated Code",
+    "youtube_url": "https://www.youtube.com/watch?v=1Ob9aHX6f9Y",
+    "upload_date": "20250711",
+    "channel": "The Exchange",
+    "summary": "The video presentation by Sonya Moisset explores the security challenges associated with AI-generated code, particularly in the context of 'vibe coding'\u2014a term coined by Andrej Karpathy. The talk addr...",
+    "topics": [
+      "AI-generated code security",
+      "Vibe coding",
+      "Security vulnerabilities in AI code",
+      "Best practices for secure AI coding",
+      "AI prompt engineering"
+    ]
+  },
+  {
+    "id": "o6aj4RFRbyw",
+    "title": "Building Scalable AI Systems: Hierarchical Intelligence & the Rise of AI Factories",
+    "youtube_url": "https://www.youtube.com/watch?v=o6aj4RFRbyw",
+    "upload_date": "20250711",
+    "channel": "The Exchange",
+    "summary": "Frank Long, a strategy and service development consultant for Cambridge Consultants, presents on the future of AI, focusing on the evolution of AI systems from pre-training to test-time scaling. He hi...",
+    "topics": [
+      "AI Scaling Laws",
+      "AI Factories",
+      "Pre-Training, Post-Training, and Test-Time Scaling",
+      "Heterogeneous Compute Systems",
+      "AI Infrastructure Investment"
+    ]
+  },
+  {
+    "id": "LOS1rlb2XXk",
+    "title": "Building your first LLM app into Production at a traditional industry",
+    "youtube_url": "https://www.youtube.com/watch?v=LOS1rlb2XXk",
+    "upload_date": "20250822",
+    "channel": "The Exchange",
+    "summary": "The video presents a case study by Anyi Guo and Ben Hicks from Utility Warehouse, detailing how they built and deployed a chatbot using LLMs to assist customers in the energy industry. The presentatio...",
+    "topics": [
+      "Building AI chatbots for customer service",
+      "RAG (Retrieval-Augmented Generation) architecture",
+      "Scaling AI services efficiently",
+      "Prompt engineering best practices",
+      "Handling AI hallucinations"
+    ]
+  },
+  {
+    "id": "vuGxCVBgDJM",
+    "title": "AI in the Death Tech space",
+    "youtube_url": "https://www.youtube.com/watch?v=vuGxCVBgDJM",
+    "upload_date": "20250822",
+    "channel": "The Exchange",
+    "summary": "The video presentation by Octopus Legacy discusses the integration of AI into their estate planning services to address the challenges of scaling a human-centric business. The speaker, a founder, shar...",
+    "topics": [
+      "AI in Estate Planning",
+      "Human-Centric AI",
+      "Business Scaling",
+      "Document Automation",
+      "Founder's Personal Motivation"
+    ]
+  },
+  {
+    "id": "cAoQaykhVyk",
+    "title": "Democratizing Enterprise AI: Building and Governing at Scale",
+    "youtube_url": "https://www.youtube.com/watch?v=cAoQaykhVyk",
+    "upload_date": "20250929",
+    "channel": "The Exchange",
+    "summary": "The video presentation, delivered by Niloufar Zarin, explores the concept of 'democratizing' enterprise AI, focusing on moving from isolated AI projects to integrated AI ecosystems. She highlights the...",
+    "topics": [
+      "Democratizing Enterprise AI",
+      "AI Ecosystems vs. Isolated AI Projects",
+      "AI Challenges: Data Readiness, IP, Cost, Innovation, Governance",
+      "AI Use Cases in Retail",
+      "AI Applications: Forecasting, Inventory, Pricing, Chatbots"
+    ]
+  },
+  {
+    "id": "tuG45iqb9p0",
+    "title": "The Continuous Compliance Framework: an open source solution to reduce toil in compliance",
+    "youtube_url": "https://www.youtube.com/watch?v=tuG45iqb9p0",
+    "upload_date": "20250929",
+    "channel": "The Exchange",
+    "summary": "Ian Miell, CTO at Container Solutions, presents 'The Continuous Compliance Framework' at AI Exchange. He critiques traditional, manual compliance approaches as inefficient and outdated, advocating for...",
+    "topics": [
+      "Continuous Compliance Framework",
+      "DevOps and Compliance",
+      "OSCAL (Open Security Controls Assessment Language)",
+      "Automated Compliance",
+      "Compliance in Cloud and Infrastructure"
+    ]
+  },
+  {
+    "id": "yt-9PH1SnuQ",
+    "title": "Three Things that Cloud Can Teach Us About AI Adoption",
+    "youtube_url": "https://www.youtube.com/watch?v=yt-9PH1SnuQ",
+    "upload_date": "20250929",
+    "channel": "The Exchange",
+    "summary": "Chris Jackson presents a talk at an AI Exchange event, discussing how cloud computing can teach organizations about AI adoption. He uses the framework CALMS (Culture, Automation, Learning, Measurement...",
+    "topics": [
+      "AI Adoption",
+      "Cloud Computing",
+      "DevOps",
+      "CALMS Framework",
+      "Technology Adoption Challenges"
+    ]
+  },
+  {
+    "id": "66hKxMw_kMg",
+    "title": "Scaling AI: The Fox Knows Many Things. The Hedgehog Knows One Big Thing",
+    "youtube_url": "https://www.youtube.com/watch?v=66hKxMw_kMg",
+    "upload_date": "20251030",
+    "channel": "The Exchange",
+    "summary": "The video presents a framework for scaling AI within organizations, using the metaphor of the 'Fox' and the 'Hedgehog' from Isaiah Berlin's philosophy. David Reed, from DataIQ, explores how different ...",
+    "topics": [
+      "AI Scaling Strategies",
+      "Hedgehog vs. Fox Philosophy",
+      "AI Adoption Challenges",
+      "DataIQ's AI Framework",
+      "McKinsey AI Insights"
+    ]
+  },
+  {
+    "id": "tjQbQz8yxkM",
+    "title": "Smaller Language Models for Smarter AI Agents",
+    "youtube_url": "https://www.youtube.com/watch?v=tjQbQz8yxkM",
+    "upload_date": "20251030",
+    "channel": "The Exchange",
+    "summary": "The video presents a discussion on Small Language Models (SLMs) for smarter AI agents, led by Anton Zykov from AWS and Andy Kane. They explore the rationale for using SLMs, their cost and performance ...",
+    "topics": [
+      "Small Language Models (SLMs)",
+      "Cost-effectiveness of SLMs",
+      "Quantization",
+      "Fine-tuning with JumpStart",
+      "Model size evolution"
+    ]
+  },
+  {
+    "id": "RRE8SfrreZw",
+    "title": "Practical Tips For Using AI To Enhance And Accelerate Your Work",
+    "youtube_url": "https://www.youtube.com/watch?v=RRE8SfrreZw",
+    "upload_date": "20260305",
+    "channel": "The Exchange",
+    "summary": "The video features Kaitlin Brabec, a Senior AI Engineer, presenting practical tips for using AI to enhance and accelerate work. She addresses the challenge of maintaining expertise in a rapidly evolvi...",
+    "topics": [
+      "AI in the Energy Sector",
+      "Practical AI Tips for Engineers",
+      "Continuous Learning and Skill Development",
+      "AI and Compliance",
+      "AI in Critical Industries"
+    ]
+  },
+  {
+    "id": "nn3eSLYt6LA",
+    "title": "The Agentic Enterprise: How AI Agents Are Rebuilding Business in 2026",
+    "youtube_url": "https://www.youtube.com/watch?v=nn3eSLYt6LA",
+    "upload_date": "20260305",
+    "channel": "The Exchange",
+    "summary": "The video presentation by Amit Dhingra explores the evolution and future of AI agents, focusing on how they are transforming business and finance. It outlines a progression from simple chatbots to sop...",
+    "topics": [
+      "AI Agents Evolution",
+      "Agent-Based Task Orchestration",
+      "Agentic Finance",
+      "Future of AI in Business",
+      "AI Copilots to Conductors"
+    ]
+  },
+  {
+    "id": "zaqhLlTuNgg",
+    "title": "AI Journey and Software Development Transformation Summary",
+    "youtube_url": "https://www.youtube.com/watch?v=zaqhLlTuNgg",
+    "upload_date": "20260305",
+    "channel": "The Exchange",
+    "summary": "Lisa Smissison, a technology project manager at Sky for nearly four years, shares her personal journey into AI adoption. She began by using AI tools like ChatGPT to create illustrations for her daught...",
+    "topics": [
+      "AI adoption in the workplace",
+      "Personal experience with AI tools",
+      "AI tools for productivity (Copilot, ChatGPT)",
+      "AI in project management",
+      "AI Dragons Den competition"
+    ]
+  },
+  {
+    "id": "K_bWU7WCj2M",
+    "title": "Evolution of Engineering Organisations",
+    "youtube_url": "https://www.youtube.com/watch?v=K_bWU7WCj2M",
+    "upload_date": "20260325",
+    "channel": "The Exchange",
+    "summary": "The video presentation by Ezhihil Suresh explores the evolution of engineering organizations, particularly in the context of AI and modern software development practices. It traces the journey from tr...",
+    "topics": [
+      "Evolution of Engineering Organizations",
+      "AI in Engineering",
+      "Software Development Lifecycle (SDLC)",
+      "DevOps and CI/CD",
+      "Security Governance"
+    ]
+  },
+  {
+    "id": "YjheR847GbA",
+    "title": "How Global Technology Alliances enable AI success",
+    "youtube_url": "https://www.youtube.com/watch?v=YjheR847GbA",
+    "upload_date": "20260325",
+    "channel": "The Exchange",
+    "summary": "The video presentation by Artur Vartanyan, Canonical's IHV Alliance Manager, explores how global technology alliances enable AI success. He emphasizes that AI is not a single technology but a converge...",
+    "topics": [
+      "AI success through global technology alliances",
+      "Canonical's role in AI ecosystems",
+      "Strategic partnerships with AWS, Dell, Lenovo, NVIDIA",
+      "Public cloud statistics and Linux dominance",
+      "Convergence of AI technologies (data, infrastructure, software)"
+    ]
+  },
+  {
+    "id": "zRx7_dF0RHM",
+    "title": "Volary: The memory layer for the agentic era",
+    "youtube_url": "https://www.youtube.com/watch?v=zRx7_dF0RHM",
+    "upload_date": "20260325",
+    "channel": "The Exchange",
+    "summary": "Peter Ebdenden presents Volary, a new memory layer for AI agents designed to address the challenges of building autonomous agents. He explains that Volary functions as an 'artificial hippocampus,' cap...",
+    "topics": [
+      "Volary: Memory layer for AI agents",
+      "Episodic memory vs. semantic memory",
+      "AI agent development challenges",
+      "Prompt engineering",
+      "Hippocampus analogy"
+    ]
+  }
+]

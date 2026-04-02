@@ -1,0 +1,591 @@
+{
+  "nodes": [
+    {
+      "id": "topic_0",
+      "label": "Devops",
+      "group": 1,
+      "value": 38
+    },
+    {
+      "id": "topic_1",
+      "label": "Infrastructure as code",
+      "group": 1,
+      "value": 24
+    },
+    {
+      "id": "topic_2",
+      "label": "Kubernetes",
+      "group": 1,
+      "value": 23
+    },
+    {
+      "id": "topic_3",
+      "label": "Observability",
+      "group": 1,
+      "value": 12
+    },
+    {
+      "id": "topic_4",
+      "label": "Terraform",
+      "group": 1,
+      "value": 11
+    },
+    {
+      "id": "topic_5",
+      "label": "Devops practices",
+      "group": 1,
+      "value": 11
+    },
+    {
+      "id": "topic_6",
+      "label": "Microservices",
+      "group": 1,
+      "value": 10
+    },
+    {
+      "id": "topic_7",
+      "label": "Platform engineering",
+      "group": 1,
+      "value": 9
+    },
+    {
+      "id": "topic_8",
+      "label": "Devops culture",
+      "group": 1,
+      "value": 9
+    },
+    {
+      "id": "topic_9",
+      "label": "Developer experience",
+      "group": 1,
+      "value": 8
+    },
+    {
+      "id": "topic_10",
+      "label": "Ci/cd",
+      "group": 1,
+      "value": 7
+    },
+    {
+      "id": "topic_11",
+      "label": "Cloud infrastructure",
+      "group": 1,
+      "value": 7
+    },
+    {
+      "id": "topic_12",
+      "label": "Devsecops",
+      "group": 1,
+      "value": 6
+    },
+    {
+      "id": "topic_13",
+      "label": "Microservices architecture",
+      "group": 1,
+      "value": 6
+    },
+    {
+      "id": "topic_14",
+      "label": "Continuous delivery",
+      "group": 1,
+      "value": 6
+    },
+    {
+      "id": "topic_15",
+      "label": "Infrastructure as code (iac)",
+      "group": 1,
+      "value": 5
+    },
+    {
+      "id": "topic_16",
+      "label": "Ci/cd pipelines",
+      "group": 1,
+      "value": 5
+    },
+    {
+      "id": "topic_17",
+      "label": "Sre (site reliability engineering)",
+      "group": 1,
+      "value": 5
+    },
+    {
+      "id": "topic_18",
+      "label": "Developer advocacy",
+      "group": 1,
+      "value": 5
+    },
+    {
+      "id": "topic_19",
+      "label": "Container orchestration",
+      "group": 1,
+      "value": 5
+    },
+    {
+      "id": "topic_20",
+      "label": "Open source tools",
+      "group": 1,
+      "value": 5
+    },
+    {
+      "id": "topic_21",
+      "label": "Continuous deployment",
+      "group": 1,
+      "value": 5
+    },
+    {
+      "id": "topic_22",
+      "label": "Developer productivity",
+      "group": 1,
+      "value": 5
+    },
+    {
+      "id": "topic_23",
+      "label": "Aws lambda",
+      "group": 1,
+      "value": 4
+    },
+    {
+      "id": "topic_24",
+      "label": "Automation",
+      "group": 1,
+      "value": 4
+    },
+    {
+      "id": "topic_25",
+      "label": "Agile development",
+      "group": 1,
+      "value": 4
+    },
+    {
+      "id": "topic_26",
+      "label": "Continuous integration",
+      "group": 1,
+      "value": 4
+    },
+    {
+      "id": "topic_27",
+      "label": "Containerization",
+      "group": 1,
+      "value": 4
+    },
+    {
+      "id": "topic_28",
+      "label": "Istio",
+      "group": 1,
+      "value": 4
+    },
+    {
+      "id": "topic_29",
+      "label": "Digital transformation",
+      "group": 1,
+      "value": 4
+    },
+    {
+      "id": "topic_30",
+      "label": "Devops and platform engineering",
+      "group": 1,
+      "value": 4
+    },
+    {
+      "id": "topic_31",
+      "label": "Configuration management",
+      "group": 1,
+      "value": 4
+    },
+    {
+      "id": "topic_32",
+      "label": "Serverless architecture",
+      "group": 1,
+      "value": 4
+    },
+    {
+      "id": "topic_33",
+      "label": "Devops automation",
+      "group": 1,
+      "value": 4
+    },
+    {
+      "id": "topic_34",
+      "label": "Open source software",
+      "group": 1,
+      "value": 3
+    },
+    {
+      "id": "topic_35",
+      "label": "Event sponsorship",
+      "group": 1,
+      "value": 3
+    },
+    {
+      "id": "topic_36",
+      "label": "Devops transformation",
+      "group": 1,
+      "value": 3
+    },
+    {
+      "id": "topic_37",
+      "label": "Devops philosophy",
+      "group": 1,
+      "value": 3
+    },
+    {
+      "id": "topic_38",
+      "label": "Docker",
+      "group": 1,
+      "value": 3
+    },
+    {
+      "id": "topic_39",
+      "label": "Security",
+      "group": 1,
+      "value": 3
+    },
+    {
+      "id": "topic_40",
+      "label": "Community building",
+      "group": 1,
+      "value": 3
+    },
+    {
+      "id": "topic_41",
+      "label": "Gdpr compliance",
+      "group": 1,
+      "value": 3
+    },
+    {
+      "id": "topic_42",
+      "label": "Gitops",
+      "group": 1,
+      "value": 3
+    },
+    {
+      "id": "topic_43",
+      "label": "Cloud computing",
+      "group": 1,
+      "value": 3
+    },
+    {
+      "id": "topic_44",
+      "label": "Team collaboration",
+      "group": 1,
+      "value": 3
+    },
+    {
+      "id": "topic_45",
+      "label": "Ai agents",
+      "group": 1,
+      "value": 3
+    },
+    {
+      "id": "topic_46",
+      "label": "Devops exchange london",
+      "group": 1,
+      "value": 3
+    },
+    {
+      "id": "topic_47",
+      "label": "Sre implementation",
+      "group": 1,
+      "value": 3
+    },
+    {
+      "id": "topic_48",
+      "label": "Legacy systems",
+      "group": 1,
+      "value": 3
+    },
+    {
+      "id": "topic_49",
+      "label": "Devops tooling",
+      "group": 1,
+      "value": 3
+    }
+  ],
+  "links": [
+    {
+      "source": "topic_0",
+      "target": "topic_2",
+      "value": 10
+    },
+    {
+      "source": "topic_1",
+      "target": "topic_4",
+      "value": 10
+    },
+    {
+      "source": "topic_1",
+      "target": "topic_2",
+      "value": 9
+    },
+    {
+      "source": "topic_0",
+      "target": "topic_3",
+      "value": 7
+    },
+    {
+      "source": "topic_0",
+      "target": "topic_6",
+      "value": 6
+    },
+    {
+      "source": "topic_0",
+      "target": "topic_1",
+      "value": 6
+    },
+    {
+      "source": "topic_10",
+      "target": "topic_0",
+      "value": 5
+    },
+    {
+      "source": "topic_2",
+      "target": "topic_4",
+      "value": 5
+    },
+    {
+      "source": "topic_16",
+      "target": "topic_0",
+      "value": 4
+    },
+    {
+      "source": "topic_24",
+      "target": "topic_0",
+      "value": 3
+    },
+    {
+      "source": "topic_0",
+      "target": "topic_4",
+      "value": 3
+    },
+    {
+      "source": "topic_0",
+      "target": "topic_42",
+      "value": 3
+    },
+    {
+      "source": "topic_27",
+      "target": "topic_0",
+      "value": 3
+    },
+    {
+      "source": "topic_0",
+      "target": "topic_17",
+      "value": 3
+    },
+    {
+      "source": "topic_3",
+      "target": "topic_17",
+      "value": 3
+    },
+    {
+      "source": "topic_0",
+      "target": "topic_28",
+      "value": 3
+    },
+    {
+      "source": "topic_10",
+      "target": "topic_2",
+      "value": 3
+    },
+    {
+      "source": "topic_9",
+      "target": "topic_1",
+      "value": 3
+    },
+    {
+      "source": "topic_21",
+      "target": "topic_1",
+      "value": 3
+    },
+    {
+      "source": "topic_2",
+      "target": "topic_6",
+      "value": 3
+    },
+    {
+      "source": "topic_31",
+      "target": "topic_1",
+      "value": 3
+    },
+    {
+      "source": "topic_14",
+      "target": "topic_5",
+      "value": 3
+    },
+    {
+      "source": "topic_9",
+      "target": "topic_0",
+      "value": 2
+    },
+    {
+      "source": "topic_16",
+      "target": "topic_2",
+      "value": 2
+    },
+    {
+      "source": "topic_9",
+      "target": "topic_2",
+      "value": 2
+    },
+    {
+      "source": "topic_0",
+      "target": "topic_15",
+      "value": 2
+    },
+    {
+      "source": "topic_10",
+      "target": "topic_42",
+      "value": 2
+    },
+    {
+      "source": "topic_0",
+      "target": "topic_48",
+      "value": 2
+    },
+    {
+      "source": "topic_27",
+      "target": "topic_2",
+      "value": 2
+    },
+    {
+      "source": "topic_0",
+      "target": "topic_7",
+      "value": 2
+    },
+    {
+      "source": "topic_5",
+      "target": "topic_15",
+      "value": 2
+    },
+    {
+      "source": "topic_15",
+      "target": "topic_7",
+      "value": 2
+    },
+    {
+      "source": "topic_0",
+      "target": "topic_39",
+      "value": 2
+    },
+    {
+      "source": "topic_28",
+      "target": "topic_6",
+      "value": 2
+    },
+    {
+      "source": "topic_10",
+      "target": "topic_1",
+      "value": 2
+    },
+    {
+      "source": "topic_10",
+      "target": "topic_9",
+      "value": 2
+    },
+    {
+      "source": "topic_49",
+      "target": "topic_2",
+      "value": 2
+    },
+    {
+      "source": "topic_49",
+      "target": "topic_1",
+      "value": 2
+    },
+    {
+      "source": "topic_0",
+      "target": "topic_44",
+      "value": 2
+    },
+    {
+      "source": "topic_38",
+      "target": "topic_2",
+      "value": 2
+    },
+    {
+      "source": "topic_5",
+      "target": "topic_1",
+      "value": 2
+    },
+    {
+      "source": "topic_21",
+      "target": "topic_5",
+      "value": 2
+    },
+    {
+      "source": "topic_5",
+      "target": "topic_2",
+      "value": 2
+    },
+    {
+      "source": "topic_6",
+      "target": "topic_3",
+      "value": 2
+    },
+    {
+      "source": "topic_21",
+      "target": "topic_4",
+      "value": 2
+    },
+    {
+      "source": "topic_29",
+      "target": "topic_6",
+      "value": 2
+    },
+    {
+      "source": "topic_2",
+      "target": "topic_48",
+      "value": 2
+    },
+    {
+      "source": "topic_2",
+      "target": "topic_3",
+      "value": 2
+    },
+    {
+      "source": "topic_31",
+      "target": "topic_2",
+      "value": 2
+    },
+    {
+      "source": "topic_33",
+      "target": "topic_2",
+      "value": 2
+    },
+    {
+      "source": "topic_31",
+      "target": "topic_4",
+      "value": 2
+    },
+    {
+      "source": "topic_33",
+      "target": "topic_1",
+      "value": 2
+    },
+    {
+      "source": "topic_14",
+      "target": "topic_2",
+      "value": 2
+    },
+    {
+      "source": "topic_23",
+      "target": "topic_32",
+      "value": 2
+    },
+    {
+      "source": "topic_28",
+      "target": "topic_2",
+      "value": 2
+    },
+    {
+      "source": "topic_14",
+      "target": "topic_1",
+      "value": 2
+    },
+    {
+      "source": "topic_5",
+      "target": "topic_13",
+      "value": 2
+    }
+  ]
+}
