@@ -399,25 +399,26 @@ class AIExchangeApp {
         this.populateQuoteTopicFilters();
 
         container.innerHTML = filteredQuotes.map(quote => `
-            <div class="card" style="border-left: 4px solid var(--accent-primary);">
+            <a href="${quote.youtube_url}" target="_blank" rel="noopener"
+               class="card" style="border-left: 4px solid var(--accent-primary); text-decoration: none; color: inherit; display: block; cursor: pointer;">
                 <div class="card-body">
                     <p style="font-size: 1.1rem; font-style: italic;">"${quote.quote}"</p>
-                    
+
                     <div style="margin-top: 15px; display: flex; justify-content: space-between; align-items: center;">
                         <div>
                             <strong>${this.truncate(quote.title, 40)}</strong>
                         </div>
-                        
+
                         ${quote.topics?.length > 0 ? `
                             <div style="text-align: right;">
-                                ${quote.topics.slice(0, 3).map(t => 
+                                ${quote.topics.slice(0, 3).map(t =>
                                     `<span class="badge badge-topic">${t}</span>`
                                 ).join('')}
                             </div>
                         ` : ''}
                     </div>
                 </div>
-            </div>
+            </a>
         `).join('');
     }
 
@@ -451,14 +452,15 @@ class AIExchangeApp {
             }
             
             container.innerHTML = quotes.slice(0, 12).map(q => `
-                <div class="card" style="border-left: 4px solid var(--accent-primary);">
+                <a href="${q.youtube_url}" target="_blank" rel="noopener"
+                   class="card" style="border-left: 4px solid var(--accent-primary); text-decoration: none; color: inherit; display: block; cursor: pointer;">
                     <div class="card-body">
                         <p style="font-size: 1.1rem; font-style: italic;">"${q.quote}"</p>
                         <div style="margin-top: 15px;">
                             <strong>${this.truncate(q.title, 40)}</strong>
                         </div>
                     </div>
-                </div>
+                </a>
             `).join('');
         }
     }
@@ -719,10 +721,12 @@ class AIExchangeApp {
                             <summary>Top Videos</summary>
                             <div style="margin-top: 10px;">
                                 ${this.data.topics.topic_videos[topic].slice(0, 3).map(v => `
-                                    <div style="padding: 8px; background: var(--bg-hover); 
-                                             border-radius: 8px; margin-bottom: 5px;">
+                                    <a href="${v.youtube_url}" target="_blank" rel="noopener"
+                                       style="display: block; padding: 8px; background: var(--bg-hover);
+                                              border-radius: 8px; margin-bottom: 5px; color: var(--text-primary);
+                                              text-decoration: none; transition: background 0.2s;">
                                         ${v.title}
-                                    </div>
+                                    </a>
                                 `).join('')}
                             </div>
                         </details>
