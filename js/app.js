@@ -1,4 +1,4 @@
-// AI Exchange Web App
+// The Exchange Web App
 // Comprehensive analytics application
 
 class AIExchangeApp {
