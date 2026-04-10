@@ -1,0 +1,16 @@
+# Aider
+.aider*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# ChromaDB
+ask/chromadb/
+
+# Coverage
+.coverage
+
+# SQLite databases
+data/videos.db
